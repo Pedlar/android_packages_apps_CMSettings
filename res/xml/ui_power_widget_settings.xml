@@ -24,11 +24,11 @@
 			android:defaultValue="-1" android:dependency="expanded_widget" />
 		<PreferenceScreen android:key="widget_picker"
 			android:title="@string/title_widget_picker" android:summary="@string/summary_widget_picker"
-				android:targetClass="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetChooser">
+                        android:fragment="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetChooser">
 		</PreferenceScreen>
 		<PreferenceScreen android:key="widget_order"
 			android:title="@string/title_widget_order" android:summary="@string/summary_widget_order"
-		        android:targetClass="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetOrder">
+                        android:fragment="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetOrder">
 		</PreferenceScreen>
 	</PreferenceCategory>
 

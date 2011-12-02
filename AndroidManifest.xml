@@ -20,7 +20,7 @@
         <activity
             android:label="@string/app_name"
             android:name=".Settings"
-            android:taskAffinity="com.android.settings"
+            android:taskAffinity="com.cyanogenmod.settings"
             android:launchMode="singleTask">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
@@ -38,12 +38,12 @@
                 android:clearTaskOnLaunch="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.cyanogen.WIDGET_SETTINGS" />
+                <action android:name="android.cyanogenmod.WIDGET_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
-                android:value="com.cyanogen.settings.activities.PowerWidget" />
-            <meta-data android:name="com.cyanogen.settings.TOP_LEVEL_HEADER_ID"
+                android:value="com.cyanogenmod.settings.activities.PowerWidget" />
+            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/power_widget_settings" />
         </activity>
 
@@ -55,15 +55,15 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.activities.PowerWidget$PowerWidgetChooser" />
-            <meta-data android:name="com.cyanogen.settings.TOP_LEVEL_HEADER_ID"
+            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
+                android:value="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetChooser" />
+            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/power_widget_settings" />
-            <meta-data android:name="com.cyanogen.settings.PARENT_FRAGMENT_TITLE"
+            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
                 android:value="@string/title_widget_buttons" />
 
-            <meta-data android:name="com.cyanogen.settings.PARENT_FRAGMENT_CLASS"
-                android:value="com.cyanogen.settings.Settings$PowerWidgetActivity" />
+            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
+                android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
 
         <activity android:name="Settings$PowerWidgetOrderActivity"
@@ -74,16 +74,16 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.activities.PowerWidget$PowerWidgetOrder" />
-            <meta-data android:name="com.cyanogen.settings.TOP_LEVEL_HEADER_ID"
+            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
+                android:value="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetOrder" />
+            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/power_widget_settings" />
-            <meta-data android:name="com.cyanogen.settings.PARENT_FRAGMENT_TITLE"
+            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
                 android:value="@string/title_widget_buttons" />
 
-            <meta-data android:name="com.cyanogen.settings.PARENT_FRAGMENT_CLASS"
-                android:value="com.cyanogen.settings.Settings$PowerWidgetActivity" />
+            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
+                android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
     </application>
-
+    <activity android:name=".activities.PowerWidget$PowerWidgetOrder" android:label="@string/title_widget_order"> </activity>
 </manifest>

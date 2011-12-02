@@ -3,7 +3,7 @@
     <PreferenceCategory android:key="pref_buttons" android:title="@string/title_buttons" />
 
     <PreferenceCategory android:title="@string/title_button_modes">
-        <MultiSelectListPreference android:key="pref_brightness_mode" android:dialogTitle="@string/pref_brightness_mode_title"
+        <ListPreferenceMultiSelect android:key="pref_brightness_mode" android:dialogTitle="@string/pref_brightness_mode_title"
             android:title="@string/pref_brightness_mode_title" android:summary="@string/pref_brightness_mode_summary"
             android:entries="@array/entries_brightness_widget" android:entryValues="@array/values_brightness_widget"
             android:persistent="false" />
@@ -16,7 +16,7 @@
             android:title="@string/pref_screentimeout_mode_title" android:summary="@string/pref_screentimeout_mode_summary"  
             android:entries="@array/entries_screentimeout_widget" android:entryValues="@array/values_screentimeout_widget" />
 
-        <MultiSelectListPreference android:key="pref_ring_mode" android:dialogTitle="@string/pref_ring_mode_title"
+        <ListPreferenceMultiSelect android:key="pref_ring_mode" android:dialogTitle="@string/pref_ring_mode_title"
             android:title="@string/pref_ring_mode_title" android:summary="@string/pref_ring_mode_summary"
             android:entries="@array/entries_ring_widget" android:entryValues="@array/values_ring_widget"
             android:persistent="false" />

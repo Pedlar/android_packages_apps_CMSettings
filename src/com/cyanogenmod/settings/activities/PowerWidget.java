@@ -24,6 +24,7 @@ import com.android.internal.telephony.Phone;
 
 import android.app.ListActivity;
 import android.app.ListFragment;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
@@ -140,41 +141,56 @@ public class PowerWidget extends PreferenceFragment
     }
 
 
+    public boolean startFragment(
+            Fragment caller, String fragmentClass, int requestCode, Bundle extras) {
+        if (getActivity() instanceof PreferenceActivity) {
+            CharSequence title = "CM Settings";
+            PreferenceActivity preferenceActivity = (PreferenceActivity)getActivity();
+            preferenceActivity.startPreferencePanel(fragmentClass, extras,
+                    0, null, caller, requestCode);
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
+
+        if(preference == mPowerPicker) {
+            startFragment(this, mPowerPicker.getFragment(), -1, null);
+        }
+
+        if(preference == mPowerOrder) {
+            startFragment(this, mPowerOrder.getFragment(), -1, null);
+        }
 
         if (preference == mPowerWidget) {
             value = mPowerWidget.isChecked();
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_VIEW_WIDGET,
                     value ? 1 : 0);
-            return true;
         }
         if (preference == mPowerWidgetHideOnChange) {
             value = mPowerWidgetHideOnChange.isChecked();
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_ONCHANGE,
                     value ? 1 : 0);
-            return true;
         }
         if (preference == mPowerWidgetHideScrollBar) {
             value = mPowerWidgetHideScrollBar.isChecked();
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
                     value ? 1 : 0);
-            return true;
         }
         if (preference == mPowerWidgetIndicatorHide) {
             value = mPowerWidgetIndicatorHide.isChecked();
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_INDICATOR,
                     value ? 1 : 0);
-            return true;
         }
         if (preference == mPowerWidgetColor) {
             ColorPickerDialog cp = new ColorPickerDialog(getActivity().getApplicationContext(), mWidgetColorListener,
                     readWidgetColor());
             cp.show();
-            return true;
         }
-        return false;
+        return true;
     }
 
     private int readWidgetColor() {
