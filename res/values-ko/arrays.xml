@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>자동</item>
+        <item>내부</item>
+        <item>외부</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (빠름)</item>
+        <item>3</item>
+        <item>4 (중간)</item>
+        <item>5</item>
+        <item>6 (느림)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>즉시</item>
+        <item>1초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>15초</item> 
+        <item>30초</item>
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>없음</item>
+        <item>10%</item>
+        <item>18% (기본)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>60초</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>안함</item>
+        <item>400 룩스</item>
+        <item>500 룩스</item>
+        <item>600 룩스</item>
+        <item>700 룩스</item>
+        <item>800 룩스</item>
+        <item>900 룩스</item>
+        <item>1000 룩스</item>
+        <item>1500 룩스</item>
+        <item>2000 룩스</item>
+        <item>2500 룩스</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5초</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>5초</item>
+        <item>10초</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (기본)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (기본)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>시스템 설정</item>
+        <item>음악 볼륨 (기본)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>옆으로 밀기</item>
+        <item>회전</item>
+        <item>개정된 회전</item>
+        <item>Lense</item>
+        <item>반지</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>없음</item>
+        <item>가장자리 빛나기</item>
+        <item>튀어오르고 빛나기</item>
+        <item>튀어오르기</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>아주 무거움</item>
+        <item>무거움</item>
+        <item>중간</item>
+        <item>가벼움</item>
+        <item>아주 가벼움</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>비활성화됨</item>
+        <item>유선 헤드셋</item>
+        <item>블루투스 헤드셋</item>
+        <item>모두</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>없음/기본값</item>
+        <item>홈</item>
+        <item>메뉴</item>
+        <item>뒤로</item>
+        <item>검색</item>
+        <item>전원</item>
+        <item>전화 걸기</item>
+        <item>전화 끊기</item>
+        <item>재생/일시 중지</item>
+        <item>다음 곡 재생</item>
+        <item>이전 곡 재생</item>
+        <item>홈버튼 길게 누르기</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>홈</item>
+        <item>메뉴</item>
+        <item>뒤로</item>
+        <item>검색</item>
+        <item>카메라</item>
+        <item>음량 올리기</item>
+        <item>음량 낮추기</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>전역 설정</item>
+        <item>켜기</item>
+        <item>끄기</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>없음</item>
+        <item>소프트 키보드</item>
+        <item>검색 버튼</item>
+        <item>사용자 지정 어플리케이션</item>
+        <item>상태 표시줄 토글</item>
+    </string-array>
+
+</resources>

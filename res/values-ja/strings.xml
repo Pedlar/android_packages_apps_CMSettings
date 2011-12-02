@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod設定</string>
+
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">アプリケーション</string>
+    <string name="application_settings_title_subhead">アプリケーション設定</string>
+    <string name="application_settings_summary_head">アプリのインストール場所や移動</string>
+    <string name="display_settings_title_head">表示</string>
+    <string name="display_settings_title_subhead">表示設定</string>
+    <string name="display_settings_summary_head">アニメーション, 回転, タイムアウト</string>
+    <string name="input_settings_title_head">入力</string>
+    <string name="input_settings_title_subhead">入力設定</string>
+    <string name="input_settings_summary_head">入力の挙動, ボタン, 振動フィードバック</string>
+    <string name="interface_settings_title_head">インタフェース</string>
+    <string name="interface_settings_summary_head">インタフェースの調整, オーバースクロール, 描画エフェクト</string>
+    <string name="lockscreen_settings_title_head">ロックスクリーン</string>
+    <string name="lockscreen_settings_title_subhead">ロックスクリーン設定</string>
+    <string name="lockscreen_settings_summary_head">ロックスクリーンジェスチャー, スタイル, アンロックオプション</string>
+    <string name="performance_settings_title_head">パフォーマンス</string>
+    <string name="performance_settings_title_subhead">パフォーマンス設定</string>
+    <string name="performance_settings_summary_head">パフォーマンス設定, JIT, VMヒープサイズ</string>
+    <string name="sound_settings_title_head">サウンド</string>
+    <string name="sound_settings_title_subhead">サウンド設定</string>
+    <string name="sound_settings_summary_head">音量, オーディオフォーカス, 静寂時間</string>
+    <string name="system_settings_title_head">システム</string>
+    <string name="system_settings_title_subhead">システム設定</string>
+    <string name="system_settings_summary_head">システム更新履歴, ステータス, 更新通知</string>
+
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">更新通知</string>
+    <string name="updatenotify_summary">更新情報をプッシュ通知で受け取る</string>
+
+    <!-- User interface -->
+    <string name="ui_title">ユーザインタフェース</string>
+
+    <string name="pref_electron_beam_animation_on">スクリーンオンアニメ</string>
+    <string name="pref_electron_beam_animation_off">スクリーンオフアニメ</string>
+
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">タブレット調整</string>
+    <string name="tablet_tweaks_summary_head">タブレット端末に有用な調整の設定群、携帯電話にも有効</string>
+    <string name="tablet_tweaks_sb_bottom_title">下部のステータスバー</string>
+    <string name="tablet_tweaks_sb_bottom_summary">ステータスバーを下部に表示、ステータスバーのソフトボタンでホーム、メニューなどを使用しているデバイスに有用</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">デッドゾーン</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">ステータスバーの中央にスクリーン幅の半分ほどデッドゾーンを追加する</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">ソフトボタンを左に</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">ソフトボタンをステータスバーの左側に配置する</string>
+    <string name="tablet_tweaks_soft_button_list_title">ソフトボタンを選択</string>
+    <string name="tablet_tweaks_interface_head">インターフェース</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">ロックスクリーンを無効にする</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">オンにするとロックスクリーンや、ロックパターンの画面を表示しない(端末のブートシーケンス中や起動後のどちらにおいても)</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">フルスクリーンを無効</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">アプリケーションからのフルスクリーン要求をオーバーライドする。有効の場合、ボタンにより非表示にするまでステータスバーは常に表示される</string>
+    <string name="tablet_tweaks_unhide_button_list_head">表示しておくボタン</string>
+    <string name="tablet_tweaks_unhide_button_list_title">表示しておくボタンを選択</string>
+    <string name="tablet_tweaks_extend_pm_title">追加の電源メニュー</string>
+    <string name="tablet_tweaks_extend_pm_summary">電源メニューに ホーム/戻る/メニュー アクションを追加する</string>
+    <string name="tablet_tweaks_extend_pm_list_title">電源メニューボタンを選択</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">ボリュームキーの挙動を逆にする</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">ボリュームキーは通常動作. ボリュームの調整, 長押しでユーザーアクション</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">ボリュームキーは逆の動作. ユーザーアクション, 長押しでボリュームの調整</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">ボリュームキーの設定</string>
+    <string name="tablet_tweaks_long_volp_action_title">ボリュームアップの長押し</string>
+    <string name="tablet_tweaks_long_volp_action_summary">ボリュームアップの長押しに ホーム/バック/メニュー/その他 のアクションを割り当てる(スクリーンオン時のみ)</string>
+    <string name="tablet_tweaks_long_volm_action_title">ボリュームダウンの長押し</string>
+    <string name="tablet_tweaks_vol_both_action_title">ボリュームの同時押し</string>
+    <string name="tablet_tweaks_vol_both_action_summary">ノート: いくつかのデバイスはハードリセットにボリューム上下+電源ボタン同時押しが割り当てられています</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">ボリュームキーの同時長押し</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">電源メニューボタン</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">ソフトボタン</string>
+    <string name="tablet_soft_buttons_home_title">ホーム</string>
+    <string name="tablet_soft_buttons_menu_title">メニュー</string>
+    <string name="tablet_soft_buttons_back_title">戻る</string>
+    <string name="tablet_soft_buttons_search_title">検索</string>
+    <string name="tablet_soft_buttons_quick_na_title">クイック通知</string>
+
+    <!-- User interface : Rotation -->
+    <string name="rotation_category_title">加速度センサによる回転</string>
+    <string name="pref_rotation_0_title">0度</string>
+    <string name="pref_rotation_90_title">90度</string>
+    <string name="pref_rotation_180_title">180度</string>
+    <string name="pref_rotation_270_title">270度</string>
+
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">ステータスバー</string>
+    <string name="ui_status_bar_am_pm_title">AM/PMスタイル</string>
+    <string name="ui_status_bar_am_pm_summary">AM/PMの表示スタイル</string>
+    <string name="ui_status_bar_clock_title">時計を表示</string>
+    <string name="ui_status_bar_clock_summary">無効にするとステータスバーの時計を隠します</string>
+    <string name="ui_status_bar_battery_title">バッテリー状態のスタイル</string>
+    <string name="ui_status_bar_battery_summary">バッテリー状態の表示スタイル</string>
+    <string name="ui_status_bar_compact_carrier_title">コンパクトなキャリアラベル</string>
+    <string name="ui_status_bar_compact_carrier_summary">小さなキャリアラベルを用いた代替のドロップダウンレイアウトを使用する</string>
+    <string name="ui_status_bar_toggle_brightness">明るさのコントロール</string>
+    <string name="ui_status_bar_toggle_brightness_summary">ステータスバーをスライディングすることで明るさの調整ができるようにする</string>
+    <string name="ui_status_bar_toggle_info">自動明るさ調整は有効</string>
+    <string name="ui_status_bar_cm_signal_text_title">代替の電波強度表示</string>
+    <string name="ui_status_bar_cm_signal_text_summary">シグナルバーの代わりにdBm値を表示</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">シグナルバー</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">シグナルテキスト</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">dBm付きのシグナルテキスト</string>
+    <string name="ui_status_bar_headset_title">ヘッドセットアイコンを表示</string>
+    <string name="ui_status_bar_headset_summary">ヘッドセットを接続中にアイコンを表示する</string>
+
+    <!-- User interface : LED Notifications -->
+    <string name="trackball_title">LED通知</string>
+    <string name="trackball_summary">トラックボール/LEDでの通知の色や点滅を制御する</string>
+
+    <!-- User interface : WebView -->
+    <string name="pref_pinch_reflow_title">ピンチインリフロー</string>
+    <string name="pref_pinch_reflow_summary">つまんでズームした後、改行を調整する</string>
+
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">スクリーンショットの共有</string>
+    <string name="pref_share_screenshot_summary">スクリーンショットを撮影時に共有メニューを表示する</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">オーバースクロール</string>
+    <string name="pref_overscroll_title">オーバースクロールエフェクト</string>
+    <string name="pref_overscroll_summary">スクロールオブジェクトがオーバーシュートした場合の見え方を選択</string>
+    <string name="pref_overscroll_weight_title">オーバースクロールウェイト</string>
+    <string name="pref_overscroll_weight_summary">スクロールオブジェクトのウェイトを選択</string>
+
+    <!-- User interface : Lock Screen -->
+    <string name="pref_lockscreen_delay_title">遅延</string>
+    <string name="pref_lockscreen_security_title">セキュリティロック</string>
+    <string name="pref_lockscreen_security_delay_note_title">ノート</string>
+    <string name="pref_lockscreen_security_delay_note_summary">画面のロック解除セキュリティを無しに設定するとセキュリティロックの遅延のみ有効になります</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">画面タイムアウト時の遅延</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">画面オフ時の遅延</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">画面がタイムアウトしてからセキュリティロックするまでの時間</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">画面をオフにしてからセキュリティロックするまでの時間</string>
+    <string name="pref_lockscreen_slide_title">スライドロック</string>
+    <string name="pref_lockscreen_slide_delay_note_title">ノート</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">有効にした場合、通常のスライドロックはセキュリティロックの遅延がスライドロックの遅延よりも長いときのみ表示されます</string>
+    <string name="pref_lockscreen_slide_delay_title">スライドロックの遅延</string>
+    <string name="pref_lockscreen_slide_delay_summary">画面ロックの遅延をセキュリティロックの遅延とは別に設定する</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">画面タイムアウト時の遅延</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">画面オフ時の遅延</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">画面がタイムアウトしてからスライドロックするまでの時間</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">画面をオフにしてからスライドロックするまでの時間</string>
+
+    <!-- Color Picker -->
+    <string name="title_color_picker">色を選択</string>
+    <string name="msg_color_picker">中央をタップして確定\n戻るボタンでキャンセル</string>
+
+    <!-- User interface: LED notifcations -->
+    <string name="group_settings">設定</string>
+    <string name="dialog_color_trackball">色を選択</string>
+    <string name="dialog_blink_trackball">点滅間隔を選択</string>
+    <string name="color_trackball_flash_title">点灯色</string>
+    <string name="color_trackball_flash_summary">点灯時の色</string>
+    <string name="color_trackball_custom_title">カスタムカラー</string>
+    <string name="color_trackball_custom_summary">点灯色をカスタマイズする</string>
+    <string name="color_trackball_blink_title">点滅間隔</string>
+    <string name="color_trackball_blink_summary">点滅間隔</string>
+    <string name="color_trackball_test_title">点灯テスト</string>
+    <string name="color_trackball_test_summary">点灯をテストする</string>
+    <string name="dialog_clear_flash">点滅をクリア</string>
+    <string name="trackball_advanced_title">アドバンスド</string>
+    <string name="pref_trackball_screen_title">常に点滅する</string>
+    <string name="pref_trackball_screen_summary">スクリーンオン中はトラックボールを点滅させる</string>
+    <string name="pref_trackball_sucess_title">通知を継続</string>
+    <string name="pref_trackball_sucess_summary">通知の点滅を継続させる</string>
+    <string name="pref_trackball_random_title">ランダムな色</string>
+    <string name="pref_trackball_random_summary">すべての通知について、ランダムな色でLEDを点滅する</string>
+    <string name="pref_trackball_order_title">順序に従って点滅</string>
+    <string name="pref_trackball_order_summary">LED色の順序に従って点滅</string>
+    <string name="pref_trackball_blend_title">ブレンド通知</string>
+    <string name="pref_trackball_blend_summary">色を混ぜて通知する。通知の継続をオーバーライドします。</string>
+    <string name="pref_trackball_reset_title">リセット</string>
+    <string name="pref_trackball_reset_summary">すべてのアプリについて色設定をリセット</string>
+    <string name="dialog_trackball_loading">ロード中...</string>
+    <string name="dialog_trackball_packagelist">パッケージリストをロード中</string>
+    <string name="trackball_category_dialog_text">新しいカテゴリを入力してください。</string>
+    <string name="trackball_category_list_title">カテゴリ</string>
+    <string name="trackball_category_list_summary">カテゴリを選択</string>
+    <string name="trackball_category_screen">カテゴリを管理</string>
+    <string name="trackball_category_add_title">カテゴリを追加</string>
+    <string name="trackball_category_add_summary">リストにカテゴリを追加する</string>
+    <string name="trackball_category_remove_title">カテゴリを削除</string>
+    <string name="trackball_category_remove_summary">リストからカテゴリを削除する</string>
+    <string name="trackball_reset_all">すべてのカテゴリとカラーをリセット</string>
+    <string name="trackball_color_notice_title">ノート</string>
+    <string name="trackball_color_notice_summary">すべての色がすべてのデバイスで使用できるわけではありません。</string>
+    <string name="trackball_category_unconfigured">未設定</string>
+    <string name="trackball_category_misc">その他</string>
+    <string name="trackball_app_save_title">保存</string>
+    <string name="trackball_app_save_summary">このアプリケーションについての設定を保存する</string>
+    <string name="trackball_app_reset_title">リセット</string>
+    <string name="trackball_app_reset_summary">このアプリケーションについてのカスタム設定をリセットする</string>
+
+    <string name="trackball_force_mode_title">LEDモード</string>
+    <string name="trackball_force_mode_dialog">モードを選択してください</string>
+    <string name="trackball_force_mode_summary">LEDの挙動を設定します</string>
+
+    <string name="trackball_app_email">メール</string>
+    <string name="trackball_app_mms">メッセージ</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">トーク</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">不在着信</string>
+
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">アプリケーションの設定を使用</string>
+    <string name="trackball_color_entry_green">緑</string>
+    <string name="trackball_color_entry_white">白</string>
+    <string name="trackball_color_entry_red">赤</string>
+    <string name="trackball_color_entry_blue">青</string>
+    <string name="trackball_color_entry_yellow">黄</string>
+    <string name="trackball_color_entry_cyan">シアン</string>
+    <string name="trackball_color_entry_magenta">マゼンタ</string>
+    <string name="trackball_color_entry_pink">ピンク</string>
+    <string name="trackball_color_entry_orange">オレンジ</string>
+    <string name="trackball_color_entry_light_blue">ライトブルー</string>
+    <string name="trackball_color_entry_random">ランダム</string>
+    <string name="trackball_color_entry_amber">アンバー</string>
+
+    <!-- Trackball Settings : Warning dialog -->
+    <string name="notification_battery_warning_title">注意: バッテリーが消費します</string>
+    <string name="notification_battery_warning">このオプションを有効にすることにより、1時間に約3%ほどのバッテリー消費が増加します。バッテリー消費が速くなったと感じたら、恐らくこのオプションが原因です。バッテリー消費が気になるのであれば、このオプションは有効にするべきではありません。</string>
+
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">ロック解除セキュリティ使用時はロックスクリーン無効</string>
+    <string name="pref_lockscreen_disable_on_security_summary">画面のロック解除セキュリティ(パスワード,PIN,パターン)を使用する場合はロックスクリーンを無効にする</string>
+    <string name="pref_lockscreen_stylecfg_title">スタイルオプション</string>
+    <string name="pref_lockscreen_stylecfg_summary">ロックスクリーンのスタイルとそれに対応する設定</string>
+    <string name="pref_lockscreen_widgets_title">ウィジェットオプション</string>
+    <string name="pref_lockscreen_widgets_summary">ロックスクリーン上のウィジェットの有効/無効を切り替える</string>
+    <string name="pref_lockscreen_unlock_title">アンロックオプション</string>
+    <string name="pref_lockscreen_unlock_summary">コントロールボタンでアンロックしたり素早くアンロックする</string>
+    <string name="pref_lockscreen_gesture_title">ロックスクリーンジェスチャー</string>
+    <string name="pref_lockscreen_gesture_summary">ロックスクリーンでジェスチャーを設定し、対応した挙動をカスタマイズする</string>
+    <string name="pref_lockscreen_timeout_title">遅延とタイムアウト</string>
+    <string name="pref_lockscreen_timeout_summary">スクリーンタイムアウトとスクリーンオフの遅延を設定する</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="pref_lockscreen_always_battery_title">常にバッテリー状態を表示</string>
+    <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
+    <string name="pref_lockscreen_widgets_layout_title">ウィジェットレイアウト</string>
+    <string name="pref_lockscreen_widgets_layout_summary">時計、日付、キャリア、ステータスのレイアウト</string>
+    <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
+    <string name="pref_lockscreen_music_controls_summary">ロック画面に音楽コントロールを表示する</string>
+    <string name="pref_lockscreen_now_playing_title">曲名を表示</string>
+    <string name="pref_lockscreen_now_playing_summary">再生中の曲名とアーティストを表示する</string>
+    <string name="pref_lockscreen_album_art_title">アルバムアートを表示</string>
+    <string name="pref_lockscreen_album_art_summary">再生中の曲のアルバムアートを表示する。標準のミュージックプレイヤーを縦画面モードで再生している場合のみ有効</string>
+    <string name="pref_lockscreen_music_headset_title">ヘッドセット接続時に音楽コントロールを表示</string>
+    <string name="pref_lockscreen_music_headset_summary">有線のヘッドセットやBluetooth A2DPのヘッドセットを接続したときに音楽コントロールを表示する</string>
+    <string name="pref_lockscreen_always_music_controls_title">常に音楽コントロールを表示</string>
+    <string name="pref_lockscreen_always_music_controls_summary">音楽を再生しているかどうかに関わらず、ロック画面に音楽コントロールを表示する</string>
+    <string name="pref_trackball_wake_title">トラックボールで復帰</string>
+    <string name="pref_trackball_wake_summary">トラックボールを押して端末をスリープから復帰する</string>
+    <string name="pref_volume_wake_title">ボリュームキーで復帰</string>
+    <string name="pref_volume_wake_summary">ボリュームアップ/ダウンキーで端末を復帰する。電源ボタンを押しにくい端末用</string>
+    <string name="pref_trackball_unlock_title">トラックボールでアンロック</string>
+    <string name="pref_trackball_unlock_summary">トラックボールを押して端末をロックから解除する</string>
+    <string name="pref_slider_unlock_title">キーボードを引き出してアンロック</string>
+    <string name="pref_slider_unlock_summary">キーボードを引き出すことで端末のロックを解除する</string>
+    <string name="pref_menu_unlock_title">メニューボタンでアンロック</string>
+    <string name="pref_menu_unlock_summary">メニューボタンを押して端末をロックから解除する</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">クイックアンロック</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">PINやパワードを入力後、OKを押す必要を省きます。不正入力時のカウントは無効になります。</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">カスタムアプリの起動</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">カスタムアプリを起動するための2つ目のスライダやロータリーの窪みを表示する</string>
+    <string name="pref_lockscreen_custom_app_activity_title">カスタムアプリ</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">設定するショートカットを選択</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">解除するショートカットを選択</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">キャンセル</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">追加</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">削除</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">未設定</string>
+    <string name="pref_lockscreen_custom_background_title">背景を選択</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">背景を選択</string>
+    <string name="pref_lockscreen_custom_background_summary">ロックスクリーンの背景画像や色を選択する</string>
+    <string name="pref_lockscreen_custom_background_summary_color">現在 : 色</string>
+    <string name="pref_lockscreen_custom_background_summary_image">現在 : 画像</string>
+    <string name="pref_lockscreen_custom_background_summary_default">現在 : デフォルト</string>
+    <string name="pref_lockscreen_background_result_successful">背景は変更されました</string>
+    <string name="pref_lockscreen_background_result_not_successful">背景は変更されませんでした</string>
+    <string name="pref_lockscreen_custom_icon_style_title">メッセージアイコンを使う</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">カスタムアプリの起動アイコンとしてCMアイコンの代わりににメッセージアイコンを使う</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">ドラッグダウンでアンロック</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">ロータリーホイールをドラッグダウンしてアンロック、右へドラッグしてカスタムアプリを起動する</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">矢印を表示しない</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">ロータリースタイルで回転方向のヒントの矢印を表示しない</string>
+    <string name="pref_lockscreen_style_title">ロックスクリーンスタイル</string>
+    <string name="pref_in_call_style_title">呼び出しスタイル</string>
+    <string name="pref_in_call_style_summary">電話の呼び出し時に表示される応答/拒否のウィジェットスタイルを選択する</string>
+    <string name="pref_lockscreen_style_summary">ロックスクリーンのスタイルを選択する</string>
+    <string name="lockscreen_music_title">ミュージックコントロール</string>
+    <string name="pref_volbtn_music_controls_title">音量ボタンによるミュージックコントロール</string>
+    <string name="pref_volbtn_music_controls_summary">スクリーンオフの時、音量ボタンを長押しすることで曲のシークを行う</string>
+    <string name="pref_cambtn_music_controls_title">カメラボタンによるミュージックコントロール</string>
+    <string name="pref_cambtn_music_controls_summary">スクリーンオフの時、カメラボタンを長押しすることで曲の再生と停止を切り替える</string>
+    <string name="lockscreen_widgets_note_title">ノート</string>
+    <string name="lockscreen_widgets_note_summary">最小のレンズスタイルを選択すると、音楽コントロール以外のウィジェットは表示されません。しかし、他のスタイルとの切り替えを容易にするために以下のオプション設定は残ります。</string>
+    <string name="lockscreen_calendar_title">ロックスクリーンカレンダー</string>
+    <string name="pref_lockscreen_calendar_alarm_title">次のカレンダーイベントを表示</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">次のカレンダーイベントの時刻とタイトルを表示する</string>
+    <string name="pref_lockscreen_calendars_title">イベントカレンダー</string>
+    <string name="pref_lockscreen_calendars_summary">これらのカレンダーからイベントを検索する</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">リマインダーのみ</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">リマインダーイベントのみ検索する</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">カレンダーイベント検索期間</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">どのくらい先のイベントまで検索するか</string>
+
+    <!-- Input Settings -->
+    <string name="input_settings_title">入力設定</string>
+    <string name="haptic_title">タッチフィードバック調整</string>
+    <string name="haptic_summary">タッチフィードバックの強さなどを調整する</string>
+    <string name="long_press_home_title">ホーム長押し設定</string>
+    <string name="long_press_home_summary">最近使ったアプリ履歴の数、その他</string>
+
+    <string name="input_search_key_title">検索キーの挙動</string>
+    <string name="input_search_key_summary">検索キーを押したときのアクションをカスタマイズする</string>
+    <string name="pref_input_custom_search_app_toggle_title">検索キーのアプリ</string>
+    <string name="pref_input_custom_search_app_toggle_summary">検索キーを押したときにカスタムアプリを起動する</string>
+    <string name="pref_input_custom_search_app_activity_title">カスタムアプリケーション</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">検索キー長押しのアプリ</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">検索キーを長押ししたときにカスタムアプリを起動する</string>
+
+    <string name="pref_backtrack_title">バックトラック ミニパッド</string>
+    <string name="pref_backtrack_summary">バックトラックミニパッドの有効を切り替える</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">メニュー長押し設定</string>
+    <string name="long_press_menu_summary">メニューボタンを長押ししたときのカスタマイズ</string>
+    <string name="pref_user_defined_long_press_menu_title">カスタムアプリの選択</string>
+    <string name="pref_long_press_menu_title">挙動の選択</string>
+    <string name="pref_long_press_menu_summary">メニューボタン長押しの設定</string>
+
+    <!-- Long Press Home -->
+    <string name="recent_apps_show_title">アプリ履歴のタイトルを表示</string>
+    <string name="recent_apps_num_title">アプリ履歴の数</string>
+    <string name="recent_apps_num_summary">ホームを長押ししたときに表示するアプリ履歴の数を設定する</string>
+    <string name="dialog_recent_apps_num_title">アプリ履歴の数を指定</string>
+    <string name="use_custom_app_title">カスタムアプリケーションを使用</string>
+    <string name="use_custom_app_summary">アプリ履歴の代わりに、カスタムアプリケーションを起動する</string>
+    <string name="select_custom_app_title">カスタムアプリケーションを選択</string>
+    <string name="group_applications">アプリケーション</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">タッチフィードバックメイン</string>
+    <string name="summary_on_haptic_feedback">ソフトキーや多くのUI操作でタッチフィードバックを使用する</string>
+    <string name="summary_off_haptic_feedback">ソフトキーや多くのUI操作でタッチフィードバックを使用しない</string>
+
+    <string name="title_haptic_feedback_up">リリースフィードバック</string>
+    <string name="summary_on_haptic_feedback_up">ソフトキーや多くのUI操作で指を離したときにフィードバックを使用する</string>
+    <string name="summary_off_haptic_feedback_up">ソフトキーや多くのUI操作で指を離したときにフィードバックを使用しない</string>
+
+    <string name="title_haptic_feedback_all">タッチスクリーンアイテム</string>
+    <string name="summary_on_haptic_feedback_all">スクリーンでなにか選択したときにタッチフィードバックを使用する</string>
+    <string name="summary_off_haptic_feedback_all">スクリーンでなにか選択したときにタッチフィードバックを使用しない</string>
+
+    <string name="title_haptic_down_decider">タッチパターン設定</string>
+    <string name="title_haptic_up_decider">リリースパターン設定</string>
+    <string name="title_haptic_long_decider">長押しパターン設定</string>
+    <string name="title_haptic_tap_decider">タップパターン設定</string>
+
+    <string name="title_haptic_menu">フィードバック調整</string>
+    <string name="title_haptic_notice">変更を適用するには再起動が必要</string>
+
+    <string name="haptic_delay_desc">ミリ秒 オフ</string>
+    <string name="haptic_vibe_desc">ミリ秒 オン</string>
+
+    <string name="haptic_down_description">ボタンを押したときの値を調整\n(バーチャルハードキーと多くのUI操作)</string>
+    <string name="haptic_up_description">ボタンを離したときの値を調整\n(バーチャルハードキーと多くのスクリーン操作)</string>
+    <string name="haptic_long_description">長押ししたときの値を調整</string>
+    <string name="haptic_tap_description">スクリーンキーボードをタップしたときの値を調整</string>
+
+    <string name="haptic_plus_minus_desc">プラスボタンとマイナスボタンで回数を増減して調節してください</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">保存</string>
+    <string name="haptic_button_test">テスト</string>
+    <string name="haptic_button_cancel">キャンセル</string>
+    <string name="haptic_button_revert">変更を戻す</string>
+    <string name="haptic_button_default">デフォルトを読み込む</string>
+
+    <string name="haptic_save_toast">保存した値: </string>
+    <string name="haptic_cancel_toast">値は変更されません</string>
+    <string name="haptic_revert_toast">前回の値に戻します</string>
+    <string name="haptic_default_toast">初期設定に戻します</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">パフォーマンス設定</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Compcacheを使用する</string>
+    <string name="pref_compcache_summary">仮想容量を増やすためにメモリを圧縮する(再起動が必要)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">JITを使用する</string>
+    <string name="pref_jit_mode_summary">Dalvik just-in-timeコンパイラを使用する(再起動が必要)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">サーフェスディザリング</string>
+    <string name="pref_use_dithering_summary">ディザリングは画像品質が向上するが相応のパフォーマンスが必要(再起動が必要)</string>
+
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">16ビット透過を使用</string>
+    <string name="pref_use_16bpp_alpha_summary">16ビット透過を使用することで、スクロールのパフォーマンスが向上します。しかし不自然に見えます。(要再起動)</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">アセットの排除を許可</string>
+    <string name="pref_purgeable_assets_summary">メモリ内に解放可能なビットマップアセットがあれば、システムは必要に応じてRAMを確保できます(再起動が必要)</string>
+
+    <!-- Performance Setting : VM Heap Size -->
+    <string name="pref_heapsize_title">VMヒープサイズ</string>
+    <string name="pref_heapsize_summary">VMヒープごとの最大メモリ量(再起動が必要)</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">ホームをメモリに維持</string>
+    <string name="pref_lock_home_summary">現在のホームアプリを常にメモリに維持する</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">メッセージアプリをメモリに維持</string>
+    <string name="pref_lock_mms_summary">メモリが少ないときにメッセージが消失するのを防ぐ</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">警告: この先隠し機能!</string>
+    <string name="performance_settings_warning">ここにあるオプションはシステムパフォーマンスを変更し、もしかするとおかしくなるかもしれません。これらには実験的なものもあり、値をデフォルトから変更した場合にはバグ報告をしないでください。</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">アプリケーション設定</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">内蔵ストレージを使用</string>
+    <string name="pref_switch_storage_summary_on">アプリケーションやメディアの格納に内蔵の拡張ストレージを使用する(再起動が必要)</string>
+    <string name="pref_switch_storage_summary_off">アプリケーションやメディアの格納に取り外し可能なカードを使用する(再起動が必要)</string>
+    <string name="pref_storage_switch_unavailable">このデバイスには内蔵の拡張ストレージはありません</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">アプリケーションの移動を許可</string>
+    <string name="pref_move_all_apps_summary">すべてのアプリケーションについて、外部ストレージへの移動を許可する</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">インストール場所</string>
+    <string name="pref_install_location_summary">新しいアプリケーションがインストールされる場所を選択</string>
+
+    <string name="general_title">一般</string>
+    <string name="camera_title">Camera</string>
+    <string name="buttons_title">ボタン</string>
+
+    <!-- UI Settings : Power off prompt -->
+    <string name="pref_power_prompt_title">電源OFFの確認</string>
+    <string name="pref_power_prompt_summary">シャットダウンやリブート時に確認するかどうかを切り替える</string>
+
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">描画エフェクト</string>
+    <string name="pref_render_effect_summary">スクリーンを描画する色を変更する(バッテリ維持の可能性がある)</string>
+
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">振動フィードバック</string>
+    <string name="expanded_haptic_feedback_summary">振動フィードバックを有効/無効にする</string>
+
+    <string name="widget_name">RenderFXウィジェット</string>
+    <string name="renderfx_temp">RenderFX</string>
+    <string name="prefs_render_effect">描画エフェクト</string>
+    <string name="notify_render_effect">描画エフェクトオン</string>
+    <string name="add_widget">ウィジェットを使用</string>
+    <string name="pref_render_effect_none">エフェクトなし</string>
+    <string name="pref_render_effect_night">ナイトモード (3700K)</string>
+    <string name="pref_render_effect_green">ターミナル (緑)</string>
+    <string name="pref_render_effect_blue">ブルー</string>
+    <string name="pref_render_effect_amber">アンバー</string>
+    <string name="pref_render_effect_salmon">サーモン</string>
+    <string name="pref_render_effect_fuscia">フューシャ</string>
+    <string name="pref_render_effect_calibrated">調整済み(N1)</string>
+    <string name="pref_render_effect_calibrated_red">調整済み(N1) Low Red</string>
+    <string name="pref_render_effect_calibrated_cool">調整済み(N1) Cold</string>
+    <string name="pref_render_effect_red">赤</string>
+
+    <!--  Widget Types -->
+    <string name="widget_render_effect_night">ナイト</string>
+    <string name="widget_render_effect_terminal">ターミナル</string>
+    <string name="widget_render_effect_blue">ブルー</string>
+    <string name="widget_render_effect_amber">アンバー</string>
+    <string name="widget_render_effect_salmon">サーモン</string>
+    <string name="widget_render_effect_fuscia">フューシャ</string>
+    <string name="widget_render_effect_red">赤</string>
+    <string name="widget_render_effect_calibrated">調整済み</string>
+    <string name="widget_render_effect_calibrated_red">調整済み Low Red</string>
+    <string name="widget_render_effect_calibrated_cool">調整済み Cold</string>
+
+    <!-- Expanded View Power Widget -->
+    <string name="title_widget_buttons">通知領域ウィジェット</string>
+    <string name="title_expanded_widget">通知領域の電源ウィジェット</string>
+    <string name="summary_expanded_widget">通知領域を伸ばしたときに電源ウィジェットを表示する</string>
+    <string name="title_expanded_hide_onchange">変更したら隠す</string>
+    <string name="summary_expanded_hide_onchange">トグルウィジェットボタンを押したら伸ばした通知領域を隠す</string>
+    <string name="title_expanded_hide_indicator">インジケータを隠す</string>
+    <string name="summary_expanded_hide_indicator">通知ウィジェットインジケータを隠す</string>
+    <string name="title_expanded_hide_scrollbar">スクロールバーを隠す</string>
+    <string name="summary_expanded_hide_scrollbar">配置できる最大数より多くボタンを配置したときにスクロールバーを表示しない</string>
+    <string name="expanded_color_mask">インジケータの色</string>
+    <string name="title_widget_picker">ウィジェットボタン</string>
+    <string name="summary_widget_picker">ウィジェットボタンを選択</string>
+    <string name="title_widget_order">ウィジェットボタンの並び</string>
+    <string name="summary_widget_order">ウィジェットボタンを並び替える</string>
+    <string name="title_buttons">ボタン</string>
+    <string name="title_toggle_wifi">Wi-Fiトグル</string>
+    <string name="title_toggle_bluetooth">Bluetoothトグル</string>
+    <string name="title_toggle_gps">GPSトグル</string>
+    <string name="title_toggle_sound">サウンドトグル</string>
+    <string name="title_toggle_brightness">明るさトグル</string>
+    <string name="title_toggle_sync">同期トグル</string>
+    <string name="title_toggle_wifiap">Wi-Fi APトグル</string>
+    <string name="title_toggle_screentimeout">スクリーンタイムアウトトグル</string>
+    <string name="title_toggle_mobiledata">モバイルデータトグル</string>
+    <string name="title_toggle_lockscreen">ロックスクリーントグル</string>
+    <string name="title_toggle_networkmode">2G/3Gトグル</string>
+    <string name="title_toggle_autorotate">回転トグル</string>
+    <string name="title_toggle_airplane">機内モードトグル</string>
+    <string name="title_toggle_flashlight">LEDフラッシュトグル</string>
+    <string name="title_toggle_sleep">スリープ</string>
+    <string name="title_toggle_media_play_pause">メディア: 再生/停止トグル</string>
+    <string name="title_toggle_media_previous">メディア: 前に戻る</string>
+    <string name="title_toggle_media_next">メディア: 次に進む</string>
+    <string name="title_toggle_wimax">WiMAXトグル</string>
+    <string name="title_button_modes">ボタンモード</string>
+    <string name="pref_brightness_mode_title">明るさ</string>
+    <string name="pref_brightness_mode_summary">明るさトグルで変更するモードの選択</string>
+    <string name="cm_brightness_mode_auto">自動</string>
+    <string name="cm_brightness_mode_dim">暗い</string>
+    <string name="pref_network_mode_title">ネットワーク</string>
+    <string name="pref_network_mode_summary">ネットワークのトグルで変更するモードの選択</string>
+    <string name="pref_screentimeout_mode_title">スクリーンタイムアウト</string>
+    <string name="pref_screentimeout_mode_summary">スクリーンタイムアウトトグルで変更するモードの選択</string>
+    <string name="pref_ring_mode_title">サウンド</string>
+    <string name="pref_ring_mode_summary">サウンドトグルで変更するモードの選択</string>
+    <string name="cm_sound_mode_silent">サイレント</string>
+    <string name="cm_sound_mode_vibrate">振動</string>
+    <string name="cm_sound_mode_sound">音</string>
+    <string name="cm_sound_mode_soundVibrate">音と振動</string>
+    <string name="pref_flash_mode_title">フラッシュ</string>
+    <string name="pref_flash_mode_summary">HighかDeath Rayを選択</string>
+
+    <!-- Backlight -->
+    <string name="backlight_title">自動バックライト</string>
+    <string name="backlight_summary">レベルの調整とフィルタ</string>
+    <string name="light_filter_title">ライトセンサーフィルタ</string>
+    <string name="light_filter_enabled_title">有効にする</string>
+    <string name="light_filter_enabled_summary">移動平均フィルタを適用し、フリッカを減少させる。</string>
+    <string name="light_filter_window_title">分析窓長</string>
+    <string name="light_filter_window_summary">フィルタ値はこの期間でのセンサー平均値になります。</string>
+    <string name="light_filter_reset_title">リセットする閾値</string>
+    <string name="light_filter_reset_summary">サンプルが現在の平均からこの値だけ逸脱した場合フィルタをリセットします</string>
+    <string name="light_filter_interval_title">サンプリング間隔</string>
+    <string name="light_filter_interval_summary">低い値は精度が良くなりますが、よりCPUを使用します。</string>
+    <string name="light_levels_title">ライトレベル</string>
+    <string name="light_levels_enabled_title">カスタム</string>
+    <string name="light_levels_dim_title">スクリーンの暗さレベル</string>
+    <string name="light_levels_dim_summary">スクリーンを暗くした時の明るさ</string>
+    <string name="light_levels_editor_title">他のレベルを編集...</string>
+    <string name="light_decrease_enabled_title">ライトの減少を許可</string>
+    <string name="light_decrease_enabled_summary">ライトが減少するのを許可します。ヒステリシスを使用してフリッカを減少させてください。</string>
+    <string name="light_decrease_hysteresis_title">ヒステリシスを減少させる</string>
+    <string name="light_decrease_hysteresis_summary">センサーレベルはこれより下にオーバーラップします。</string>
+
+    <!-- Light sensor levels -->
+    <string name="ll_title">ライトセンサーレベル</string>
+    <string name="ll_header_upper">上方</string>
+    <string name="ll_header_lower">下方</string>
+    <string name="ll_header_lcd">スクリーン</string>
+    <string name="ll_header_btn">ボタン</string>
+    <string name="ll_header_kb">キーボード</string>
+    <string name="ll_lux">センサー(フィルタ/生):</string>
+    <string name="ll_lcd">スクリーン:</string>
+    <string name="ll_btn">ボタン:</string>
+    <string name="ll_kb">キーボード:</string>
+    <string name="ll_disabled">無効にする</string>
+    <string name="ll_default">デフォルトに戻す</string>
+    <string name="ll_save">適用して保存</string>
+    <string name="ll_reload">現在の設定を再読込み</string>
+    <string name="ll_bad_levels">レベルは増加しなくてはなりません</string>
+    <string name="ll_num_levels">レベル数をセット</string>
+
+    <!-- Sound -->
+    <string name="sound_notifications_focus_title">通知音フォーカス</string>
+    <string name="sound_notifications_focus_summary">通知音再生時に、オーディオフォーカスリクエストに対応しているアプリの音量を下げる</string>
+    <string name="sound_volume_control_silent_title">消音状態</string>
+    <string name="sound_volume_control_silent_summary">ボリュームコントロールに完全な消音状態を追加する</string>
+    <string name="sound_vibrate_in_call_title">電話中の振動</string>
+    <string name="sound_vibrate_in_call_summary_off">電話中の通知は振動しない</string>
+    <string name="sound_vibrate_in_call_summary_on">通知は通常通り振動する</string>
+    <string name="sound_camera_shutter_disable_title">カメラのシャッター音を消す</string>
+    <string name="sound_camera_shutter_disable_summary_on">シャッター音は再生されません</string>
+    <string name="sound_camera_shutter_disable_summary_off">シャッター音は再生されます</string>
+    <string name="sound_camera_shutter_disable_warning_title">警告: これは違法かもしれません!</string>
+    <string name="sound_camera_shutter_disable_warning">いくつかの地域ではシャッター音を消すことは違法です。本当に無効にしてもよいですか?</string>
+    <string name="sound_to_speaker_title">常にスピーカーで再生する</string>
+    <string name="sound_notifications_title">通知音</string>
+    <string name="sound_rings_title">着信音</string>
+    <string name="sound_alarms_title">アラーム</string>
+    <string name="sound_note_title">ノート</string>
+    <string name="sound_note_summary">以下の設定はヘッドフォン利用時のみ適用されます</string>
+    <string name="sound_attenuation_title">音量の減衰</string>
+    <string name="sound_limitvol_title">音楽再生時の音量</string>
+    <string name="sound_notifications_attenuation_dialog">通知音の減衰</string>
+    <string name="sound_rings_attenuation_dialog">着信音の減衰</string>
+    <string name="sound_alarms_attenuation_dialog">アラームの減衰</string>
+    <string name="sound_notifications_limitvol_dialog">通知音量</string>
+    <string name="sound_rings_limitvol_dialog">着信音量</string>
+    <string name="sound_alarms_limitvol_dialog">アラーム音量</string>
+    <!-- Quiet hours -->
+    <string name="sound_category_quiet_hours_title">サイレントタイム</string>
+    <string name="quiet_hours_note_title">ノート</string>
+    <string name="quiet_hours_note_summary">着信はサイレントタイム中でも通常の挙動になります</string>
+    <string name="quiet_hours_enabled">サイレントタイムを有効にする</string>
+    <string name="quiet_hours_enabled_on">サイレントタイムが機能します</string>
+    <string name="quiet_hours_enabled_off">通知は平常通り行われます</string>
+    <string name="quiet_hours_start">開始時刻</string>
+    <string name="quiet_hours_start_summary">サイレントタイムが始まる時刻</string>
+    <string name="quiet_hours_end">終了時刻</string>
+    <string name="quiet_hours_end_summary">サイレントタイムが終了する時刻</string>
+    <string name="quiet_hours_mute">通知音をミュート</string>
+    <string name="quiet_hours_mute_on">通知音は再生されません</string>
+    <string name="quiet_hours_mute_off">通知音は再生されます</string>
+    <string name="quiet_hours_still">振動を無効</string>
+    <string name="quiet_hours_still_on">端末は振動しません</string>
+    <string name="quiet_hours_still_off">端末は平常通り振動します</string>
+    <string name="quiet_hours_dim">LEDを暗くする</string>
+    <string name="quiet_hours_dim_on">可能であればLEDを暗くします</string>
+    <string name="quiet_hours_dim_off">LEDは最大照度で点灯します</string>
+
+    <string name="cmstats_title">匿名利用状況</string>
+    <string name="cmstats_summary">匿名の利用状況レポートを有効にすることによってCMの改善に協力できます</string>
+
+    <string name="user_defined_key1">クイックキー1</string>
+    <string name="user_defined_key2">クイックキー2</string>
+    <string name="user_defined_key3">クイックキー3</string>
+    <string name="user_defined_envelope_key">メールキー</string>
+    <string name="user_defined_explorer_key">検索キー</string>
+    <string name="user_defined_not_set">なし</string>
+
+    <!--  Lockscreen gesture strings -->
+    <string name="pref_lockscreen_gestures_enable_title">ジェスチャーを有効にする</string>
+    <string name="pref_lockscreen_gestures_trail_title">軌跡を表示する</string>
+    <string name="pref_lockscreen_gestures_builder_title">ジェスチャーを作成</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">感度</string>
+    <string name="pref_lockscreen_gestures_color_title">色</string>
+    <string name="gestures_button_add">ジェスチャーを追加</string>
+    <string name="gestures_button_discard">破棄</string>
+    <string name="gestures_button_done">完了</string>
+    <string name="gestures_error_missing_shortcut">ジェスチャーにアクションを割り当てる必要があります！</string>
+    <string name="gestures_loading">ジェスチャーをロード中...</string>
+    <string name="gestures_empty">ジェスチャーなし</string>
+    <string name="gestures_delete">削除</string>
+    <string name="gestures_delete_success">ジェスチャーを削除しました</string>
+    <string name="gestures_error_loading">ジェスチャーファイルの操作に問題が発生しました</string>
+    <string name="gestures_unlock_only">アンロック</string>
+    <string name="gestures_toggle_sound">サウンドトグル</string>
+    <string name="gestures_shortcut_or_activity">ショートカットやアクティビティ</string>
+    <string name="gestures_flashlight">フラッシュライト</string>
+    <string name="pref_lockscreen_disable_unlock_tab">アンロックスライダーを無効にする</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">ノート: このオプションを有効にする前に、トラックボールやメニューキー、ジェスチャーでのアンロックを設定する必要があります。</string>
+    <string name="gestures_action_label">アクション:</string>
+    <string name="gestures_draw_label">ジェスチャー:</string>
+    <string name="gestures_draw_for_label">\"<xliff:g id="action">%s</xliff:g>\"のジェスチャー:</string>
+    <string name="gestures_already_present">警告: 似たようなジェスチャーが別のアクションとして定義されています！</string>
+    <string name="gestures_run_in_background">バックグラウンドで起動</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">更新履歴を見る</string>
+    <string name="changelog_dialog">更新履歴</string>
+    <string name="changelog_loading">更新履歴を読込中...</string>
+    <string name="changelog_error">更新履歴を読込中にエラー...</string>
+    <string name="changelog_unknown">不明</string>
+    <string name="changelog_version">バージョン</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">時間帯</string>
+    <string name="category_phone_goggles_confirmation">確認</string>
+    <string name="category_phone_goggles_filter">フィルタ</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">デフォルトの設定</string>
+    <string name="title_phone_goggles_apps">フィルタされるアプリ</string>
+    <string name="title_phone_goggles_app_enabled">Phone Gogglesを有効にする</string>
+    <string name="title_phone_goggles_use_custom">カスタム設定を使用</string>
+    <string name="title_phone_goggles_filter">フィルタする番号</string>
+    <string name="title_phone_goggles_enabled">Phone Goggles有効</string>
+    <string name="title_phone_goggles_start">Phone Goggles開始時刻</string>
+    <string name="title_phone_goggles_end">Phone Goggles終了時刻</string>
+    <string name="title_phone_goggles_confirmation_enabled">確認を求める</string>
+    <string name="title_phone_goggles_maths_level">数学のレベル</string>
+    <string name="title_phone_goggles_work_filtered">仕事</string>
+    <string name="title_phone_goggles_mobile_filtered">モバイル</string>
+    <string name="title_phone_goggles_other_filtered">その他</string>
+    <string name="summary_phone_goggles">こちらからのコミュニケーション送信をフィルタする</string>
+    <string name="summary_phone_goggles_default">デフォルトで適用される設定</string>
+    <string name="summary_phone_goggles_filter">フィルタする電話番号のタイプを選択する</string>
+    <string name="summary_phone_goggles_start">発信をフィルタする開始時刻</string>
+    <string name="summary_phone_goggles_end">発信をフィルタ解除する時刻</string>
+    <string name="summary_phone_goggles_confirmation_enabled">発信をフィルタする前に求める確認の手段を選択する</string>
+    <string name="summary_phone_goggles_maths_level">発信を許可するために出題する数学問題のレベル</string>
+    <string name="summary_on_phone_goggles_enabled">発信はフィルタされます</string>
+    <string name="summary_on_phone_goggles_use_custom">カスタム設定を使用する</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Gogglesはこのアプリケーションで有効です</string>
+    <string name="summary_on_phone_goggles_work_filtered">仕事のコミュニケーションはフィルタされます</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">携帯電話へのコミュニケーションはフィルタされます</string>
+    <string name="summary_on_phone_goggles_other_filtered">その他の番号へのコミュニケーションはフィルタされます</string>
+    <string name="summary_off_phone_goggles_enabled">一切のコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_use_custom">デフォルト設定を使用する</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Gogglesはこのアプリケーションで無効です</string>
+    <string name="summary_off_phone_goggles_work_filtered">仕事のコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">携帯電話へのコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_other_filtered">その他の番号へのコミュニケーションはフィルタされません</string>
+    <string name="phone_goggles_maths_level_easy">簡単</string>
+    <string name="phone_goggles_maths_level_medium">普通</string>
+    <string name="phone_goggles_maths_level_hard">ハード</string>
+    <string name="phone_goggles_confirmation_none">なし</string>
+    <string name="phone_goggles_confirmation_prompt">プロンプト</string>
+    <string name="phone_goggles_confirmation_maths">数学の問題</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU設定</string>
+    <string name="cpu_title">CPU設定</string>
+    <string name="cpu_summary">調整タイプとクロックの設定</string>
+    <string name="cpu_set_on_boot">起動時に適用</string>
+    <string name="cpu_set_on_boot_summary">起動時にCPU設定を適用する</string>
+    <string name="cpu_governors_title">調整リスト</string>
+    <string name="cpu_governors_summary">利用可能な調整タイプのリスト\n現在: %s</string>
+    <string name="cpu_min_freq_title">最小CPUクロック</string>
+    <string name="cpu_min_freq_summary">最小CPUクロック周波数\n現在: %s</string>
+    <string name="cpu_max_freq_title">最大CPUクロック</string>
+    <string name="cpu_max_freq_summary">最大CPUクロック周波数\n現在: %s</string>
+
+    <!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">権限管理</string>
+    <string name="perm_enable_management_summary">アプリケーションの権限管理を有効にする</string>
+    <string name="perm_enable_warning_message">警告!\n権限を取り消すと、ほとんどの場合アプリケーションが不調になる原因になります。権限を取り消したアプリケーションが強制終了した場合、必要な権限を与えるかアプリケーションの使用をやめてください。\nCyanogenmodにはバグリポートを送らないでください。権限を取消したアプリケーションは期待通りには動きません!</string>
+    <string name="perm_enable_warning_title">了解しましたか?</string>
+</resources>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+  <string name="app_name">הגדרות CyanogenMod</string>
+
+    <!--  Primary Screen Settings -->
+
+  <string name="application_settings_title_head">יישום</string>
+  <string name="application_settings_title_subhead">הגדרות יישום</string>
+  <string name="application_settings_summary_head">העברת יישום, מיקום להתקנה</string>
+  <string name="display_settings_title_head">תצוגה</string>
+  <string name="display_settings_title_subhead">הגדרות תצוגה</string>
+  <string name="display_settings_summary_head">הצגת הנפשות, סיבוב, פסקי זמן</string>
+  <string name="input_settings_title_head">קלט</string>
+  <string name="input_settings_title_subhead">הגדרות קלט</string>
+  <string name="input_settings_summary_head">התנהגות קלט, לחצנים, משוב רטט</string>
+  <string name="interface_settings_title_head">ממשק</string>
+  <string name="interface_settings_summary_head">הגדרות ממשק, גלילת יתר, אפקט מעבד</string>
+  <string name="lockscreen_settings_title_head">נעילת מסך</string>
+  <string name="lockscreen_settings_title_subhead">הגדרות נעילת מסך</string>
+  <string name="lockscreen_settings_summary_head">מחוות נעילת מסך, סגנון, אפשרויות פתיחה</string>
+  <string name="performance_settings_title_head">ביצועים</string>
+  <string name="performance_settings_title_subhead">הגדרות ביצועים</string>
+  <string name="performance_settings_summary_head">Performance tweaks, JIT, VM heap size</string>
+  <string name="sound_settings_title_head">קול</string>
+  <string name="sound_settings_title_subhead">הגדרות קול</string>
+  <string name="sound_settings_summary_head">עוצמת קול, מיקוד שמע, שעות שקט</string>
+  <string name="system_settings_title_head">מערכת</string>
+  <string name="system_settings_title_subhead">הגדרות מערכת</string>
+  <string name="system_settings_summary_head">רשימת שינויים במערכת, סטטיסטיקה, הודעות עדכון</string>
+
+    <!--  Update Notifications -->
+  <string name="updatenotify_title">הודעות עדכון</string>
+  <string name="updatenotify_summary">קבל הודעות דחיפה של עדכונים</string>
+
+    <!-- User interface -->
+  <string name="ui_title">ממשק משתמש</string>
+  <string name="pref_electron_beam_animation_on">אנימציה בהדלקת מסך</string>
+  <string name="pref_electron_beam_animation_off">אנימציה בכיבוי מסך</string>
+
+    <!-- User interface : 180 degree rotation -->
+
+    <!-- User interface : LED Notifications -->
+  <string name="trackball_title">נורית התראות</string>
+  <string name="trackball_summary">שליטה בצבע ובהבהוב של נורית ההתראות/כדור הגלגלת</string>
+ 
+    <!-- User interface : WebView -->
+  <string name="pref_pinch_reflow_title">Reflow after pinch in</string>
+  <string name="pref_pinch_reflow_summary">Reflow content immediately after pinch to zoom in</string>
+
+    <!-- User interface : Overscroll -->
+  <string name="ui_overscroll_title">גלילת יתר</string>
+  <string name="pref_overscroll_title">אפקט גלילת יתר</string>
+  <string name="pref_overscroll_summary">בחר איך אובייקטים הניתנים לגלילה ייראו כאשר הם הגיעו מעבר</string>
+  <string name="pref_overscroll_weight_title">ערך גלילת יתר</string>
+  <string name="pref_overscroll_weight_summary">בחר את הערך של אובייקטים הניתנים לגלילה</string>
+
+    <!-- User interface : Lock Screen -->
+  <string name="pref_lockscreen_delay_title">השהיה</string>
+
+    <!-- Color Picker -->
+ <string name="title_color_picker">בחר צבע</string>
+  <string name="msg_color_picker">לחץ במרכז כדי לאשר.\nלחץ חזרה כדי לבטל</string>
+
+    <!-- User interface: LED notifcations -->
+  <string name="dialog_color_trackball">בחר צבע</string>
+  <string name="dialog_blink_trackball">בחר קצב הבהוב</string>
+  <string name="color_trackball_flash_title">צבע הפלאש</string>
+  <string name="color_trackball_flash_summary">Color to flash</string>
+  <string name="color_trackball_custom_title">צבע מותאם אישית</string>
+  <string name="color_trackball_custom_summary">צבע מותאם אישית לפלאש</string>
+  <string name="color_trackball_blink_title">קצב הבהוב</string>
+  <string name="color_trackball_blink_summary">קצב הבהוב</string>
+  <string name="color_trackball_test_title">Flash test</string>
+  <string name="color_trackball_test_summary">Flash test</string>
+  <string name="dialog_clear_flash">נקה פלאש</string>
+  <string name="trackball_advanced_title">הגדרות מתקדמות</string>
+  <string name="pref_trackball_screen_title">הבהב תמיד</string>
+  <string name="pref_trackball_screen_summary">נורית הההתראות תהבהב כאשר המסך דלוק</string>
+  <string name="pref_trackball_blend_title">מיזוג התראות</string>
+  <string name="pref_trackball_blend_summary">Blend notification colors. Overrides succession.</string>
+  <string name="pref_trackball_sucess_title">המשכיות</string>
+  <string name="pref_trackball_sucess_summary">הבהוב התראות ברצף.</string>
+  <string name="pref_trackball_random_title">צבעים אקראיים</string>
+  <string name="pref_trackball_random_summary">הבהובים בצבעים אקראיים של נורית ההתראות עבור כל ההתראות</string>
+  <string name="pref_trackball_order_title">Pulse in order</string>
+  <string name="pref_trackball_order_summary">Pulses the LED color in order</string>
+  <string name="pref_trackball_reset_title">אתחול</string>
+  <string name="pref_trackball_reset_summary">איפוס צבעים וכל יישומים</string>
+  <string name="dialog_trackball_loading">טוען...</string>
+  <string name="dialog_trackball_packagelist">טוען רשימת חבילה</string>
+  <string name="trackball_category_dialog_text">הזן קטגוריה חדשה</string>
+  <string name="trackball_category_list_title">קטגוריה</string>
+  <string name="trackball_category_list_summary">בחר קטגוריה</string>
+  <string name="trackball_category_screen">ניהול קטגוריות</string>
+  <string name="trackball_category_add_title">הוסף קטגוריה</string>
+  <string name="trackball_category_add_summary">הוספת קטגוריה לרשימה</string>
+  <string name="trackball_category_remove_title">הסרת קטגוריה</string>
+  <string name="trackball_category_remove_summary">הסרת קטגוריה מתוך הרשימה</string>
+  <string name="trackball_reset_all">איפוס כל הצבעים וקטגוריות.</string>
+  <string name="trackball_color_notice_title">הערה:</string>
+  <string name="trackball_color_notice_summary">לא כל הצבעים יוצגו על כל המכשירים.</string>
+
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_green">ירוק</string>
+    <string name="trackball_color_entry_white">לבן</string>
+    <string name="trackball_color_entry_red">אדום</string>
+    <string name="trackball_color_entry_blue">כחול</string>
+    <string name="trackball_color_entry_yellow">צהוב</string>
+    <string name="trackball_color_entry_cyan">טורקיז</string>
+    <string name="trackball_color_entry_magenta">מג\'נטה</string>
+    <string name="trackball_color_entry_pink">ורוד</string>
+    <string name="trackball_color_entry_orange">כתום</string>
+    <string name="trackball_color_entry_light_blue">תכלת</string>
+    <string name="trackball_color_entry_random">אקראי</string>
+    <string name="trackball_color_entry_amber">ענבר</string>
+
+    <!-- Trackball Settings : Warning dialog -->
+
+  <string name="notification_battery_warning_title">אזהרה: עלול לגרום לצריכת סוללה מרובה</string>
+  <string name="notification_battery_warning">אפשרות זו הוכחה כגורמת לגידול בצריכת הסוללה ב ~3% לשעה. אם אתה מבחין בצריכת יתר של הבטריה מתי שאורות כדור הגלגלת מהבהבים אז אופציה זו היא הסיבה. אל תאפשר זאת אם אתה לא רוצה לאפשר זאת.</string>
+
+    <!-- Input Settings -->
+  <string name="input_settings_title">הגדרות קלט</string>
+  <string name="pref_lockscreen_music_controls_title">פקדי מוזיקה בנעילת מסך</string>
+  <string name="pref_lockscreen_music_controls_summary">הצג פקדי מוזיקה בנעילת מסך</string>
+  <string name="pref_lockscreen_always_music_controls_title">הצג תמיד פקדי מוזיקה</string>
+  <string name="pref_lockscreen_always_music_controls_summary">הצג פקדי מוזיקה גם אם מוזיקה אינה פועלת</string>
+  <string name="pref_trackball_wake_title">התעוררות כדור הגלגלת</string>
+  <string name="pref_trackball_wake_summary">לחיצה על כדור הגלגלת מעירה את המכשיר</string>
+  <string name="pref_trackball_unlock_title">ביטול נעילה של כדור הגלגלת</string>
+  <string name="pref_trackball_unlock_summary">לחיצה על הגלגלת פותחת את נעילת המכשיר</string>
+  <string name="pref_menu_unlock_title">תפריט ביטול נעילה</string>
+  <string name="pref_menu_unlock_summary">לחיצה על כפתור התפריט פותחת את נעילת המכשיר</string>
+  <string name="pref_lockscreen_quick_unlock_control_title">ביטול נעילה מהיר</string>
+  <string name="pref_lockscreen_quick_unlock_control_summary">.מחיקה איננה נחשבת כנסיון שגוי .PIN אין צורך ללחוץ על אישור כאשר מכניסים סיסמא או קוד</string>
+  <string name="pref_lockscreen_style_title">סגנון נעילת מסך</string>
+  <string name="pref_lockscreen_style_summary">בחר סיגנון לנעילת מסך</string>
+
+    <!-- Long Press Home -->
+  <string name="long_press_home_title">הגדרות לחיצה ארוכה על מקש הבית</string>
+  <string name="long_press_home_summary">מספר היישומים שהופעלו לאחרונה, וכו\'</string>
+  <string name="recent_apps_show_title">הראה כותרת לאפליקציות אחרונות</string>
+  <string name="recent_apps_num_title">מספר יישומים אחרונים</string>
+  <string name="recent_apps_num_summary">הצגת מספר יישומים אחרונים בעת לחיצה ארוכה על מקש הבית</string>
+  <string name="dialog_recent_apps_num_title">ציין מספר יישומים אחרונים</string>
+  <string name="use_custom_app_title">השתמש ביישום מותאם אישית</string>
+  <string name="use_custom_app_summary">השתמש ביישום מותאם אישית במקום בחלון היישומים האחרונים</string>
+  <string name="select_custom_app_title">בחר יישום מותאם אישית</string>
+  <string name="group_applications">יישומים</string>
+
+    <!-- Performance Settings -->
+  <string name="performance_settings_title">הגדרות ביצועים</string>
+
+    <!-- Performance Settings : Compcache -->
+  <string name="pref_compcache_title">שימוש בזכרון וירטואלי</string>
+  <string name="pref_compcache_summary">דחיסת זיכרון לקיבולת וירטואלית מוגברת (דורש אתחול מחדש)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">השתמש בתרגום דינאמי</string>
+    <string name="pref_jit_mode_summary">השתמש בקומפיילר דאלויק תרגום בזמן ריצה (דורש אתחול)</string>
+
+    <!-- Performance Settings : Dithering -->
+  <string name="pref_use_dithering_title">Enable surface dithering</string>
+  <string name="pref_use_dithering_summary">מיזוג משטחים משפר את איכות התמונה על חשבון ביצועים (דורש אתחול)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+  <string name="pref_heapsize_title">גודל זיכרון וירטואלי</string>
+  <string name="pref_heapsize_summary">גודל מקסימלי של זיכרון וירטואלי (דורש אתחול מחדש)</string>
+
+    <!-- Performance : Lock home memory -->
+   <string name="pref_lock_home_title">נעל את יישום הבית בזיכרון</string>
+   <string name="pref_lock_home_summary">נסה לשמור את יישום הבית הנוכחי בזיכרון בכל עת</string>
+
+    <!-- Performance : Lock mms app in memory -->
+  <string name="pref_lock_mms_title">נעל את יישום ההודעות בזיכרון</string>
+  <string name="pref_lock_mms_summary">הימנע מאיבוד הודעות במצבי זיכרון נמוך</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
+  <string name="performance_settings_warning">האפשרויות כאן ישנו את ביצועי המערכת שלך, ואולי אפילו לרעה. הן נכללו כאן למטרות התנסות ואנחנו מבקשים שלא תגישו דיווחי באגים אם תשנו אחת מהגדרות ברירת המחדל.</string>
+ 
+ <!-- Application Settings -->
+  <string name="application_settings_title">הגדרות יישום</string>
+
+    <!-- Application Settings : Move any app -->
+  <string name="pref_move_all_apps_title">אפשר העברה של יישום</string>
+  <string name="pref_move_all_apps_summary">אפשר העברה של כל יישום לאמצעי אחסון חיצוני</string>
+  
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">מיקום להתקנה</string>
+   <string name="pref_install_location_summary">בחר היכן להתקין יישומים חדשים</string>
+
+    <!-- HapticTweaks -->
+  <string name="haptic_title">משוב רטט</string>
+  <string name="haptic_summary">הגדר מתי ואיך משוב רטט יתפקד</string>
+  <string name="title_haptic_feedback">משוב רטט ראשי</string>
+  <string name="summary_on_haptic_feedback">השתמש במשוב רטט בעת הקלדה</string>
+  <string name="summary_off_haptic_feedback">ללא משוב רטט בעת הקלדה</string>
+  <string name="title_haptic_feedback_up">משוב רטט up</string>
+  <string name="summary_on_haptic_feedback_up">Use haptic feedback on key release for softkeys and certain UI interactions</string>
+  <string name="summary_off_haptic_feedback_up">No haptic feedback on key release for softkeys and certain UI interactions</string>
+  <string name="title_haptic_feedback_all">משוב רטט לפריטים שבמסך</string>
+  <string name="summary_on_haptic_feedback_all">השתמש במשוב רטט בעת בחירת פריטים במסך</string>
+  <string name="summary_off_haptic_feedback_all">ללא משוב רטט בעת בחירת פריטים במסך</string>
+  <string name="title_haptic_down_decider">הגדר משוב רטט למטה</string>
+  <string name="title_haptic_up_decider">Set Up Pattern</string>
+  <string name="title_haptic_long_decider">הגדר משוב רטט לחיצה ארוכה</string>
+  <string name="title_haptic_tap_decider">הגדרת משוב רטט בהקשה בלוח מקשים</string>
+  <string name="title_haptic_menu">התאם משוב רטט</string>
+  <string name="title_haptic_notice">נדרש אתחול מחדש כדי שהשינויים יחולו</string>
+  <string name="haptic_delay_desc">מילי שנ\' לכיבוי</string>
+  <string name="haptic_vibe_desc">מילי שנ\' להפעלה</string>
+  <string name="haptic_down_description">התאמת ערכי משוב רטט עבור לחיצת כפתור למטה\n(עבור לחצני חומרה וירטואלים ואינטראקציות מסוימות של ממשק המשתמש.)</string>
+  <string name="haptic_up_description">התאמת ערכי משוב רטט עבור שחרור לחצן\n(עבור לחצני חומרה וירטואלים ורוב הלחיצות על המסך.)</string>
+  <string name="haptic_long_description">הגדרת משוב רטט עבור לחיצה ממושכת.</string>
+  <string name="haptic_tap_description">הגדרת משוב רטט להקשה במקלדת על המסך</string>
+  <string name="haptic_plus_minus_desc">לחץ על כפתור הפלוס או המינוס כדי להוסיף או להסיר שלבים ברצף.</string>
+  <string name="haptic_button_plus">+</string>
+  <string name="haptic_button_minus">-</string>
+  <string name="haptic_button_save">שמור</string>
+  <string name="haptic_button_test">בדיקה</string>
+  <string name="haptic_button_cancel">ביטול</string>
+  <string name="haptic_button_revert">בטל שינויים</string>
+  <string name="haptic_button_default">טען ברירת מחדל</string>
+  <string name="haptic_save_toast">שמירת ערכים למשוב רטט:</string>
+  <string name="haptic_cancel_toast">ערכי משוב רטט לא שונו</string>
+  <string name="haptic_revert_toast">שחזור הערכים האחרונים שהיו בשימוש</string>
+  <string name="haptic_default_toast">טעינת ערכי ברירת מחדל של המערכת</string>
+  <string name="general_title">כללי</string>
+  <string name="buttons_title">לחצנים</string>
+
+    <!-- UI Settings : Power off prompt -->
+    <string name="pref_power_prompt_title">Power prompt</string>
+    <string name="pref_power_prompt_summary">Change whether there is a prompt after choosing shutdown or reboot</string>
+
+    <!-- UI Settings : Render effect -->
+   <string name="pref_render_effect_title">Render effect</string>
+  <string name="pref_render_effect_summary">שינוי הצבעים המשמשים כדי לצייר את המסך (חיסכון פוטנציאלי בסוללה )</string>
+
+    <string name="widget_name">RenderFX Widget</string>
+    <string name="renderfx_temp">RenderFX</string>
+    <string name="prefs_render_effect">Render Effect</string>
+    <string name="notify_render_effect">Render effect on</string>
+    <string name="add_widget">Add widget</string>
+    <string name="pref_render_effect_none">No render effect</string>
+    <string name="pref_render_effect_night">מצב לילה (3700K)</string>
+    <string name="pref_render_effect_green">טרמינל (ירוק)</string>
+    <string name="pref_render_effect_blue">כחול</string>
+    <string name="pref_render_effect_amber">ענבר</string>
+    <string name="pref_render_effect_salmon">ורוד אדמדם (אלתית)</string>
+    <string name="pref_render_effect_fuscia">פוקסיה</string>
+    <string name="pref_render_effect_calibrated">מכויל (N1)</string>
+    <string name="pref_render_effect_calibrated_red">מכויל (N1) Low Red</string>
+    <string name="pref_render_effect_calibrated_cool">מכויל (N1) Cool</string>
+    <string name="pref_render_effect_red">אדום</string>
+
+
+    <!--  Widget Types -->
+  <string name="widget_render_effect_night">לילה</string>
+  <string name="widget_render_effect_terminal">מונח</string>
+  <string name="widget_render_effect_blue">כחול</string>
+  <string name="widget_render_effect_amber">ענבר</string>
+  <string name="widget_render_effect_salmon">סלמון</string>
+  <string name="widget_render_effect_fuscia">פוקסיה</string>
+  <string name="widget_render_effect_red">אדום</string>
+  <string name="widget_render_effect_calibrated">מכויל</string>
+  <string name="widget_render_effect_calibrated_red">מכויל (Low Red)</string>
+  <string name="widget_render_effect_calibrated_cool">מכויל (N1) Cool</string>
+
+  
+    <!-- Expanded View Power Widget -->
+  <string name="title_widget_buttons">יישומון צפייה מורחבת</string>
+  <string name="title_expanded_widget">Notification power widget</string>
+  <string name="summary_expanded_widget">Use the expanded views power widget</string>
+  <string name="title_expanded_hide_onchange">הסתר שינויים</string>
+  <string name="summary_expanded_hide_onchange">הסתר את חלון ההתראות שנפתח ללמטה אחרי החלפת מצב כפתור היישומון</string>
+  <string name="expanded_color_mask">צבע המחוון</string>
+  <string name="title_widget_picker">כפתורי היישומון</string>
+  <string name="summary_widget_picker">בחר את כפתורי היישומון שלך</string>
+  <string name="title_toggle_wifi">החלף מצב Wifi</string>
+  <string name="title_toggle_bluetooth">החלף מצב Bluetooth</string>
+  <string name="title_toggle_gps">החלף מצב GPS</string>
+  <string name="title_toggle_sound">החלף מצב צליל</string>
+  <string name="title_toggle_brightness">החלף מצב הבהירות</string>
+  <string name="title_toggle_sync">החלף מצב הסנכרון</string>
+  <string name="title_toggle_wifiap">החלף מצב נקודת הגישה האלחוטי</string>
+  <string name="title_toggle_screentimeout">החלף מצב זמן כיבוי המסך</string>
+  <string name="title_toggle_mobiledata">החלף מצב מידע סלולרי</string>
+  <string name="title_toggle_lockscreen">החלף מצב נעילת מסך</string>
+  <string name="title_toggle_networkmode">החלף מצב 2G/3G</string>
+  <string name="title_toggle_autorotate">החלף מצב אוריינטציה</string>
+  <string name="title_toggle_airplane">החלף מצב טיסה</string>
+  <string name="title_toggle_flashlight">החלף מצב נורית הבזק</string>
+  <string name="title_toggle_sleep">Go to sleep</string>
+  <string name="title_button_modes">מצבי לחצן</string>
+  <string name="pref_brightness_mode_title">מצבי בהירות</string>
+  <string name="pref_brightness_mode_summary">בחר כיצד כפתור הבהירות משנה מצבים</string>
+  <string name="cm_brightness_mode_auto">אוטומטי</string>
+  <string name="cm_brightness_mode_dim">עמעום</string>
+  <string name="pref_network_mode_title">מצבי רשת</string>
+  <string name="pref_network_mode_summary">בחר כיצד הלחצן מצבי רשת משנה מצבים</string>
+  <string name="pref_screentimeout_mode_title">מצבי כיבוי מסך</string>
+  <string name="pref_screentimeout_mode_summary">בחר כיצד הלחצן כיבוי מסך משנה מצבים</string>
+  <string name="pref_ring_mode_title">מצבי קול</string>
+  <string name="pref_ring_mode_summary">בחר כיצד לחצן השמע משנה מצבים</string>
+  <string name="cm_sound_mode_silent">שקט</string>
+  <string name="cm_sound_mode_vibrate">רטט</string>
+  <string name="cm_sound_mode_sound">צליל</string>
+  <string name="cm_sound_mode_soundVibrate">צליל+רטט</string>
+  <string name="pref_flash_mode_title">מצב פלאש</string>
+  <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
+
+    <!-- Backlight -->
+  <string name="backlight_title">עוצמת תאורת אוטומטית</string>
+  <string name="backlight_summary">כוון רמות מסנן</string>
+  <string name="light_filter_title">מסנן חיישן תאורה</string>
+  <string name="light_filter_enabled_title">פעיל</string>
+  <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker.</string>
+  <string name="light_filter_window_title">אורך החלון</string>
+  <string name="light_filter_window_summary">Filtered value is the average sensor value during this period.</string>
+  <string name="light_filter_reset_title">Reset threshold</string>
+  <string name="light_filter_reset_summary">דוגמאות לחריגה כזו מן הממוצע הנוכחי מאפס את המסנן.</string>
+  <string name="light_filter_interval_title">מקטע לדוגמה</string>
+  <string name="light_filter_interval_summary">ערך נמוך יכול לשפר את הדיוק אבל משתמש בקצת יותר CPU.</string>
+  <string name="light_levels_title">רמות תאורה</string>
+  <string name="light_levels_enabled_title">השתמש במצב מותאם אישית</string>
+  <string name="light_levels_dim_title">רמת העמימות של המסך</string>
+  <string name="light_levels_dim_summary">בהירות המשמשת כדי לעמעם את המסך</string>
+  <string name="light_levels_editor_title">עריכת רמות אחרות...</string>
+  <string name="light_decrease_enabled_title">אפשר הנמכת תאורה</string>
+  <string name="light_decrease_enabled_summary">.אפשר כדי לאשר הפחתת תאורה. להפחתת ההבהוב השתמש בהיסטרזיס</string>
+  <string name="light_decrease_hysteresis_title">הקטנת היסטרזיס</string>
+  <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
+
+
+    <!-- Light sensor levels -->
+  <string name="ll_title">רמות חיישן האור</string>
+  <string name="ll_header_upper">עליון</string>
+  <string name="ll_header_lower">תחתון</string>
+  <string name="ll_header_lcd">מסך</string>
+  <string name="ll_header_btn">לחצנים</string>
+  <string name="ll_header_kb">מקלדת</string>
+  <string name="ll_lux">חיישן (filtered / raw):</string>
+  <string name="ll_lcd">מסך:</string>
+  <string name="ll_btn">לחצנים:</string>
+  <string name="ll_kb">מקלדת:</string>
+  <string name="ll_disabled">מבוטל</string>
+  <string name="ll_default">טען ברירת מחדל</string>
+  <string name="ll_save">שמור והחל</string>
+  <string name="ll_reload">טען מחדש הנוכחי</string>
+  <string name="ll_bad_levels">חובה להגדיל רמה</string>
+  <string name="ll_num_levels">הגדר מספר רמות</string>
+
+  <!-- Sound -->
+  <string name="sound_notifications_focus_title">מוקד ההתראות</string>
+  <string name="sound_notifications_focus_summary">.בקשות קול ממוקדות גורמות לאפליקציות תואמות להוריד את עוצמת הקול כאשר נשמעת התראה</string>
+  <string name="sound_volume_control_silent_title">מצב שקט</string>
+  <string name="sound_volume_control_silent_summary">הוספת מצב של שקט מוחלט לבקרת עוצמת הקול</string>
+  <string name="sound_to_speaker_title">תמיד להפעיל ברמקול</string>
+  <string name="sound_notifications_title">התראות</string>
+  <string name="sound_rings_title">צלילים</string>
+  <string name="sound_alarms_title">תזכורות</string>
+  <string name="sound_note_title">הערה</string>
+  <string name="sound_note_summary">.ההגדרות להלן חלות רק כאשר יש שימוש באוזניות</string>
+  <string name="sound_attenuation_title">החלשת של הגדר עוצמה</string>
+  <string name="sound_limitvol_title">עוצמת קול כאשר מוזיקה מתנגנת</string>
+  <string name="sound_notifications_attenuation_dialog">החלשת התראות</string>
+  <string name="sound_rings_attenuation_dialog">החלשת צליל של צלצול</string>
+  <string name="sound_alarms_attenuation_dialog">החלשת תזכורת</string>
+  <string name="sound_notifications_limitvol_dialog">עוצמת צליל התראה</string>
+  <string name="sound_rings_limitvol_dialog">עוצמת צליל הצלצול</string>
+  <string name="sound_alarms_limitvol_dialog">עוצמת צליל תזכורות</string>
+  
+    <!-- Quiet hours -->
+  <string name="sound_category_quiet_hours_title">שעות שקט</string>
+  <string name="quiet_hours_enabled">אפשר שעות שקט</string>
+  <string name="quiet_hours_enabled_on">שעות שקט ייאכפו</string>
+  <string name="quiet_hours_enabled_off">התראות יפעלו כרגיל</string>
+  <string name="quiet_hours_start">התחלה של שעות שקט</string>
+  <string name="quiet_hours_start_summary">מתי להתחיל באכיפת שעות שקט</string>
+  <string name="quiet_hours_end">סוף שעות שקט</string>
+  <string name="quiet_hours_end_summary">מתי להפסיק את אכיפת שעות שקט</string>
+  <string name="quiet_hours_mute">השתק התראות</string>
+  <string name="quiet_hours_mute_on">אף צליל לא יושמע</string>
+  <string name="quiet_hours_mute_off">צלילים יפעלו כרגיל</string>
+  <string name="quiet_hours_still">בטל רטט</string>
+  <string name="quiet_hours_still_on">המכשיר לא ירטוט</string>
+  <string name="quiet_hours_still_off">המכשיר ירטוט כרגיל</string>
+  <string name="quiet_hours_dim">עמעום נורית</string>
+  <string name="quiet_hours_dim_on">נורית תעומעם במידת האפשר</string>
+  <string name="quiet_hours_dim_off">נורית תהיה בהירות מלאה</string>
+  <string name="cmstats_title">סטטיסטיקה אנונימית</string>
+  <string name="cmstats_summary">עזור לשפר את CM על ידי שליחת דוחות סטטיסטיים באופן אנונימי</string>
+  <string name="user_defined_key1">מקש מהיר 1</string>
+  <string name="user_defined_key2">מקש מהיר 2</string>
+  <string name="user_defined_key3">מקש מהיר 3</string>
+  <string name="user_defined_not_set">שום דבר לא נקבע</string>
+
+    <!--  Lockscreen gesture strings -->
+  <string name="pref_lockscreen_gestures_enable_title">השתמש במחוות נעילת מסך</string>
+  <string name="pref_lockscreen_gestures_trail_title">הצג מסלולי מחווה</string>
+  <string name="pref_lockscreen_gestures_builder_title">בנה מחוות</string>
+  <string name="pref_lockscreen_gestures_sensitivity_title">רגישות</string>
+  <string name="pref_lockscreen_gestures_color_title">צבע מחוות</string>
+  <string name="gestures_button_add">הוסף מחווה</string>
+  <string name="gestures_button_discard">בטל</string>
+  <string name="gestures_button_done">בוצע</string>
+  <string name="gestures_error_missing_shortcut">!עליך לבחור פעולה עבור המחווה הזו</string>
+  <string name="gestures_loading">טוען תנועות...</string>
+  <string name="gestures_empty">ללא מחוות</string>
+  <string name="gestures_delete">מחק</string>
+  <string name="gestures_delete_success">מחווה נמחקה</string>
+  <string name="gestures_error_loading">בעיה עם פעולת הקובץ של המחווה.</string>
+  <string name="gestures_unlock_only">בטל את נעילת הטלפון</string>
+  <string name="gestures_toggle_sound">החלף מצב צליל</string>
+  <string name="gestures_flashlight">Flashlight</string>
+  <string name="pref_lockscreen_disable_unlock_tab">בטל שחרור נעילת סליידר</string>
+  <string name="pref_lockscreen_disable_unlock_tab_summary">הערה: אתה צריך להפעיל את כדור הגלגלת, מקש התפריט, או תנועת מחווה לשחרור נעילה לפני שאופציה זו תהיה זמינה</string>
+
+    <!-- Change Log strings -->
+  <string name="changelog_title">צפה ביומן השינויים</string>
+  <string name="changelog_dialog">יומן שינויים</string>
+  <string name="changelog_loading">...טוען את יומן השינויים</string>
+  <string name="changelog_error">...שגיאה בטעינת יומן השינויים</string>
+  <string name="changelog_unknown">לא ידוע</string>
+  <string name="changelog_version">גירסה</string>
+</resources>

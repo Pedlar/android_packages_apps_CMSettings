@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_recent_apps_num">
+        <item>8</item>
+        <item>12</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="entries_heapsize">
+        <item>12m</item>
+        <item>16m</item>
+        <item>24m</item>
+        <item>32m</item>
+        <item>48m</item>
+    </string-array>
+
+    <string-array name="entries_install_location">
+        <item>Automático</item>
+        <item>Interna</item>
+        <item>Externa</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normal</item>
+        <item>Pequeño</item>
+        <item>Ninguno (predeterminado)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Icono (predeterminado)</item>
+        <item>Porcentaje</item>
+        <item>Oculto</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Ajustes globales</item>
+        <item>Activado</item>
+        <item>Desactivado</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (Rápido)</item>
+        <item>3</item>
+        <item>4 (Medio)</item>
+        <item>5</item>
+        <item>6 (Lento)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Inmediatamente</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Desactivado</item>
+        <item>10%</item>
+        <item>18% (predeterminado)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+        <item>20 s</item>
+        <item>30 s</item>
+        <item>60 s</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Desactivado</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5 s</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (predeterminado)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_light_decrease_hysteresis">
+        <item>0 %</item>
+        <item>10 %</item>
+        <item>20 %</item>
+        <item>30 %</item>
+        <item>40 %</item>
+        <item>50 %</item>
+        <item>60 %</item>
+        <item>70 %</item>
+        <item>80 %</item>
+        <item>90 %</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (predeterminado)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Ajustes de atenuación</item>
+        <item>Volumen de la música (predeterminado)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>
+        <item>2G/3G Solo</item>
+        <item>2G/3G Solo/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15s/1m/5m</item>
+        <item>30s/2m/5m</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Alto / Rayo Mortal</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (relajado)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (estricto)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Pestañas</item>
+        <item>Giratorio</item>
+        <item>Giratorio renovado</item>
+        <item>Deslizante</item>
+        <item>Anillo</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>Pestañas</item>
+        <item>Giratorio</item>
+        <item>Giratorio renovado</item>
+        <item>Anillo</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Desactivado</item>
+        <item>Auriculares con cable</item>
+        <item>Auriculares Bluetooth A2DP</item>
+        <item>Ambos</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>12 horas</item>
+        <item>1 día</item>
+        <item>3 días</item>
+        <item>1 semana</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Oculto</item>
+        <item>Mostrar una línea</item>
+        <item>Mostrar todo</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ninguno</item>
+        <item>Borde brillante</item>
+        <item>Rebote y Brillo</item>
+        <item>Rebote</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Extra Fuerte</item>
+        <item>Fuerte</item>
+        <item>Medio</item>
+        <item>Suave</item>
+        <item>Extra Suave</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Ninguno/predeterminado</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Volver</item>
+        <item>Buscar</item>
+        <item>Energía</item>
+        <item>Llamar</item>
+        <item>Finalizar llamada</item>
+        <item>Play/Pausa</item>
+        <item>Siguiente pista</item>
+        <item>Pista anterior</item>
+        <item>Pulsación larga Home</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Volver</item>
+        <item>Buscar</item>
+        <item>Cámara</item>
+        <item>Subir Volumen</item>
+        <item>Bajar Volumen</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Ninguno</item>
+        <item>Teclado</item>
+        <item>Búsqueda</item>
+        <item>Aplicación personalizada</item>
+        <item>Cambiar barra de estado</item>
+    </string-array>
+
+</resources>

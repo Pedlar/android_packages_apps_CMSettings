@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod 設定</string>
+
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">應用程式</string>
+    <string name="application_settings_title_subhead">應用程式設定</string>
+    <string name="application_settings_summary_head">應用程式移動，安裝位置，通訊過濾</string>
+    <string name="display_settings_title_head">顯示</string>
+    <string name="display_settings_title_subhead">顯示設定</string>
+    <string name="display_settings_summary_head">螢幕亮度，旋轉，開關動畫</string>
+    <string name="input_settings_title_head">輸入</string>
+    <string name="input_settings_title_subhead">輸入設定</string>
+    <string name="input_settings_summary_head">輸入行為，按鍵，觸動回饋</string>
+    <string name="interface_settings_title_head">介面</string>
+    <string name="interface_settings_summary_head">介面調整，過度捲動，渲染效果</string>
+    <string name="lockscreen_settings_title_head">鎖定螢幕</string>
+    <string name="lockscreen_settings_title_subhead">設定鎖定螢幕</string>
+    <string name="lockscreen_settings_summary_head">鎖定螢幕的手勢，風格，解鎖選項</string>
+    <string name="performance_settings_title_head">效能</string>
+    <string name="performance_settings_title_subhead">效能設定</string>
+    <string name="performance_settings_summary_head">效能調整，JIT，VM heap 大小</string>
+    <string name="sound_settings_title_head">音效</string>
+    <string name="sound_settings_title_subhead">音效設定</string>
+    <string name="sound_settings_summary_head">音量，音效聚焦，安靜時刻</string>
+    <string name="system_settings_title_head">系統</string>
+    <string name="system_settings_title_subhead">系統設定</string>
+    <string name="system_settings_summary_head">系統更新日誌，統計，更新通知</string>
+
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">更新通知</string>
+    <string name="updatenotify_summary">取得更新版本的推送通知</string>
+
+    <!-- User interface -->
+    <string name="ui_title">使用者介面</string>
+
+    <string name="pref_electron_beam_animation_on">喚醒動畫</string>
+    <string name="pref_electron_beam_animation_off">睡眠動畫</string>
+
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">平板優化</string>
+    <string name="tablet_tweaks_summary_head">最有用的平板裝置設定都集中在此處，手機亦可以使用這些設定</string>
+    <string name="tablet_tweaks_sb_bottom_title">底部狀態列</string>
+    <string name="tablet_tweaks_sb_bottom_summary">將狀態列顯示在底部。這對於會把主頁、選單之類的軟體鍵置放在狀態列的平板來說會很有用</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">忽略區域</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">加入一個闊度為半個螢幕的忽略區域到狀態列中間位置</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">軟體按鍵靠左</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">將軟體鍵置放在狀態列的左邊</string>
+    <string name="tablet_tweaks_soft_button_list_title">選擇軟體按鍵</string>
+    <string name="tablet_tweaks_interface_head">介面</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">停用鎖定螢幕</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">當這勾選時，無論在裝置啟動時抑或運行期間，均不顯示鎖定／解鎖螢幕</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">停用全螢幕</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">忽略應用程式的全螢幕要求。當這勾選時總是顯示狀態列，直至透過按鈕來隱藏</string>
+    <string name="tablet_tweaks_unhide_button_list_head">展現按鈕</string>
+    <string name="tablet_tweaks_unhide_button_list_title">選擇展現按鈕</string>
+    <string name="tablet_tweaks_extend_pm_title">擴充電源選單</string>
+    <string name="tablet_tweaks_extend_pm_summary">將主頁、返回或選單等動作加入到電源選單</string>
+    <string name="tablet_tweaks_extend_pm_list_title">選擇電源選單按鈕</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">音量鍵行為相反</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">音量鍵行為正常。按下變更音量，長按執行使用者動作</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">音量鍵行為相反。按下執行使用者動作，長按變更音量</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">重新指定音量鍵動作</string>
+    <string name="tablet_tweaks_long_volp_action_title">長按提升音量鍵</string>
+    <string name="tablet_tweaks_long_volp_action_summary">設定當長按提升音量鍵時執行主頁、返回、選單或之類的動作，但只限在螢幕開啟的情況下</string>
+    <string name="tablet_tweaks_long_volm_action_title">長按降低音量鍵</string>
+    <string name="tablet_tweaks_vol_both_action_title">兩個音量鍵</string>
+    <string name="tablet_tweaks_vol_both_action_summary">注意：有些裝置在同時按下兩個音量鍵加電源鍵時會作出實體電路重設</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">長按兩個音量鍵</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">電源選單按鈕</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">軟體按鍵</string>
+    <string name="tablet_soft_buttons_home_title">主頁</string>
+    <string name="tablet_soft_buttons_menu_title">選單</string>
+    <string name="tablet_soft_buttons_back_title">返回</string>
+    <string name="tablet_soft_buttons_search_title">搜尋</string>
+    <string name="tablet_soft_buttons_quick_na_title">快速通知</string>
+
+    <!-- User interface : Rotation -->
+    <string name="rotation_category_title">自動旋轉允許角度</string>
+    <string name="pref_rotation_0_title">0 度</string>
+    <string name="pref_rotation_90_title">90 度</string>
+    <string name="pref_rotation_180_title">180 度</string>
+    <string name="pref_rotation_270_title">270 度</string>
+
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">通知列調整</string>
+    <string name="ui_status_bar_am_pm_title">上午／下午格式</string>
+    <string name="ui_status_bar_am_pm_summary">時鐘旁邊的上午／下午的顯示格式</string>
+    <string name="ui_status_bar_clock_title">顯示時鐘</string>
+    <string name="ui_status_bar_clock_summary">在通知列顯示時鐘</string>
+    <string name="ui_status_bar_battery_title">電池狀況風格</string>
+    <string name="ui_status_bar_battery_summary">電池狀況的顯示風格</string>
+    <string name="ui_status_bar_compact_carrier_title">縮小電信業者名稱</string>
+    <string name="ui_status_bar_compact_carrier_summary">使用替代的下拉通知列格式，將電信業者名稱縮小顯示</string>
+    <string name="ui_status_bar_toggle_brightness">通知列控制亮度</string>
+    <string name="ui_status_bar_toggle_brightness_summary">允許在通知列上滑動來調整亮度</string>
+    <string name="ui_status_bar_toggle_info">自動亮度已啟用</string>
+    <string name="ui_status_bar_cm_signal_text_title">替代的信號顯示</string>
+    <string name="ui_status_bar_cm_signal_text_summary">顯示信號的 dBm 數值或條狀圖示</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">信號條狀圖示</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">信號文字</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">信號文字、dBm</string>
+    <string name="ui_status_bar_headset_title">顯示耳機圖示</string>
+    <string name="ui_status_bar_headset_summary">在插入耳機時是否要顯示耳機圖示</string>
+
+    <!-- User interface : LED Notifications -->
+    <string name="trackball_title">LED 通知</string>
+    <string name="trackball_summary">控制軌跡球／LED 通知的色彩和閃爍</string>
+
+    <!-- User interface : WebView -->
+    <string name="pref_pinch_reflow_title">雙指放大後重新排列</string>
+    <string name="pref_pinch_reflow_summary">雙指放大後立即重新排列網頁檢視的內容</string>
+
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">分享螢幕擷取畫面</string>
+    <string name="pref_share_screenshot_summary">擷取螢幕畫面後顯示分享選單</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">過度捲動</string>
+    <string name="pref_overscroll_title">過度捲動效果</string>
+    <string name="pref_overscroll_summary">選擇可捲動物件超越邊緣時的外觀</string>
+    <string name="pref_overscroll_weight_title">過度捲動沉重程度</string>
+    <string name="pref_overscroll_weight_summary">選擇可捲動物件的沉重程度</string>
+
+    <!-- User interface : Lock Screen -->
+    <string name="pref_lockscreen_delay_title">延遲</string>
+    <string name="pref_lockscreen_security_title">安全性鎖定</string>
+    <string name="pref_lockscreen_security_delay_note_title">注意</string>
+    <string name="pref_lockscreen_security_delay_note_summary">當螢幕鎖定安全性設定為“無”時，被使用的將會是這一組延遲時間</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">螢幕逾時延遲</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">螢幕關閉延遲</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">螢幕逾時後延遲多久才啟用安全性鎖定螢幕</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">螢幕關閉後延遲多久才啟用安全性鎖定螢幕</string>
+    <string name="pref_lockscreen_slide_title">滑動式鎖定</string>
+    <string name="pref_lockscreen_slide_delay_note_title">注意</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">即使這啟用了，安全性鎖定延遲的時間亦必須比滑動式鎖定延遲的時間長，滑動式鎖定螢幕才會被顯示出來</string>
+    <string name="pref_lockscreen_slide_delay_title">啟用滑動式鎖定延遲</string>
+    <string name="pref_lockscreen_slide_delay_summary">以另外的延遲時間顯示滑動式鎖定螢幕，然後才顯示安全性鎖定螢幕</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">螢幕逾時延遲</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">螢幕關閉延遲</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">螢幕逾時後延遲多久才啟用滑動式鎖定螢幕</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">螢幕關閉後延遲多久才啟用滑動式鎖定螢幕</string>
+
+    <!-- Color Picker -->
+    <string name="title_color_picker">挑選顏色</string>
+    <string name="msg_color_picker">輕按中央顏色來確定。\n要取消請按返回鍵。</string>
+
+    <!-- User interface: LED notifications -->
+    <string name="group_settings">設定</string>
+    <string name="dialog_color_trackball">選擇顏色</string>
+    <string name="dialog_blink_trackball">選擇閃爍速率</string>
+    <string name="color_trackball_flash_title">閃爍色彩</string>
+    <string name="color_trackball_flash_summary">閃爍的顏色</string>
+    <string name="color_trackball_custom_title">自訂色彩</string>
+    <string name="color_trackball_custom_summary">自訂閃爍的顏色</string>
+    <string name="color_trackball_blink_title">閃爍速率</string>
+    <string name="color_trackball_blink_summary">閃爍的頻密程度</string>
+    <string name="color_trackball_test_title">閃爍測試</string>
+    <string name="color_trackball_test_summary">測試目前閃爍設定的效果</string>
+    <string name="dialog_clear_flash">清除閃爍</string>
+    <string name="trackball_advanced_title">進階設定</string>
+    <string name="pref_trackball_screen_title">總是閃爍</string>
+    <string name="pref_trackball_screen_summary">螢幕開啟時 LED 會一直閃爍</string>
+    <string name="pref_trackball_blend_title">融合式通知</string>
+    <string name="pref_trackball_blend_summary">將各個生效中的通知色彩融合成一種顏色來閃爍。會將漸進式通知停用。</string>
+    <string name="pref_trackball_sucess_title">漸進式通知</string>
+    <string name="pref_trackball_sucess_summary">逐一閃爍各個生效中的通知色彩</string>
+    <string name="pref_trackball_random_title">隨機色彩</string>
+    <string name="pref_trackball_random_summary">為各個生效中的通知以隨機決定的色彩閃爍</string>
+    <string name="pref_trackball_order_title">依序閃爍</string>
+    <string name="pref_trackball_order_summary">順次序閃爍色彩</string>
+    <string name="pref_trackball_reset_title">重設</string>
+    <string name="pref_trackball_reset_summary">重設所有色彩與應用程式</string>
+    <string name="dialog_trackball_loading">載入中…</string>
+    <string name="dialog_trackball_packagelist">正在載入應用程式列表</string>
+    <string name="trackball_category_dialog_text">請輸入新分類</string>
+    <string name="trackball_category_list_title">分類</string>
+    <string name="trackball_category_list_summary">選擇分類</string>
+    <string name="trackball_category_screen">管理分類</string>
+    <string name="trackball_category_add_title">新增分類</string>
+    <string name="trackball_category_add_summary">為列表新增一個分類</string>
+    <string name="trackball_category_add_error_title">錯誤</string>
+    <string name="trackball_category_add_error_summary">分類名稱不可包含“=”</string>
+    <string name="trackball_category_remove_title">移除分類</string>
+    <string name="trackball_category_remove_summary">從列表移除一個分類</string>
+    <string name="trackball_category_edit_title">編輯分類設定</string>
+    <string name="trackball_category_edit_summary">編輯此分類的預設值</string>
+    <string name="trackball_reset_all">重設所有色彩與分類</string>
+    <string name="trackball_color_notice_title">注意</string>
+    <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩</string>
+    <string name="trackball_category_unconfigured">尚未設置</string>
+    <string name="trackball_category_misc">其他</string>
+    <string name="trackball_app_save_title">儲存</string>
+    <string name="trackball_app_save_summary">儲存此應用程式的設定</string>
+    <string name="trackball_app_reset_title">重設</string>
+    <string name="trackball_app_reset_summary">移除此應用程式的自訂設定</string>
+
+    <string name="trackball_force_mode_title">LED 模式</string>
+    <string name="trackball_force_mode_dialog">請選擇模式</string>
+    <string name="trackball_force_mode_summary">設定 LED 該如何運作</string>
+
+    <string name="trackball_app_email">電子郵件</string>
+    <string name="trackball_app_mms">簡訊</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">Google Talk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">未接來電</string>
+
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">使用應用程式設定</string>
+    <string name="trackball_color_entry_green">綠</string>
+    <string name="trackball_color_entry_white">白</string>
+    <string name="trackball_color_entry_red">紅</string>
+    <string name="trackball_color_entry_blue">藍</string>
+    <string name="trackball_color_entry_yellow">黄</string>
+    <string name="trackball_color_entry_cyan">青</string>
+    <string name="trackball_color_entry_magenta">洋紅</string>
+    <string name="trackball_color_entry_pink">粉紅</string>
+    <string name="trackball_color_entry_orange">橙</string>
+    <string name="trackball_color_entry_light_blue">淺藍</string>
+    <string name="trackball_color_entry_random">隨機</string>
+    <string name="trackball_color_entry_amber">琥珀</string>
+
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">使用分類設定</string>
+    <string name="trackball_force_mode_application">使用應用程式設定</string>
+    <string name="trackball_force_mode_off">強制關閉 LED</string>
+    <string name="trackball_force_mode_events">為進行中事件強制開啟 LED</string>
+    <string name="trackball_force_mode_on">強制開啟 LED</string>
+
+    <!-- Trackball Settings : Warning dialog -->
+    <string name="notification_battery_warning_title">警告：會引致加速耗電</string>
+    <string name="notification_battery_warning">這個選項已被證實會增加每小時3％的耗電量。如發現啟用了閃爍後耗電速度增快，那麼這個選項就是原因。如不希望招致耗電加快就請勿啟用。</string>
+
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">只顯示解鎖螢幕</string>
+    <string name="pref_lockscreen_disable_on_security_summary">當螢幕安全性（圖形、PIN、密碼）為啟用時不顯示鎖定螢幕，直接顯示解鎖輸入介面</string>
+    <string name="pref_lockscreen_stylecfg_title">風格選項</string>
+    <string name="pref_lockscreen_stylecfg_summary">鎖定螢幕風格及其相關設定</string>
+    <string name="pref_lockscreen_widgets_title">小工具選項</string>
+    <string name="pref_lockscreen_widgets_summary">啟用或停用鎖定螢幕上的各個小工具</string>
+    <string name="pref_lockscreen_unlock_title">解鎖選項</string>
+    <string name="pref_lockscreen_unlock_summary">按鍵解鎖及快速解鎖</string>
+    <string name="pref_lockscreen_gesture_title">鎖定螢幕手勢</string>
+    <string name="pref_lockscreen_gesture_summary">啟用及設定在鎖定螢幕上用以控制自訂行為的手勢</string>
+    <string name="pref_lockscreen_timeout_title">延遲與逾時</string>
+    <string name="pref_lockscreen_timeout_summary">設定螢幕逾時及螢幕關閉的鎖定延遲</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="pref_lockscreen_always_battery_title">總是顯示電量</string>
+    <string name="pref_lockscreen_always_battery_summary">總是在鎖定螢幕上顯示電池狀況</string>
+    <string name="pref_lockscreen_widgets_layout_title">小工具版面配置</string>
+    <string name="pref_lockscreen_widgets_layout_summary">切換時鐘、日期、電信業者、狀態等的版面配置</string>
+    <string name="pref_lockscreen_music_controls_title">鎖定螢幕音樂面版</string>
+    <string name="pref_lockscreen_music_controls_summary">在鎖定螢幕上顯示音樂控制面版</string>
+    <string name="pref_lockscreen_now_playing_title">顯示曲目</string>
+    <string name="pref_lockscreen_now_playing_summary">顯示目前播放中的樂曲及其演出者名稱</string>
+    <string name="pref_lockscreen_album_art_title">顯示唱片封套</string>
+    <string name="pref_lockscreen_album_art_summary">顯示目前曲目的唱片封套。只能在使用內置音樂播放器時在直向模式中起作用。</string>
+    <string name="pref_lockscreen_music_headset_title">連接耳機時顯示音樂面版</string>
+    <string name="pref_lockscreen_music_headset_summary">在連接有線耳機及／或藍牙 A2DP 耳機時顯示音樂控制面版</string>
+    <string name="pref_lockscreen_always_music_controls_title">總是顯示音樂面版</string>
+    <string name="pref_lockscreen_always_music_controls_summary">不管音樂是否播放中都總是要顯示音樂控制面版</string>
+    <string name="pref_trackball_wake_title">軌跡球喚醒</string>
+    <string name="pref_trackball_wake_summary">按一下軌跡球來喚醒裝置</string>
+    <string name="pref_volume_wake_title">音量鍵喚醒</string>
+    <string name="pref_volume_wake_summary">按一下音量的上升／下降鍵來喚醒裝置。適用於難以按壓電源鍵的裝置</string>
+    <string name="pref_trackball_unlock_title">軌跡球解鎖</string>
+    <string name="pref_trackball_unlock_summary">按一下軌跡球解除裝置鎖定</string>
+    <string name="pref_slider_unlock_title">滑出鍵盤時解鎖</string>
+    <string name="pref_slider_unlock_summary">滑出實體鍵盤時解除裝置鎖定</string>
+    <string name="pref_menu_unlock_title">選單鍵解鎖</string>
+    <string name="pref_menu_unlock_summary">按一下選單鍵解除裝置鎖定</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">快速解鎖</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">輸入 PIN 或密碼時無需按 OK 確定，刪除會被視作輸入錯誤。</string>
+    <string name="lockscreen_style_options_title">特定風格相關選項</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">顯示一組額外的滑桿來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">顯示自訂應用程式撥輪孔來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">顯示第三個飛環來啟動多至四個自訂應用程式的其中之一</string>
+    <string name="pref_lockscreen_custom_app_activity_title">自訂應用程式</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">選擇要設置的捷徑</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">選擇要移除的捷徑</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">取消</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">新增</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">移除</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">未設置</string>
+    <string name="pref_lockscreen_custom_background_title">背境</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">選擇背境</string>
+    <string name="pref_lockscreen_custom_background_summary">選擇自訂桌布，或以單一色彩填滿鎖定螢幕背境</string>
+    <string name="pref_lockscreen_custom_background_summary_color">目前：填滿色彩</string>
+    <string name="pref_lockscreen_custom_background_summary_image">目前：自訂桌布</string>
+    <string name="pref_lockscreen_custom_background_summary_default">目前：預設背境</string>
+    <string name="pref_lockscreen_background_result_successful">背境已變更。</string>
+    <string name="pref_lockscreen_background_result_not_successful">未更改背境。</string>
+    <string name="pref_lockscreen_custom_icon_style_title">使用應用程式圖示</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">以應用程式圖示代替 CyanogenMod 圖示來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">拉下解鎖</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">向下拉動撥輪來解鎖，向右撥動來啟動自訂應用程式。</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">隱藏撥輪箭頭</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">在撥輪模式中隱藏方向提示箭頭</string>
+    <string name="pref_lockscreen_style_title">鎖定螢幕風格</string>
+    <string name="pref_lockscreen_style_summary">選擇鎖定螢幕的風格</string>
+    <string name="pref_in_call_style_title">來電螢幕風格</string>
+    <string name="pref_in_call_style_summary">選擇用來接聽／拒絕來電的道具風格</string>
+    <string name="lockscreen_music_title">音樂控制</string>
+    <string name="pref_volbtn_music_controls_title">音量鍵音樂控制</string>
+    <string name="pref_volbtn_music_controls_summary">在螢幕關閉時長按音量鍵來搜尋曲目</string>
+    <string name="pref_cambtn_music_controls_title">相機快門鍵音樂控制</string>
+    <string name="pref_cambtn_music_controls_summary">在螢幕關閉時長按相機快門鍵來播放／暫停曲目</string>
+    <string name="lockscreen_widgets_note_title">注意</string>
+    <string name="lockscreen_widgets_note_summary">選擇簡約透鏡風格會將音樂面版以外所有小工具隱藏。可是為了方便轉換到其他風格，以下選項的設置將不會被清除。</string>
+    <string name="lockscreen_calendar_title">鎖定螢幕日曆</string>
+    <string name="pref_lockscreen_calendar_alarm_title">顯示日曆的下一個活動</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">顯示日曆中下一個活動的時間和標題</string>
+    <string name="pref_lockscreen_calendars_title">活動日曆</string>
+    <string name="pref_lockscreen_calendars_summary">從這些日曆中尋找活動</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">只要設有提醒的</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">只尋找那些有提醒設定的活動</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">日曆活動展望</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">尋找日曆中距今多久的未來之內的活動</string>
+    <string name="pref_lockscreen_calendar_show_location_title">顯示活動地點</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">在主題下面顯示活動地點</string>
+    <string name="pref_lockscreen_calendar_show_description_title">顯示活動說明</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">在主題下面顯示活動說明</string>
+
+    <!-- Input Settings -->
+    <string name="input_settings_title">輸入設定</string>
+    <string name="haptic_title">觸動回饋調整</string>
+    <string name="haptic_summary">設定觸動回饋的時機和強度</string>
+    <string name="long_press_home_title">長按主畫面鍵設定</string>
+    <string name="long_press_home_summary">自訂長按主畫面鍵的行為</string>
+    <string name="input_search_key_title">搜尋鍵行為</string>
+    <string name="input_search_key_summary">為按一下搜尋鍵及長按搜尋鍵定義自訂動作</string>
+    <string name="pref_input_custom_search_app_toggle_title">搜尋鍵應用程式</string>
+    <string name="pref_input_custom_search_app_toggle_summary">按一下搜尋鍵時啟動的自訂應用程式</string>
+    <string name="pref_input_custom_search_app_activity_title">自訂應用程式</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">長按搜尋鍵應用程式</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">長按搜尋鍵時啟動的自訂應用程式</string>
+    <string name="pref_backtrack_title">BackTrack 解控板</string>
+    <string name="pref_backtrack_summary">啟用／停用 BackTrack 機背觸控板</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">長按選單鍵設定</string>
+    <string name="long_press_menu_summary">自訂長按選單鍵的行為</string>
+    <string name="pref_user_defined_long_press_menu_title">選擇自訂應用程式</string>
+    <string name="pref_long_press_menu_title">選擇行為</string>
+    <string name="pref_long_press_menu_summary">自訂長按選單鍵</string>
+
+    <!-- Long Press Home -->
+    <string name="recent_apps_show_title">顯示近期應用程式標題</string>
+    <string name="recent_apps_num_title">近期應用程式數量</string>
+    <string name="recent_apps_num_summary">長按主畫面鍵時要顯示多少個近期應用程式</string>
+    <string name="dialog_recent_apps_num_title">選擇近期應用程式數量</string>
+    <string name="use_custom_app_title">使用自訂應用程式</string>
+    <string name="use_custom_app_summary">啟動自訂的應用程式而不顯示近期應用程式對話方塊</string>
+    <string name="select_custom_app_title">選擇自訂的應用程式</string>
+    <string name="group_applications">應用程式</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">主要觸動回饋</string>
+    <string name="summary_on_haptic_feedback">在軟體鍵上，或在某些用戶介面互動時，按鍵動作會有震動回饋。</string>
+    <string name="summary_off_haptic_feedback">在軟體鍵上，或在某些用戶介面互動時，按鍵動作不會有震動回饋。</string>
+
+    <string name="title_haptic_feedback_up">放開觸動回饋</string>
+    <string name="summary_on_haptic_feedback_up">在軟體鍵上，或在某些用戶介面互動時，放開按鍵後會有震動回饋。</string>
+    <string name="summary_off_haptic_feedback_up">在軟體鍵上，或在某些用戶介面互動時，放開按鍵後不會有震動回饋。</string>
+
+    <string name="title_haptic_feedback_all">觸動螢幕項目</string>
+    <string name="summary_on_haptic_feedback_all">在螢幕上進行選擇時，會有震動回饋。</string>
+    <string name="summary_off_haptic_feedback_all">在螢幕上進行選擇時，不會有震動回饋。</string>
+
+    <string name="title_haptic_down_decider">設定按鍵規範</string>
+    <string name="title_haptic_up_decider">設定放鍵規範</string>
+    <string name="title_haptic_long_decider">設定長按規範</string>
+    <string name="title_haptic_tap_decider">設定觸控規範</string>
+
+    <string name="title_haptic_menu">觸動調校</string>
+    <string name="title_haptic_notice">必須重新啟動來套用變更至整個系統</string>
+
+    <string name="haptic_delay_desc">毫秒關閉</string>
+    <string name="haptic_vibe_desc">毫秒開啟</string>
+
+    <string name="haptic_down_description">調校“按下”按鍵時的觸動設定值\n（虛擬實體鍵及某些用戶介面的互動）</string>
+    <string name="haptic_up_description">調校“放開”按鍵時的觸動設定值\n（虛擬實體鍵及大部分螢幕觸控）</string>
+    <string name="haptic_long_description">調校“長按”的觸動設定值</string>
+    <string name="haptic_tap_description">調校輕按螢幕鍵盤按鍵的觸動設定值</string>
+
+    <string name="haptic_plus_minus_desc">按加號或減號來增加或移除序列中的步驟。</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">儲存</string>
+    <string name="haptic_button_test">測試</string>
+    <string name="haptic_button_cancel">取消</string>
+    <string name="haptic_button_revert">復原變更</string>
+    <string name="haptic_button_default">載入預設值</string>
+
+    <string name="haptic_save_toast">正在儲存觸動設定值：</string>
+    <string name="haptic_cancel_toast">觸動設定值維持不變</string>
+    <string name="haptic_revert_toast">正在回復到之前使用的設定值</string>
+    <string name="haptic_default_toast">正在載入程式碼中的預設值</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">效能設定</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">運用 Compcache RAM</string>
+    <string name="pref_compcache_summary">壓縮記憶體以增加虛擬容量\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">使用 JIT</string>
+    <string name="pref_jit_mode_summary">使用 Dalvik 即時編譯器\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">啟用表面抖動</string>
+    <string name="pref_use_dithering_summary">抖動表面會以效能作為代價來提升圖像的品質\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">使用 16 位元透明度</string>
+    <string name="pref_use_16bpp_alpha_summary">能提升捲動效能，但或會導致圖像異常\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">允許清除資源</string>
+    <string name="pref_purgeable_assets_summary">如果點陣圖資源記憶體可以被回收，讓系統能夠視乎需要釋放更多的記憶體\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+    <string name="pref_heapsize_title">VM Heap 大小</string>
+    <string name="pref_heapsize_summary">每一組虛擬機器的堆積記憶體上限值\n（需要重新啟動）</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">主介面常駐於記憶體</string>
+    <string name="pref_lock_home_summary">企圖將目前的主介面應用程式常駐於記憶體</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">簡訊程式常駐於記憶體</string>
+    <string name="pref_lock_mms_summary">企圖將簡訊應用程式常駐於記憶體，籍此避免在記憶體低落的情況下喪失簡訊</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">警告：潛龍勿用！</string>
+    <string name="performance_settings_warning">這當中的選項能改變您的系統效能，很可能會變更差。它們被包含在這裡只為實驗用途，若曾更改過其預設值，我們請您別滙報相關錯誤。</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">應用程式設定</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">使用內部儲存空間</string>
+    <string name="pref_switch_storage_summary_on">使用延伸的內部儲存空間作為儲存應用程式和媒體的外在儲存空間\n（需要重新啟動）</string>
+    <string name="pref_switch_storage_summary_off">使用抽取式記憶卡作為儲存應用程式和媒體的外在儲存空間\n（需要重新啟動）</string>
+    <string name="pref_storage_switch_unavailable">此裝置沒有配備延伸的內部儲存空間</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">允許移動應用程式</string>
+    <string name="pref_move_all_apps_summary">允許移動任何應用程式到外在儲存空間</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">安裝位置</string>
+    <string name="pref_install_location_summary">選擇新應用程式要安裝到的位置</string>
+
+    <string name="general_title">一般</string>
+    <string name="camera_title">相機</string>
+    <string name="buttons_title">按鍵</string>
+
+    <!-- UI Settings : Power off prompt -->
+    <string name="pref_power_prompt_title">電源操作提示</string>
+    <string name="pref_power_prompt_summary">變更是否要在選擇關閉或重啟裝置時顯示確認提示</string>
+
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">觸動回饋</string>
+    <string name="expanded_haptic_feedback_summary">啟用／停用觸動回饋</string>
+
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">渲染效果</string>
+    <string name="pref_render_effect_summary">變更描繪螢幕的顏色（很可能會節省電力）</string>
+
+    <string name="widget_name">渲染效果小工具</string>
+    <string name="renderfx_temp">渲染效果</string>
+    <string name="prefs_render_effect">渲染效果</string>
+    <string name="notify_render_effect">渲染效果為</string>
+    <string name="add_widget">新增小工具</string>
+    <string name="pref_render_effect_none">無渲染效果</string>
+    <string name="pref_render_effect_night">夜視模式（3700K）</string>
+    <string name="pref_render_effect_green">終端機（綠）</string>
+    <string name="pref_render_effect_blue">藍</string>
+    <string name="pref_render_effect_amber">琥珀</string>
+    <string name="pref_render_effect_salmon">鮭紅</string>
+    <string name="pref_render_effect_fuscia">洋紅</string>
+    <string name="pref_render_effect_calibrated">校準的（N1）</string>
+    <string name="pref_render_effect_calibrated_red">校準的（N1）低紅</string>
+    <string name="pref_render_effect_calibrated_cool">校準的（N1）冷酷</string>
+    <string name="pref_render_effect_red">紅</string>
+
+    <!-- Widget Types -->
+    <string name="widget_render_effect_night">夜視</string>
+    <string name="widget_render_effect_terminal">終端機</string>
+    <string name="widget_render_effect_blue">藍</string>
+    <string name="widget_render_effect_amber">琥珀</string>
+    <string name="widget_render_effect_salmon">鮭紅</string>
+    <string name="widget_render_effect_fuscia">洋紅</string>
+    <string name="widget_render_effect_red">紅</string>
+    <string name="widget_render_effect_calibrated">校準的</string>
+    <string name="widget_render_effect_calibrated_red">校準的 低紅</string>
+    <string name="widget_render_effect_calibrated_cool">校準的 冷酷</string>
+
+    <!-- Expanded View Power Widget -->
+    <string name="title_widget_buttons">擴充檢視小工具</string>
+    <string name="title_expanded_widget">通知列電源小工具</string>
+    <string name="summary_expanded_widget">使用擴充檢視中的電源小工具</string>
+    <string name="title_expanded_hide_onchange">變更後隱藏</string>
+    <string name="summary_expanded_hide_onchange">使用小工具按鈕進行切換後隱藏通知選單</string>
+    <string name="title_expanded_hide_indicator">隱藏指示器</string>
+    <string name="summary_expanded_hide_indicator">不顯示小工具按鈕下方的指示器</string>
+    <string name="title_expanded_hide_scrollbar">隱藏捲軸</string>
+    <string name="summary_expanded_hide_scrollbar">即使選用的小工具按鈕數目超過上限值亦都不要顯示捲軸</string>
+    <string name="expanded_color_mask">表示色彩</string>
+    <string name="title_widget_picker">小工具按鈕</string>
+    <string name="summary_widget_picker">挑選您的小工具按鈕</string>
+    <string name="title_widget_order">小工具按鈕順序</string>
+    <string name="summary_widget_order">排列您的小工具按鈕的次序</string>
+    <string name="title_buttons">按鈕</string>
+    <string name="title_toggle_wifi">開關 Wi-Fi</string>
+    <string name="title_toggle_bluetooth">開關藍牙</string>
+    <string name="title_toggle_gps">開關 GPS</string>
+    <string name="title_toggle_sound">切換音效模式</string>
+    <string name="title_toggle_brightness">切換顯示亮度</string>
+    <string name="title_toggle_sync">開關同步</string>
+    <string name="title_toggle_wifiap">開關 Wi-Fi 分享</string>
+    <string name="title_toggle_screentimeout">切換螢幕逾時</string>
+    <string name="title_toggle_mobiledata">開關行動數據</string>
+    <string name="title_toggle_lockscreen">開關鎖定螢幕</string>
+    <string name="title_toggle_networkmode">切換 2G／3G</string>
+    <string name="title_toggle_autorotate">開關螢幕旋轉</string>
+    <string name="title_toggle_airplane">開關飛航模式</string>
+    <string name="title_toggle_flashlight">開關 LED 手電筒</string>
+    <string name="title_toggle_sleep">讓裝置睡眠</string>
+    <string name="title_toggle_media_play_pause">媒體：切換播放／暫停</string>
+    <string name="title_toggle_media_previous">媒體：跳轉上一首</string>
+    <string name="title_toggle_media_next">媒體：跳轉下一首</string>
+    <string name="title_toggle_wimax">開關 WiMAX</string>
+    <string name="title_button_modes">按鈕模式</string>
+    <string name="pref_brightness_mode_title">顯示亮度模式</string>
+    <string name="pref_brightness_mode_summary">選擇顯示亮度按鈕如何切換模式</string>
+    <string name="cm_brightness_mode_auto">自動</string>
+    <string name="cm_brightness_mode_dim">暗淡</string>
+    <string name="pref_network_mode_title">行動網路模式</string>
+    <string name="pref_network_mode_summary">選擇行動網路按鈕如何切換模式</string>
+    <string name="pref_screentimeout_mode_title">螢幕逾時模式</string>
+    <string name="pref_screentimeout_mode_summary">選擇螢幕逾時按鈕如何切換模式</string>
+    <string name="pref_ring_mode_title">音效模式</string>
+    <string name="pref_ring_mode_summary">選擇音效按鈕如何切換模式</string>
+    <string name="cm_sound_mode_silent">靜音</string>
+    <string name="cm_sound_mode_vibrate">僅震動</string>
+    <string name="cm_sound_mode_sound">僅響鈴</string>
+    <string name="cm_sound_mode_soundVibrate">響鈴＋震動</string>
+    <string name="pref_flash_mode_title">手電筒模式</string>
+    <string name="pref_flash_mode_summary">選擇強／死光</string>
+
+    <!-- Backlight -->
+    <string name="backlight_title">自動亮度</string>
+    <string name="backlight_summary">調整水平及過濾</string>
+    <string name="light_filter_title">光源感應器過濾</string>
+    <string name="light_filter_enabled_title">啟用</string>
+    <string name="light_filter_enabled_summary">以動態平均值過濾感應值來減少螢幕亮度的驟變</string>
+    <string name="light_filter_window_title">換算間隔</string>
+    <string name="light_filter_window_summary">過濾值為這段時間內感應器的平均值</string>
+    <string name="light_filter_reset_title">重設關口</string>
+    <string name="light_filter_reset_summary">當感應值偏離目前平均值達這程度時就重設過濾值</string>
+    <string name="light_filter_interval_title">取樣頻率</string>
+    <string name="light_filter_interval_summary">較短的時間能增進準確度，但相對的會較頻密地使用 CPU。</string>
+    <string name="light_levels_title">亮度水平</string>
+    <string name="light_levels_enabled_title">自訂</string>
+    <string name="light_levels_dim_title">螢幕暗淡水平</string>
+    <string name="light_levels_dim_summary">螢幕變暗淡時的亮度</string>
+    <string name="light_levels_editor_title">編輯其他水平…</string>
+    <string name="light_decrease_enabled_title">允許降低亮度</string>
+    <string name="light_decrease_enabled_summary">啟用來允許亮度降低。以遲滯率來減少螢幕亮度的驟變</string>
+    <string name="light_decrease_hysteresis_title">降低遲滯率</string>
+    <string name="light_decrease_hysteresis_summary">感應水平重疊至這比例就向下調整</string>
+
+    <!-- Light sensor levels -->
+    <string name="ll_title">光源感應器水平</string>
+    <string name="ll_header_upper">上限</string>
+    <string name="ll_header_lower">下限</string>
+    <string name="ll_header_lcd">螢幕</string>
+    <string name="ll_header_btn">按鍵</string>
+    <string name="ll_header_kb">鍵盤</string>
+    <string name="ll_lux">感應器（過濾值／原始值）：</string>
+    <string name="ll_lcd">螢幕：</string>
+    <string name="ll_btn">按鍵：</string>
+    <string name="ll_kb">鍵盤：</string>
+    <string name="ll_disabled">已停用</string>
+    <string name="ll_default">載入預設值</string>
+    <string name="ll_save">儲存並套用</string>
+    <string name="ll_reload">重新載入目前設定</string>
+    <string name="ll_bad_levels">水平必須持續上升</string>
+    <string name="ll_num_levels">設定水平數目</string>
+
+    <!-- Sound -->
+    <string name="sound_notifications_focus_title">通知聚焦</string>
+    <string name="sound_notifications_focus_summary">音效聚焦請求使相容的應用程式在有通知播放時減低其本身音量</string>
+    <string name="sound_volume_control_silent_title">靜音狀態</string>
+    <string name="sound_volume_control_silent_summary">在音量控制中加一個完全靜音狀態</string>
+    <string name="sound_vibrate_in_call_title">通話中震動</string>
+    <string name="sound_vibrate_in_call_summary_off">在通話期間作出的通知不會震動</string>
+    <string name="sound_vibrate_in_call_summary_on">通知會如常震動</string>
+    <string name="sound_camera_shutter_disable_title">相機快門靜音</string>
+    <string name="sound_camera_shutter_disable_summary_on">將不會播放快門音效</string>
+    <string name="sound_camera_shutter_disable_summary_off">將會播放快門音效</string>
+    <string name="sound_camera_shutter_disable_warning_title">警告：可能會觸犯法律！</string>
+    <string name="sound_camera_shutter_disable_warning">在某些地區，停用相機快門音效是違法的。您確定想要停用快門音效嗎？</string>
+    <string name="sound_to_speaker_title">總是以揚聲器播放</string>
+    <string name="sound_notifications_title">通知</string>
+    <string name="sound_rings_title">鈴聲</string>
+    <string name="sound_alarms_title">鬧鐘</string>
+    <string name="sound_note_title">注意</string>
+    <string name="sound_note_summary">以下設定只在使用耳機時才會應用</string>
+    <string name="sound_attenuation_title">減弱原有音量</string>
+    <string name="sound_limitvol_title">音樂播放時的音量</string>
+    <string name="sound_notifications_attenuation_dialog">通知減弱</string>
+    <string name="sound_rings_attenuation_dialog">鈴聲減弱</string>
+    <string name="sound_alarms_attenuation_dialog">鬧鐘減弱</string>
+    <string name="sound_notifications_limitvol_dialog">通知音量</string>
+    <string name="sound_rings_limitvol_dialog">鈴聲音量</string>
+    <string name="sound_alarms_limitvol_dialog">鬧鐘音量</string>
+
+    <!-- Quiet hours -->
+    <string name="sound_category_quiet_hours_title">安靜時刻</string>
+    <string name="quiet_hours_note_title">注意</string>
+    <string name="quiet_hours_note_summary">在安靜時刻中的來電通知將會如常播放</string>
+    <string name="quiet_hours_enabled">啟用安靜時刻</string>
+    <string name="quiet_hours_enabled_on">安靜時刻將會強制執行</string>
+    <string name="quiet_hours_enabled_off">通知會如常進行</string>
+    <string name="quiet_hours_start">安靜時刻開始時間</string>
+    <string name="quiet_hours_start_summary">強制安靜時刻的開始執行時間</string>
+    <string name="quiet_hours_end">安靜時刻結束時間</string>
+    <string name="quiet_hours_end_summary">強制安靜時刻的停止執行時間</string>
+    <string name="quiet_hours_mute">將通知靜音</string>
+    <string name="quiet_hours_mute_on">將不會播放音效</string>
+    <string name="quiet_hours_mute_off">音效將會如常播放</string>
+    <string name="quiet_hours_still">停用震動</string>
+    <string name="quiet_hours_still_on">裝置將不會震動</string>
+    <string name="quiet_hours_still_off">裝置將會如常震動</string>
+    <string name="quiet_hours_dim">將 LED 變暗</string>
+    <string name="quiet_hours_dim_on">若可能的話將會令 LED 變暗</string>
+    <string name="quiet_hours_dim_off">LED 將會如常發光</string>
+    <string name="quiet_hours_haptic">停用觸動回饋</string>
+    <string name="quiet_hours_haptic_on">觸動回饋已停用</string>
+    <string name="quiet_hours_haptic_off">觸動回饋已啟用</string>
+
+    <string name="cmstats_title">匿名資料統計</string>
+    <string name="cmstats_summary">參與志願性的匿名資料統計來協助 CyanogenMod 的改進</string>
+
+    <string name="user_defined_key1">快速鍵 1</string>
+    <string name="user_defined_key2">快速鍵 2</string>
+    <string name="user_defined_key3">快速鍵 3</string>
+    <string name="user_defined_envelope_key">信封鍵</string>
+    <string name="user_defined_explorer_key">語言鍵／瀏覽鍵</string>
+    <string name="user_defined_not_set">沒有設置</string>
+
+    <!-- Lockscreen gesture strings -->
+    <string name="pref_lockscreen_gestures_enable_title">使用鎖定螢幕手勢</string>
+    <string name="pref_lockscreen_gestures_trail_title">顯示手勢軌跡</string>
+    <string name="pref_lockscreen_gestures_builder_title">建立手勢</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">靈敏度</string>
+    <string name="pref_lockscreen_gestures_color_title">手勢軌跡色彩</string>
+    <string name="gestures_button_add">新增手勢</string>
+    <string name="gestures_button_discard">捨棄</string>
+    <string name="gestures_button_done">完成</string>
+    <string name="gestures_error_missing_shortcut">您必須為這個手勢選取一個動作！</string>
+    <string name="gestures_loading">正在載入手勢…</string>
+    <string name="gestures_empty">暫無手勢</string>
+    <string name="gestures_delete">刪除</string>
+    <string name="gestures_delete_success">手勢已被刪除</string>
+    <string name="gestures_error_loading">載入手勢時發生問題。</string>
+    <string name="gestures_unlock_only">解除鎖定</string>
+    <string name="gestures_toggle_sound">音效切換</string>
+    <string name="gestures_shortcut_or_activity">捷徑或動作</string>
+    <string name="gestures_flashlight">手電筒開關</string>
+    <string name="pref_lockscreen_disable_unlock_tab">隱藏解鎖道具</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">注意：要使用這個選項您必須先啟用軌跡球、選單鍵、或手勢解鎖。</string>
+    <string name="gestures_action_label">動作：</string>
+    <string name="gestures_draw_label">手勢：</string>
+    <string name="gestures_draw_for_label">“<xliff:g id="action">%s</xliff:g>”的手勢：</string>
+    <string name="gestures_already_present">警告：一個相似的手勢經已關聯到另一個動作！</string>
+    <string name="gestures_run_in_background">在背境運行</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">檢視更新日誌</string>
+    <string name="changelog_dialog">更新日誌</string>
+    <string name="changelog_loading">正在載入更新日誌…</string>
+    <string name="changelog_error">載入更新日誌時發生錯誤…</string>
+    <string name="changelog_unknown">未知</string>
+    <string name="changelog_version">版本</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">時段</string>
+    <string name="category_phone_goggles_confirmation">確認</string>
+    <string name="category_phone_goggles_filter">過濾</string>
+    <string name="title_phone_goggles">手機 Goggles</string>
+    <string name="title_phone_goggles_default">預設值</string>
+    <string name="title_phone_goggles_apps">過濾的應用程式</string>
+    <string name="title_phone_goggles_app_enabled">啟用手機 Goggles</string>
+    <string name="title_phone_goggles_use_custom">使用自訂值</string>
+    <string name="title_phone_goggles_filter">過濾的號碼</string>
+    <string name="title_phone_goggles_enabled">啟用手機 Goggles</string>
+    <string name="title_phone_goggles_start">手機 Goggles 模式開始時間</string>
+    <string name="title_phone_goggles_end">手機 Goggles 模式結束時間</string>
+    <string name="title_phone_goggles_confirmation_enabled">徵求確認</string>
+    <string name="title_phone_goggles_maths_level">數學題難易度</string>
+    <string name="title_phone_goggles_work_filtered">工作</string>
+    <string name="title_phone_goggles_mobile_filtered">行動裝置</string>
+    <string name="title_phone_goggles_other_filtered">其他</string>
+    <string name="summary_phone_goggles">過濾撥出的通訊</string>
+    <string name="summary_phone_goggles_default">設置預設值</string>
+    <string name="summary_phone_goggles_filter">選擇您想要過濾的電話號碼類別</string>
+    <string name="summary_phone_goggles_start">何時開始過濾撥出通訊</string>
+    <string name="summary_phone_goggles_end">何時停止過濾撥出通訊</string>
+    <string name="summary_phone_goggles_confirmation_enabled">選擇在過濾通訊前應如何徵求確認</string>
+    <string name="summary_phone_goggles_maths_level">在淮許通訊前詢問的數學題難易度</string>
+    <string name="summary_on_phone_goggles_enabled">撥出的通訊將會被過濾</string>
+    <string name="summary_on_phone_goggles_use_custom">使用自訂值</string>
+    <string name="summary_on_phone_goggles_app_enabled">此應用程式已啟用手機 Goggles</string>
+    <string name="summary_on_phone_goggles_work_filtered">工作通訊將會被過濾</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">跟行動裝置的通訊將會被過濾</string>
+    <string name="summary_on_phone_goggles_other_filtered">跟其他電話的通訊將會被過濾</string>
+    <string name="summary_off_phone_goggles_enabled">沒有通訊會被過濾</string>
+    <string name="summary_off_phone_goggles_use_custom">使用預設值</string>
+    <string name="summary_off_phone_goggles_app_enabled">此應用程式已停用手機 Goggles</string>
+    <string name="summary_off_phone_goggles_work_filtered">工作通訊將不會被過濾</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">跟行動裝置的通訊將不會被過濾</string>
+    <string name="summary_off_phone_goggles_other_filtered">跟其他電話的通訊將不會被過濾</string>
+    <string name="phone_goggles_maths_level_easy">容易</string>
+    <string name="phone_goggles_maths_level_medium">中等</string>
+    <string name="phone_goggles_maths_level_hard">困難</string>
+    <string name="phone_goggles_confirmation_none">不需要</string>
+    <string name="phone_goggles_confirmation_prompt">詢問</string>
+    <string name="phone_goggles_confirmation_maths">數學問題</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU 設定</string>
+    <string name="cpu_title">CPU 設定</string>
+    <string name="cpu_summary">管治模式與頻率設定</string>
+    <string name="cpu_governors_title">管治模式</string>
+    <string name="cpu_governors_summary">可供使用的管治模式列表\n目前使用：%S</string>
+    <string name="cpu_min_freq_title">最低 CPU 頻率</string>
+    <string name="cpu_min_freq_summary">選擇 CPU 頻率下限\n目前：%s</string>
+    <string name="cpu_max_freq_title">最高 CPU 頻率</string>
+    <string name="cpu_max_freq_summary">選擇 CPU 頻率上限\n目前：%s</string>
+    <string name="cpu_set_on_boot">啟動時設定</string>
+    <string name="cpu_set_on_boot_summary">在系統啟動時回復 CPU 設定</string>
+
+    <!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">權限管理</string>
+    <string name="perm_enable_management_summary">啟用應用程式權限管理</string>
+    <string name="perm_enable_warning_message">警告！\n大多數權限若被撤消的話就很可能會導致應用程式無法運作。如有撤消了權限的應用程式強制關閉，請授予其要求的權限，或停止使用該應用程式。\n如撤消了權限的應用程式沒有預期地運作，敬請不要回報相關錯誤至 CyanogenMod！</string>
+    <string name="perm_enable_warning_title">您確定嗎？</string>
+</resources>

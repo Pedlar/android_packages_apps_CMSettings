@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>Automatica</item>
+        <item>Interna</item>
+        <item>Esterna</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normale</item>
+        <item>Piccola</item>
+        <item>Non visualizzare(Default)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Icona (Default)</item>
+        <item>Percentuale</item>
+        <item>Non visualizzare</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>Usa impostazioni app</item>
+        <item>2 (Veloce)</item>
+        <item>3</item>
+        <item>4 (Media)</item>
+        <item>5</item>
+        <item>6 (Lenta)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Immediatamente</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>  
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Non attiva</item>
+        <item>10%</item>
+        <item>18% (default)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2 secondi</item>
+        <item>5 secondi</item>
+        <item>10 secondi</item>
+        <item>20 secondi</item>
+        <item>30 secondi</item>
+        <item>60 secondi</item>
+    </string-array>
+  
+    <string-array name="entries_light_filter_interval">
+        <item>0.5 secondi</item>
+        <item>1 secondi</item>
+        <item>2 secondi</item>
+        <item>5 secondi</item>
+        <item>10 secondi</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Disattivato</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Valori di sistema attenuati</item>
+        <item>Volume musica (default)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>
+        <item>2G/Solo 3G</item>
+        <item>2G/Solo 3G/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normale</item>
+        <item>Forte / Death Ray</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (Tollerante)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (Preciso)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Tab scorrevoli</item>
+        <item>Rotante</item>
+        <item>Rotante ridisegnato</item>
+        <item>Lense</item>
+        <item>Anelli</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>Tab scorrevoli</item>
+        <item>Rotante</item>
+        <item>Rotante ridisegnato</item>
+        <item>Anelli</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Colore</item>
+        <item>Immagine personalizzata</item>
+        <item>Sfondo di default</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Default</item>
+        <item>Nascosto</item>
+        <item>Al centro</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Non attivi</item>
+        <item>Cuffie via cavo</item>
+        <item>Cuffie via Bluetooth A2DP</item>
+        <item>Entrambe</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 ore</item>
+        <item>6 ore</item>
+        <item>12 ore</item>
+        <item>1 giorno</item>
+        <item>3 giorni</item>
+        <item>1 settimana</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Nessuno</item>
+        <item>Bagliore</item>
+        <item>Rimbalzo e bagliore</item>
+        <item>Rimbalzo</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Molto pesante</item>
+        <item>Pesante</item>
+        <item>Medio</item>
+        <item>Leggero</item>
+        <item>Molto leggero</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Niente/Default</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Indietro</item>
+        <item>Cerca</item>
+        <item>Arresto</item>
+        <item>Chiama</item>
+        <item>Termina chiamata</item>
+        <item>Play/Pause</item>
+        <item>Brano successivo</item>
+        <item>Brano precedente</item>
+        <item>Long press home</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Indietro</item>
+        <item>Cerca</item>
+        <item>Camera</item>
+        <item>Volume più</item>
+        <item>Volume meno</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Nessuna</item>
+        <item>Tastiera virtuale</item>
+        <item>Cerca</item>
+        <item>Applicazione personalizzata</item>
+        <item>Mostra/nascondi barra di stato</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Impostazioni globali</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+</resources>

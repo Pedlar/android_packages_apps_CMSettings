@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod settings</string>
+
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Sovellus</string>
+    <string name="application_settings_title_subhead">Sovellusasetukset</string>
+    <string name="application_settings_summary_head">Sovellusten siirtäminen, asennussijainti, kommunikoinnin suodattaminen</string>
+    <string name="display_settings_title_head">Näyttö</string>
+    <string name="display_settings_title_subhead">Näyttö-asetukset</string>
+    <string name="display_settings_summary_head">Näyttöanimaatiot, kierto, sammumisaika</string>
+    <string name="input_settings_title_head">Syöte</string>
+    <string name="input_settings_title_subhead">Syöte-asetukset</string>
+    <string name="input_settings_summary_head">Syötekäyttäytyminen, painikkeet, haptinen palaute</string>
+    <string name="interface_settings_title_head">Käyttöliittymä</string>
+    <string name="interface_settings_summary_head">Käyttöliittymän säädöt, vierittäminen, renderöintiefektit</string>
+    <string name="lockscreen_settings_title_head">Näyttölukitus</string>
+    <string name="lockscreen_settings_title_subhead">Näyttölukituksen asetukset</string>
+    <string name="lockscreen_settings_summary_head">Näyttölukituksen eleet, tyylit, avaaminen</string>
+    <string name="performance_settings_title_head">Suorituskyky</string>
+    <string name="performance_settings_title_subhead">Suorituskyvyn asetukset</string>
+    <string name="performance_settings_summary_head">Suorituskyvyn säädöt, JUT, VM pinon koko</string>
+    <string name="sound_settings_title_head">Äänet</string>
+    <string name="sound_settings_title_subhead">Ääniasetukset</string>
+    <string name="sound_settings_summary_head">Äänenvoimakkuus, äänikeskittyminen, hiljaisuusaika</string>
+    <string name="system_settings_title_head"></string>
+    <string name="system_settings_title_subhead">Järjestelmäasetukset</string>
+    <string name="system_settings_summary_head">Järjestelmän muutosloki, tilastot, päivitysilmoitukset</string>
+
+    <string name="updatenotify_title">Päivitysilmoitukset</string>
+    <string name="updatenotify_summary">Vastaanota push-ilmoituksia päivityksistä.</string>
+
+    <string name="ui_title">Käyttöliittymä</string>
+
+    <string name="pref_electron_beam_animation_on">Näyttö päälle -animaatio</string>
+    <string name="pref_electron_beam_animation_off">Näyttö pois päältä -animaatio</string>
+
+<string name="tablet_tweaks_title_head">Tablet säädöt</string>
+    <string name="tablet_tweaks_summary_head">Tablet-laitteiden hyödyllisimmät asetukset yhdessä paikassa. Pätevät myös puhelimiin</string>
+    <string name="tablet_tweaks_sb_bottom_title">Tilapalkki alhaalla</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Näyttää tilapalkin ruudun alareunassa.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Kuollut alue</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Lisää puolen ruudun levyisen kuolleen alueen tilapalkin keskelle.</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Kosketusnäppäimet vasemmalla</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Asettaa kosketusnäppäimet tilapalkin vasempaan reunaan</string>
+    <string name="tablet_tweaks_soft_button_list_title">Valitse kosketusnäppäimet</string>
+    <string name="tablet_tweaks_interface_head">Käyttöliittymä</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Estä lukitusnäyttö</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Päällä ollessaan estää lukitusnäytön tai kuviolukituksen.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Estä kokonäyttö</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Ohittaa sovellusten kokonäyttöpyynnön. Näyttää tilapalkin aina kunnes se piilotetaan valinnalla</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Näytä-nappi</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Valitse Näytä-nappi</string>
+    <string name="tablet_tweaks_extend_pm_title">Laajenna virtavalikko</string>
+    <string name="tablet_tweaks_extend_pm_summary">Lisää koti/takaisin/menu toiminnot virtavalikkoon</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Valitse virtavalikon näppäimet</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Käänteiset äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Äänenvoimakkuuspainikkeet käyttäytyvät normaalisti. Paina muuttaaksesi äänenvoimakkuutta, pitkä painallus omavalintaiselle toiminnolle.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Äänenvoimakkuuspainikkeet toimivat käänteisesti. Paina suorittaaksesi omavalintaisen toiminnon, pitkä painallus äänenvoimakkuuden muutokselle.</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Määritä äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_long_volp_action_title">Pitkä painallus ylös</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Aseta koti/takaisin/menu/jne toiminnot äänenvoimakkuuden lisäämispainikkeen pitkään painallukseen. Vain näytön ollessa päällä</string>
+    <string name="tablet_tweaks_long_volm_action_title">Pitkä painallus alas</string>
+    <string name="tablet_tweaks_vol_both_action_title">Molemmat äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Huomautus: Jotkin laitteet resetoituvat kun molemmat äänenvoimakkuuspainikkeet ja virtapainike painetaan pohjaan.</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Molempien äänenvoimakkuuspainikkeiden pitkä painallus</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Virtavalikon painikkeet</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Kosketusnäppäimet</string>
+    <string name="tablet_soft_buttons_home_title">Koti</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Takaisin</string>
+    <string name="tablet_soft_buttons_search_title">Haku</string>
+    <string name="tablet_soft_buttons_quick_na_title">Nopeat ilmoitukset</string>
+
+    <!-- User interface : 180 degree rotation -->
+
+    <!-- User interface : LED Notifications -->
+    <string name="trackball_title">LED-ilmoitukset</string>
+    <string name="trackball_summary">Hallitse trackball/LED-ilmoituksien väriä ja sykettä</string>
+
+    <!-- User interface : WebView -->
+    <string name="pref_pinch_reflow_title">Uudelleenasettele tarkennuksen jälkeen</string>
+    <string name="pref_pinch_reflow_summary">Uudelleenasettelee sisällön heti nipistys-tarkennuksen jälkeen</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Vierittäminen</string>
+    <string name="pref_overscroll_title">Ylivierittämisefekti</string>
+    <string name="pref_overscroll_summary">Valitse miten vieritettävät objektit reagoivat kun vieritetään liikaa</string>
+    <string name="pref_overscroll_weight_title">Ylivierityksen raskaus</string>
+    <string name="pref_overscroll_weight_summary">Valitse vieritettävien objektien raskaus</string>
+
+    <!-- User interface : Lock Screen -->
+    <string name="pref_lockscreen_delay_title">Viive</string>
+
+    <!-- Color Picker -->
+    <string name="title_color_picker">Valitse väri</string>
+    <string name="msg_color_picker">Valitse väri keskeltä hyväksyäksesi.\nValitse Takaisin peruuttaaksesi</string>
+
+    <!-- User interface: LED notifcations -->
+    <string name="dialog_color_trackball">Valitse väri</string>
+    <string name="dialog_blink_trackball">Valitse vilkkumisrytmi</string>
+    <string name="color_trackball_flash_title">Välähdyksen väri</string>
+    <string name="color_trackball_flash_summary">Väläytettävä väri</string>
+    <string name="color_trackball_custom_title">Määritä väri</string>
+    <string name="color_trackball_custom_summary">Itse määritettävä väläytettävä väri</string>
+    <string name="color_trackball_blink_title">Vilkkumisrytmi</string>
+    <string name="color_trackball_blink_summary">Vilkkumisrytmi</string>
+    <string name="color_trackball_test_title">Väläytystesti</string>
+    <string name="color_trackball_test_summary">Testaa väläytystä</string>
+    <string name="dialog_clear_flash">Nollaa välähdys</string>
+    <string name="trackball_advanced_title">Lisäasetukset</string>
+    <string name="pref_trackball_screen_title">Vilkuta aina</string>
+    <string name="pref_trackball_screen_summary">LED sykkii kun näyttö on päällä</string>
+    <string name="pref_trackball_blend_title">Yhdistä ilmoitukset</string>
+    <string name="pref_trackball_blend_summary">Yhdistä ilmoituksien värit. Ohittaa onnistumisen.</string>
+    <string name="pref_trackball_sucess_title">Onnistuminen</string>
+    <string name="pref_trackball_sucess_summary">Vilkuta ilmoituksia kun onnistutaan.</string>
+    <string name="pref_trackball_random_title">Satunnaiset värit</string>
+    <string name="pref_trackball_random_summary">Vilkuttaa LEDiä satunnaisissa väreissä kaikilla ilmoituksilla</string>
+    <string name="pref_trackball_order_title">Vilkuta järjestyksessä</string>
+    <string name="pref_trackball_order_summary">Vilkuttaa LEdiä tietyssä järjestyksessä</string>
+    <string name="pref_trackball_reset_title">Nollaa</string>
+    <string name="pref_trackball_reset_summary">Nollaa kaikki värit ja sovellukset</string>
+    <string name="dialog_trackball_loading">Ladataan...</string>
+    <string name="dialog_trackball_packagelist">Ladataan pakettilistaa</string>
+    <string name="trackball_category_dialog_text">Lisää uusi kategoria</string>
+    <string name="trackball_category_list_title">Kategoria</string>
+    <string name="trackball_category_list_summary">Valitse kategoria</string>
+    <string name="trackball_category_screen">Hallitse kategorioita</string>
+    <string name="trackball_category_add_title">Lisää kategoria</string>
+    <string name="trackball_category_add_summary">Lisää kategoria listaan</string>
+    <string name="trackball_category_remove_title">Poista kategoria</string>
+    <string name="trackball_category_remove_summary">Poista kategoria listasta</string>
+    <string name="trackball_reset_all">Nollaa kaikki värit ja kategoriat.</string>
+    <string name="trackball_color_notice_title">HUOMAUTUS:</string>
+    <string name="trackball_color_notice_summary">Kaikki värit eivät toimi kaikilla laitteilla.</string>
+
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_green">Vihreä</string>
+    <string name="trackball_color_entry_white">Valkoinen</string>
+    <string name="trackball_color_entry_red">Punainen</string>
+    <string name="trackball_color_entry_blue">Sininen</string>
+    <string name="trackball_color_entry_yellow">Keltainen</string>
+    <string name="trackball_color_entry_cyan">Syaani</string>
+    <string name="trackball_color_entry_magenta">Magenta</string>
+    <string name="trackball_color_entry_pink">Vaaleanpunainen</string>
+    <string name="trackball_color_entry_orange">Oranssi</string>
+    <string name="trackball_color_entry_light_blue">Vaaleansininen</string>
+    <string name="trackball_color_entry_random">Satunnainen</string>
+    <string name="trackball_color_entry_amber">Meripihka</string>
+
+    <!-- Trackball Settings : Warning dialog -->
+    <string name="notification_battery_warning_title">VAROITUS: saattaa kuluttaa akkua enemmän</string>
+    <string name="notification_battery_warning">Tämän valinnan on osoitettu lisäävän akunkulutusta n. 3% tunnissa. Jos havaitset akun nopeaa kulumista trackball-valon välähdellessä, tämä on syy. Älä käytä tätä, jos haluat säästää akkua.</string>
+
+    <string name="input_settings_title">Syöte-asetukset</string>
+    <string name="pref_lockscreen_always_battery_title">Näytä aina akun tila</string>
+    <string name="pref_lockscreen_always_battery_summary">Näyttää aina akun tilan lukitusnäytöllä</string>
+    <string name="pref_lockscreen_music_controls_title">Lukitusnäytön musikkiohjaimet</string>
+    <string name="pref_lockscreen_music_controls_summary">Näyttää musiikkiohjaimet lukitusnäytöllä</string>
+    <string name="pref_lockscreen_music_headset_title">Näytä musiikkiohjaimet kuulokkeiden kanssa</string>
+    <string name="pref_lockscreen_music_headset_summary">Näyttää musiikkihojaimet kun johdolliset kuulokkeet tai bluetooth-kuulokkeet ovat liitettynä</string>
+    <string name="pref_lockscreen_always_music_controls_title">Näytä aina musiikkiohjaimet</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Näyttää musiikkiohjaimet aina, vaikkei musiikkia soitettaisikaan</string>
+
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Ulkoasu-asetukset</string>
+    <string name="pref_lockscreen_stylecfg_summary">Muokkaa lukitusnäytön ulkoasua ja asetuksia</string>
+    <string name="pref_lockscreen_widgets_title">Widget-asetukset</string>
+    <string name="pref_lockscreen_widgets_summary">Lisää tai poista lukitusnäytön widgettejä</string>
+    <string name="pref_lockscreen_unlock_title">Lukituksen avaaminen</string>
+    <string name="pref_lockscreen_unlock_summary">Valitse lukituksen avaavat painikkeet sekä hallitse nopeaa avaamista</string>
+    <string name="pref_lockscreen_gesture_title">Lukitusnäytön eleet</string>
+    <string name="pref_lockscreen_gesture_summary">Hallitse lukitusnäytön eleitä käyttääksesi omavalintaisia toimintoja</string>
+    <string name="pref_lockscreen_timeout_title">Viive ja aikakatkaisu</string>
+    <string name="pref_lockscreen_timeout_summary">Hallitse näytön aikakatkaisun viivettä sekä näytön sulkemisen viivettä</string>
+
+    <string name="pref_trackball_wake_title">Trackball-herätys</string>
+    <string name="pref_trackball_wake_summary">Trackballin painaminen herättää laitteen</string>
+    <string name="pref_trackball_unlock_title">Trackball avaa lukituksen</string>
+    <string name="pref_trackball_unlock_summary">Tracballin painaminen avaa näytön lukituksen</string>
+    <string name="pref_menu_unlock_title">Menu avaa lukituksen</string>
+    <string name="pref_menu_unlock_summary">Menun painaminen avaa näytön lukituksen</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">Nopea avaaminen</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">Ei tarvitse valita OK kun syötetään PIN tai salasana. Pyyhkiminen lasketaan epäonnistuneena yrityksenä.</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Sovelluksen käynnistin</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Näyttää toisen liukusäätimen liukutyylissä, sovelluspallon kiertotyylissä</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Määritä sovellus</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Viesti-ikoni omalle sovellukselle</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Käyttää viesti-ikonia cm-ikonin sijaan omalla sovelluksella</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Vedä alas avataksesi lukituksen</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Kiertosäätimen alaspäin vetäminen avaa lukituksen. Oikealle päin käynnistää oman sovelluksen</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Piilota kiertosäätimen nuolet</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Piilottaa suuntanuolet kiertotyylissä</string>
+    <string name="pref_lockscreen_style_title">Näyttölukituksen tyyli</string>
+    <string name="pref_lockscreen_style_summary">Valitse näyttölukituksen tyyli</string>
+    <string name="pref_volbtn_music_controls_title">Äänenvoimakkuuspainikkeet musiikkiohjaimina</string>
+    <string name="pref_volbtn_music_controls_summary">Etsii musiikkiraitoja kun äänenvoimakkuuspainikkeita painetaan pitkään näytön ollessa sammuneena</string>
+    <string name="pref_cambtn_music_controls_title">Kamerapainike musiikkiohjaimena</string>
+    <string name="pref_cambtn_music_controls_summary">Valitse toista/tauko kun painetaan kamerapainiketta näytön ollessa sammuneena</string>
+
+    <string name="long_press_home_title">Koti-painikkeen asetukset</string>
+    <string name="long_press_home_summary">Viimeisten sovellusten määrä jne.</string>
+    <string name="recent_apps_show_title">Näytä viimeiset sovellukset -otsikko</string>
+    <string name="recent_apps_num_title">Viimeisten sovellusten määrä</string>
+    <string name="recent_apps_num_summary">Viimeksi käytettyjen sovellusten määrä kun Kotia painetaan pitkään</string>
+    <string name="dialog_recent_apps_num_title">Määritä viimeisten sovellusten määrä</string>
+    <string name="use_custom_app_title">Käytä omaa sovellusta</string>
+    <string name="use_custom_app_summary">Käytä omaa sovellusta viimeisten sovellusten näyttämisen sijaan</string>
+    <string name="select_custom_app_title">Valitse oma sovellus</string>
+    <string name="group_applications">Sovellukset</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">Suorituskyvyn asetukset</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Compcachen RAM-käyttö</string>
+    <string name="pref_compcache_summary">Pakkaa muistia lisätäksesi virtuaalikapasiteettiä (vaatii uudelleenkäynnistyksen)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">Käytä JIT</string>
+    <string name="pref_jit_mode_summary">Käytä Dalvik just-in-time kääntäjää (vaatii uudelleenkäynnistyksen)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">Salli pintojen ditheröinti</string>
+    <string name="pref_use_dithering_summary">Pintojen ditheröinti parantaa kuvanlaatua suorituskyvyn kustannuksella (vaatii uudelleenkäynnistyksen)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+    <string name="pref_heapsize_title">VM-pinon koko</string>
+    <string name="pref_heapsize_summary">VM-pinon suurin muistin määrä (vaatii uudelleenkäynnistyksen)</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">Lukitse koti muistiin</string>
+    <string name="pref_lock_home_summary">Yrittää muistaa aina pitää nykyisen koti-sovelluksen muistissa</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">Lukitse viesti-sovellus muistiin</string>
+    <string name="pref_lock_mms_summary">Vältä viestien menetys kun muistia on vähissä</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">VAROITUS: lohikäärmeitä edessä!</string>
+    <string name="performance_settings_warning">Nämä asetukset vaikuttavat järjestelmän suorituskykyyn, mahdollisesti negatiivisesti. Ne ovat sisällytetty kokeilumielessä ja pyydämme ettette lähetä virheilmoituksia, jos olet muuttanut oletusarvoja.</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">Sovellusasetukset</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">Salli sovellusten siirtäminen</string>
+    <string name="pref_move_all_apps_summary">Sallii kaikkien sovellusten siirtämisen ulkoiseen muistiin</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">Asennussijainti</string>
+    <string name="pref_install_location_summary">Valitse minne uudet sovellukset asennetaan</string>
+
+    <!-- HapticTweaks -->
+    <string name="haptic_title">Haptinen palaute</string>
+    <string name="haptic_summary">Valitse milloin ja kuinka voimakkaasti haptinen palaute tuotetaan</string>
+
+    <string name="title_haptic_feedback">Yleinen haptinen palaute</string>
+    <string name="summary_on_haptic_feedback">Käytä haptista palautetta kun painetaan painike alas</string>
+    <string name="summary_off_haptic_feedback">Ei haptista palautetta kun painetaan painike alas</string>
+
+    <string name="title_haptic_feedback_up">Haptinen palaute näppäin päästettäessä</string>
+    <string name="summary_on_haptic_feedback_up">Käytä haptista palautetta kun näppäin päästetään ylös</string>
+    <string name="summary_off_haptic_feedback_up">Ei haptista palautetta kun näppäin päästetään ylös</string>
+
+    <string name="title_haptic_feedback_all">Haptiset näyttöobjektit</string>
+    <string name="summary_on_haptic_feedback_all">Käytä haptista palautetta kun tehdään valintoja näytöllä</string>
+    <string name="summary_off_haptic_feedback_all">Ei haptista palautetta kun tehdään valintoja näytöllä</string>
+
+    <string name="title_haptic_down_decider">Aseta alas-kaava</string>
+    <string name="title_haptic_up_decider">Aseta ylös-kaava</string>
+    <string name="title_haptic_long_decider">Aseta pitkän painalluksen kaava</string>
+    <string name="title_haptic_tap_decider">Aseta numeronäppäinten painalluksen kaava</string>
+
+    <string name="title_haptic_menu">Haptisen palautteen säätö</string>
+    <string name="title_haptic_notice">UUDELLEENKÄYNNISTYS VAADITAAN MUUTOSTEN OTTAMISEKSI KÄYTTÖÖN YLEISESTI</string>
+
+    <string name="haptic_delay_desc">ms pois päältä</string>
+    <string name="haptic_vibe_desc">ms päällä</string>
+
+    <string name="haptic_down_description">Adjusting haptic values for button DOWN-PRESSES\n(Virtual hardkeys and certain UI interactions.)</string>
+    <string name="haptic_up_description">Adjusting haptic values for button RELEASES\n(Virtual hardkeys and most screen presses.)</string>
+    <string name="haptic_long_description">Adjusting haptic values for LONG-PRESSES.</string>
+    <string name="haptic_tap_description">Adjusting haptic values for on-screen keyboard taps</string>
+
+    <string name="haptic_plus_minus_desc">Valitse plus tai miinus painike lisätäksesi/poistaaksesi askeleita kaavassa.</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">Tallenna</string>
+    <string name="haptic_button_test">Testaa</string>
+    <string name="haptic_button_cancel">Peruuta</string>
+    <string name="haptic_button_revert">Palauta muutokset</string>
+    <string name="haptic_button_default">Lataa oletukset</string>
+
+    <string name="haptic_save_toast">Haptisten arvojen tallentaminen: </string>
+    <string name="haptic_cancel_toast">Haptisia arvoja ei muutettu</string>
+    <string name="haptic_revert_toast">Palautetaan viimeiset arvot</string>
+    <string name="haptic_default_toast">Ladataan ohjelmoidut oletukset</string>
+
+    <string name="general_title">Yleiset</string>
+    <string name="buttons_title">Painikkeet</string>
+
+    <!-- UI Settings : Power off prompt -->
+    <string name="pref_power_prompt_title">Virtadialogi</string>
+    <string name="pref_power_prompt_summary">Valitse pyydetäänkö varmistus sammutettaessa tai uudelleenkäynnistettäessä laitetta</string>
+
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">Renderöintiefektit</string>
+    <string name="pref_render_effect_summary">Valitse millä värejä käytetään kuvan tuottamiseen (säästää mahdollisesti akkua)</string>
+
+    <string name="widget_name">RenderFX widget</string>
+    <string name="renderfx_temp">RenderFX</string>
+    <string name="prefs_render_effect">Renderöintiefekti</string>
+    <string name="notify_render_effect">Renderöintiefekti päällä</string>
+    <string name="add_widget">Lisää widget</string>
+    <string name="pref_render_effect_none">Ei renderöintiefektiä</string>
+    <string name="pref_render_effect_night">Yötila (3700K)</string>
+    <string name="pref_render_effect_green">Pääte (vihreä)</string>
+    <string name="pref_render_effect_blue">Sininen</string>
+    <string name="pref_render_effect_amber">Meripihka</string>
+    <string name="pref_render_effect_salmon">Lohi</string>
+    <string name="pref_render_effect_fuscia">Fuskia</string>
+    <string name="pref_render_effect_calibrated">Kalibroitu (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Kalibroitu (N1) Matala punainen</string>
+    <string name="pref_render_effect_calibrated_cool">Kalibroitu (N1) Viileä</string>
+    <string name="pref_render_effect_red">Punainen</string>
+
+
+    <!--  Widget Types -->
+    <string name="widget_render_effect_night">Yö</string>
+    <string name="widget_render_effect_terminal">Pääte</string>
+    <string name="widget_render_effect_blue">Sininen</string>
+    <string name="widget_render_effect_amber">Meripihka</string>
+    <string name="widget_render_effect_salmon">Lohi</string>
+    <string name="widget_render_effect_fuscia">Fuksia</string>
+    <string name="widget_render_effect_red">Punainen</string>
+    <string name="widget_render_effect_calibrated">Kal</string>
+    <string name="widget_render_effect_calibrated_red">Kal pinainen</string>
+    <string name="widget_render_effect_calibrated_cool">Kal Viileä</string>
+
+
+    <!-- Expanded View Power Widget -->
+    <string name="title_widget_buttons">Laajennettu näkymä -widget</string>
+    <string name="title_expanded_widget">Ilmoitusnäkymän virtavalikko -widget</string>
+    <string name="summary_expanded_widget">Käytä ilmoitusnäkymän virtavalikkoa</string>
+    <string name="title_expanded_hide_onchange">Piilota muutettaessa</string>
+    <string name="summary_expanded_hide_onchange">Piilottaan ilmoitusikkunan kun painetaan painiketta</string>
+    <string name="expanded_color_mask">Osoitinväri</string>
+    <string name="title_widget_picker">Widget-painikkeet</string>
+    <string name="summary_widget_picker">Valitse widget-painikkeet</string>
+    <string name="title_widget_order">Widget-painikkeiden järjestys</string>
+    <string name="summary_widget_order">Valitse painikkeiden järjestys</string>
+    <string name="title_buttons">Painikkeet</string>
+    <string name="title_toggle_wifi">Langaton verkko</string>
+    <string name="title_toggle_bluetooth">Bluetooth</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">Äänet</string>
+    <string name="title_toggle_brightness">Kirkkaus</string>
+    <string name="title_toggle_sync">Synkronointi</string>
+    <string name="title_toggle_wifiap">WiFi-yhdyspiste</string>
+    <string name="title_toggle_screentimeout">Näytön aikasammutus</string>
+    <string name="title_toggle_mobiledata">Mobiilidata</string>
+    <string name="title_toggle_lockscreen">Näyttölukitus</string>
+    <string name="title_toggle_networkmode">2G/3G</string>
+    <string name="title_toggle_autorotate">Näyttöasento</string>
+    <string name="title_toggle_airplane">Lentokone-tila</string>
+    <string name="title_toggle_flashlight">LED-lamppu</string>
+    <string name="title_toggle_sleep">Mene nukkumaan</string>
+    <string name="title_toggle_media_play_pause">Media: toista/tauko</string>
+    <string name="title_toggle_media_previous">Media: siirry edellisen</string>
+    <string name="title_toggle_media_next">Media: siirry seuraavaan</string>
+    <string name="title_button_modes">Painiketilat</string>
+    <string name="pref_brightness_mode_title">Kirkkaustilat</string>
+    <string name="pref_brightness_mode_summary">Valitse miten kirkkauspainike muuttaa tiloja</string>
+    <string name="cm_brightness_mode_auto">Auto</string>
+    <string name="cm_brightness_mode_dim">Himmeä</string>
+    <string name="pref_network_mode_title">Verkkotilat</string>
+    <string name="pref_network_mode_summary">Valitse miten verkkopainike muuttaa tiloja</string>
+    <string name="pref_screentimeout_mode_title">Näytön aikasammutus-tilat</string>
+    <string name="pref_screentimeout_mode_summary">Valitse miten verkkopainike muuttaa tiloja</string>
+    <string name="pref_ring_mode_title">Äänitilat</string>
+    <string name="pref_ring_mode_summary">Valitse miten äänipainike muuttaa tiloja</string>
+    <string name="cm_sound_mode_silent">Äänetön</string>
+    <string name="cm_sound_mode_vibrate">Värinä</string>
+    <string name="cm_sound_mode_sound">Ääni</string>
+    <string name="cm_sound_mode_soundVibrate">Ääni+Värinä</string>
+    <string name="pref_flash_mode_title">Lampputilat</string>
+    <string name="pref_flash_mode_summary">Valitse suuri / kuolonsäde</string>
+
+    <!-- Backlight -->
+    <string name="backlight_title">Automaattinen taustavalo</string>
+    <string name="backlight_summary">Valitse tasot ja suodatus</string>
+    <string name="light_filter_title">Valoanturin suodatus</string>
+    <string name="light_filter_enabled_title">Päällä</string>
+    <string name="light_filter_enabled_summary">Salli keskimääräisen suodatuksen siirtäminen vilkkumisen estämiseksi.</string>
+    <string name="light_filter_window_title">Aikaikkunan pituus</string>
+    <string name="light_filter_window_summary">Suodatettu arvo on tämän aikaikkunan arvojen keskiarvo.</string>
+    <string name="light_filter_reset_title">Nollaamiskynnys</string>
+    <string name="light_filter_reset_summary">Näyttööt jotka eroavat näin paljon keskiarvosta nollaavat suotimen.</string>
+    <string name="light_filter_interval_title">Näytteenottotaajuus</string>
+    <string name="light_filter_interval_summary">Matalampi arvo lisää tarkkuutta, mutta käyttää enemmän suoritinta.</string>
+    <string name="light_levels_title">Valotasot</string>
+    <string name="light_levels_enabled_title">Määritä itse</string>
+    <string name="light_levels_dim_title">Näytön himmeystaso</string>
+    <string name="light_levels_dim_summary">Kirkkaus jota käytetään himmennettäessä näyttö</string>
+    <string name="light_levels_editor_title">Muuta muita tasoja...</string>
+    <string name="light_decrease_enabled_title">Salli valon lasku</string>
+    <string name="light_decrease_enabled_summary">Sallii valon laskun. Käyttää hystereesiä vähentämään vilkkumista.</string>
+    <string name="light_decrease_hysteresis_title">Alenna hystereesiä</string>
+    <string name="light_decrease_hysteresis_summary">Anturin tasot limittyy tämän verran alaspäin.</string>
+
+    <!-- Light sensor levels -->
+    <string name="ll_title">Valoanturin tasot</string>
+    <string name="ll_header_upper">Ylempi</string>
+    <string name="ll_header_lower">Alempi</string>
+    <string name="ll_header_lcd">Näyttö</string>
+    <string name="ll_header_btn">Painikkeet</string>
+    <string name="ll_header_kb">Näppäimistö</string>
+    <string name="ll_lux">Anturi (suodatettu/raaka):</string>
+    <string name="ll_lcd">Näyttö:</string>
+    <string name="ll_btn">Painikkeet:</string>
+    <string name="ll_kb">Näppäimistö:</string>
+    <string name="ll_disabled">pois päältä</string>
+    <string name="ll_default">Lataa oletukset</string>
+    <string name="ll_save">Tallenna &amp; käytä</string>
+    <string name="ll_reload">Lataa nykyiset</string>
+    <string name="ll_bad_levels">Tasojen täytyy kasvaa</string>
+    <string name="ll_num_levels">Aseta tasojen lukumäärä</string>
+
+    <!-- Sound -->
+    <string name="sound_notifications_focus_title">Ilmoituksen keskittyminen</string>
+    <string name="sound_notifications_focus_summary">Äänikeskittyminen pyytää yhteensopivia sovelluksia laskemaan äänenvoimakkuutta ilmoituksien ajaksi.</string>
+    <string name="sound_volume_control_silent_title">Äänetön</string>
+    <string name="sound_volume_control_silent_summary">Lisää äänetön-tila äänenvoimakkuuden säätimiin</string>
+    <string name="sound_to_speaker_title">Toista aina kaiuttimesta</string>
+    <string name="sound_notifications_title">Ilmoitukset</string>
+    <string name="sound_rings_title">Soittoäänet</string>
+    <string name="sound_alarms_title">Hälytykset</string>
+    <string name="sound_note_title">Huomautus</string>
+    <string name="sound_note_summary">Allaolevat asetukset vaikuttavat vain kuulokkeiden ollessa käytössä.</string>
+    <string name="sound_attenuation_title">Äänenvoimakkuuden vaimennus</string>
+    <string name="sound_limitvol_title">Äänenvoimakkuus musiikin soidessa</string>
+    <string name="sound_notifications_attenuation_dialog">Ilmoitusten vaimennus</string>
+    <string name="sound_rings_attenuation_dialog">Soittoäänen vaimennus</string>
+    <string name="sound_alarms_attenuation_dialog">Hälytysten vaimennus</string>
+    <string name="sound_notifications_limitvol_dialog">Ilmoitusten vaimennus</string>
+    <string name="sound_rings_limitvol_dialog">Soittoäänen äänenvoimakkuus</string>
+    <string name="sound_alarms_limitvol_dialog">Hälytysten äänenvoimakkuus</string>
+    <!-- Quiet hours -->
+    <string name="sound_category_quiet_hours_title">Hiljaisuusaika</string>
+    <string name="quiet_hours_enabled">Käytä hiljaisuusaikaa</string>
+    <string name="quiet_hours_enabled_on">Hiljaisuusaika pakotetaan</string>
+    <string name="quiet_hours_enabled_off">Ilmoitukset käyttäytyvät normaalisti</string>
+    <string name="quiet_hours_start">Hiljaisuuden alku</string>
+    <string name="quiet_hours_start_summary">Milloin pakotetaan hiljaisuusaika</string>
+    <string name="quiet_hours_end">Hiljaisuusajan loppu</string>
+    <string name="quiet_hours_end_summary">Milloin hiljaisuusaika lopetetaan</string>
+    <string name="quiet_hours_mute">Vaimenna ilmoitukset</string>
+    <string name="quiet_hours_mute_on">Mitään ääniä ei toisteta</string>
+    <string name="quiet_hours_mute_off">Äänet toistetaan normaalisti</string>
+    <string name="quiet_hours_still">Estä värinä</string>
+    <string name="quiet_hours_still_on">Laite ei värise</string>
+    <string name="quiet_hours_still_off">Laite värisee normaalisti</string>
+    <string name="quiet_hours_dim">Himmennä LED</string>
+    <string name="quiet_hours_dim_on">LED himmenetään, jos mahdollista</string>
+    <string name="quiet_hours_dim_off">LED on täydessä kirkkaudessa</string>
+
+    <string name="cmstats_title">Anonyymit tilastot</string>
+    <string name="cmstats_summary">Auta tekemään CM:stä parempi hyväksymällä anonyymien tilastojen raportointi</string>
+
+    <string name="user_defined_key1">Pikanäppäin 1</string>
+    <string name="user_defined_key2">Pikanäppäin 2</string>
+    <string name="user_defined_key3">Pikanäppäin 3</string>
+    <string name="user_defined_not_set">Mitään ei asetettu</string>
+
+    <!--  Lockscreen gesture strings -->
+    <string name="pref_lockscreen_gestures_enable_title">Käytä lukitusnäytön eleitä</string>
+    <string name="pref_lockscreen_gestures_trail_title">Näytä eleiden jäljet</string>
+    <string name="pref_lockscreen_gestures_builder_title">Rakenna eleitä</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">Herkkyys</string>
+    <string name="pref_lockscreen_gestures_color_title">Eleiden väri</string>
+    <string name="gestures_button_add">Lisää ele</string>
+    <string name="gestures_button_discard">Hylkää</string>
+    <string name="gestures_button_done">Valmis</string>
+    <string name="gestures_error_missing_shortcut">Sinun täytyy valita toiminto tälle eleelle!</string>
+    <string name="gestures_loading">Ladataan eleitä...</string>
+    <string name="gestures_empty">Ei eleitä</string>
+    <string name="gestures_delete">Poista</string>
+    <string name="gestures_delete_success">Ele poistettu</string>
+    <string name="gestures_error_loading">Ongelma eletiedoston toiminnassa.</string>
+    <string name="gestures_unlock_only">Lukitse puhelin</string>
+    <string name="gestures_toggle_sound">Äänetilan vaihtaminen</string>
+    <string name="gestures_flashlight">Lamppu</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Estä lukituksen avaava liukusäädin</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Huomautus: sinun täytyy asettaa trackball, menu tai eleellä avattava lukitus jotta tämä toiminto tulee saataville</string>
+    <string name="gestures_already_present">Varoitus: samankaltainen ele on yhdistettu toiseen toimintoon!</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Näytä muutosloki</string>
+    <string name="changelog_dialog">Muutosloki</string>
+    <string name="changelog_loading">Ladataan muutoslokia...</string>
+    <string name="changelog_error">Virhe ladattaessa muutoslokia...</string>
+    <string name="changelog_unknown">Tuntematon</string>
+    <string name="changelog_version">Versio</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Aikaväli</string>
+    <string name="category_phone_goggles_confirmation">Hyväksyminen</string>
+    <string name="category_phone_goggles_filter">Suotimet</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">Oletusasetukset</string>
+    <string name="title_phone_goggles_apps">Suodatetut sovellukset</string>
+    <string name="title_phone_goggles_app_enabled">Salli Phone Goggles</string>
+    <string name="title_phone_goggles_use_custom">Käytä omia asetuksia</string>
+    <string name="title_phone_goggles_filter">Suodatetut numerot</string>
+    <string name="title_phone_goggles_enabled">Salli phone goggles</string>
+    <string name="title_phone_goggles_start">Phone goggles -tilan aloitus</string>
+    <string name="title_phone_goggles_end">Phone goggles -tilan lopetus</string>
+    <string name="title_phone_goggles_confirmation_enabled">Pyydä hyväksymistä</string>
+    <string name="title_phone_goggles_maths_level">Matematiikkataso</string>
+    <string name="title_phone_goggles_work_filtered">Työ</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobiili</string>
+    <string name="title_phone_goggles_other_filtered">Muut</string>
+    <string name="summary_phone_goggles">Suodata lähtevä kommunikointi</string>
+    <string name="summary_phone_goggles_default">Asettaa oletusasetukset</string>
+    <string name="summary_phone_goggles_filter">Valitse puhelinnumeroiden tyyppi, jotka haluat suodattaa</string>
+    <string name="summary_phone_goggles_start">Milloin aloitetaan lähtevien puheluiden suodattaminen</string>
+    <string name="summary_phone_goggles_end">Milloin lopetetaan lähtevien puheluiden suodattaminen</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Valitse kumminpäin hyväksymistä pyydetään ennen kommunikoinnin suodattamista</string>
+    <string name="summary_phone_goggles_maths_level">Matemaattisten ongelmien vaikeusaste ennen kommunikoinnin hyväksymistä</string>
+    <string name="summary_on_phone_goggles_enabled">Lähtevät kommunikaatiot suodatetaan</string>
+    <string name="summary_on_phone_goggles_use_custom">Käytä oletusasetuksia</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles on päällä tälle sovellukselle</string>
+    <string name="summary_on_phone_goggles_work_filtered">Työkommunikointi suodatetaan</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Kommunikointi matkapuhelimiin suodatetaan</string>
+    <string name="summary_on_phone_goggles_other_filtered">Kommunikointi muihin puhelimiin suodatetaan</string>
+    <string name="summary_off_phone_goggles_enabled">Kommunikointia ei suodateta</string>
+    <string name="summary_off_phone_goggles_use_custom">Käytä oletusasetuksia</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles on poissa päältä tälle sovellukselle</string>
+    <string name="summary_off_phone_goggles_work_filtered">Työkommunikointia ei suodateta</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Kommunikointia matkapuhelimiin ei suodateta</string>
+    <string name="summary_off_phone_goggles_other_filtered">Kommunikointia muihin puhelimiin ei suodateta</string>
+    <string name="phone_goggles_maths_level_easy">Helppo</string>
+    <string name="phone_goggles_maths_level_medium">Keskitaso</string>
+    <string name="phone_goggles_maths_level_hard">Vaikea</string>
+    <string name="phone_goggles_confirmation_none">Ei</string>
+    <string name="phone_goggles_confirmation_prompt">Kysy</string>
+    <string name="phone_goggles_confirmation_maths">Matetaattinen ongelma</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU-asetukset</string>
+    <string name="cpu_title">CPU-asetukset</string>
+    <string name="cpu_summary">Governor ja kelloasetukset</string>
+    <string name="cpu_governors_title">Mahdolliset governorit</string>
+    <string name="cpu_governors_summary">Lista mahdollisista governoreista\nNyt valittuna: %S</string>
+    <string name="cpu_min_freq_title">Min CPU-taajuus</string>
+    <string name="cpu_min_freq_summary">Minimi CPU-taajuus\nNyt: %s</string>
+    <string name="cpu_max_freq_title">Max CPU-taajuus</string>
+    <string name="cpu_max_freq_summary">Maximi CPU-taajuus\nNyt: %s</string>
+    <string name="cpu_set_on_boot">Aseta käynnistettäessä</string>
+    <string name="cpu_set_on_boot_summary">Palauta CPU-asetukset kun puhelin käynnistetään</string>
+</resources>

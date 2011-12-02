@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+  
+    <string-array name="entries_install_location">
+        <item>Automatisch</item>
+        <item>Intern</item>
+        <item>Extern</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normaal</item>
+        <item>Klein</item>
+        <item>Geen (Standaard)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Icoon (Default)</item>
+        <item>Percentage</item>
+        <item>Verborgen</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Algemene instellingen</item>
+        <item>Aan</item>
+        <item>Uit</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (Snel)</item>
+        <item>3</item>
+        <item>4 (Gemiddeld)</item>
+        <item>5</item>
+        <item>6 (Langzaam)</item>
+    </string-array>
+    
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Gelijk</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>  
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Uitgeschakeld</item>
+        <item>10%</item>
+        <item>18% (standaard)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Uitgeschakeld</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (standaard)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_light_decrease_hysteresis">
+        <item>0 %</item>
+        <item>10 %</item>
+        <item>20 %</item>
+        <item>30 %</item>
+        <item>40 %</item>
+        <item>50 %</item>
+        <item>60 %</item>
+        <item>70 %</item>
+        <item>80 %</item>
+        <item>90 %</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (standaard)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Verlaagde systeem instelling</item>
+        <item>Muziek volume (standaard)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>  
+        <item>Alleen 2G/3G</item>   
+        <item>2G/Alleen 3G/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15s/1m/5m</item>
+        <item>30s/2m/5m</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normaal</item>
+        <item>Hoog</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (Meest sensitief)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (Minst sensitief)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Schuifbalk</item>
+        <item>Draaiend</item>
+        <item>Draaiend (nieuw)</item>
+        <item>Lense</item>
+        <item>Ring</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>Schuifbalk</item>
+        <item>Draaiend</item>
+        <item>Draaiend (nieuw)</item>
+        <item>Ring</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Kleur</item>
+        <item>Te kiezen afbeelding</item>
+        <item>Standaard achtergrond</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Standaard</item>
+        <item>Verborgen</item>
+        <item>Gecentreerd</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Uitgeschakeld</item>
+        <item>Bedraadde headset</item>
+        <item>Bluetooth A2DP Headset</item>
+        <item>Beiden</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 uren</item>
+        <item>6 uren</item>
+        <item>12 uren</item>
+        <item>1 dag</item>
+        <item>3 dagen</item>
+        <item>1 week</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Verberg</item>
+        <item>Laat eerste regen zien</item>
+        <item>Geef helemaal weer</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Geen</item>
+        <item>Rand gloed</item>
+        <item>Stuiter en gloed</item>
+        <item>Stuiter</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Extra hevig</item>
+        <item>Hevig</item>
+        <item>Gemiddeld</item>
+        <item>Laag</item>
+        <item>Extra Laag</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Geen/Standaard</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Terug</item>
+        <item>Zoeken</item>
+        <item>Power</item>
+        <item>Bellen</item>
+        <item>Beëindig oproep</item>
+        <item>Afspelen/Pauze</item>
+        <item>Volgende nummer</item>
+        <item>Vorige nummer</item>
+        <item>Lang indrukken home</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Terug</item>
+        <item>Zoeken</item>
+        <item>Camera</item>
+        <item>Volume hoger</item>
+        <item>Volume lager</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Geen</item>
+        <item>Soft keyboard</item>
+        <item>Zoek knop</item>
+        <item>Zelf gekozen app</item>
+        <item>Toggle statusbalk</item>
+    </string-array>
+
+</resources> 

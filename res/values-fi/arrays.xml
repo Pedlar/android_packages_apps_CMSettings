@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>Automaattinen</item>
+        <item>Sisäinen</item>
+        <item>Ulkoinen</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (Nopea)</item>
+        <item>3</item>
+        <item>4 (Keskitaso)</item>
+        <item>5</item>
+        <item>6 (Hidas)</item>
+    </string-array>
+    
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Heti</item>
+        <item>1sek</item>
+        <item>5sek</item>
+        <item>10sek</item>
+        <item>15sek</item>  
+        <item>30sek</item>
+        <item>1min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>30min</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Pois päältä</item>
+        <item>10%</item>
+        <item>18% (oletus)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2sek</item>
+        <item>5sek</item>
+        <item>10sek</item>
+        <item>20sek</item>
+        <item>30sek</item>
+        <item>60sek</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Pois päältä</item>
+        <item>400 luxia</item>
+        <item>500 luxia</item>
+        <item>600 luxia</item>
+        <item>700 luxia</item>
+        <item>800 luxia</item>
+        <item>900 luxia</item>
+        <item>1000 luxia</item>
+        <item>1500 luxia</item>
+        <item>2000 luxia</item>
+        <item>2500 luxia</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5sek</item>
+        <item>1sek</item>
+        <item>2sek</item>
+        <item>5sek</item>
+        <item>10sek</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (oletus)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (oletus)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Vaimennetut järjestelmäasetukset</item>
+        <item>Musiikin äänenvoimakkuus (oletus)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>  
+        <item>2G/3G Vain</item>   
+        <item>2G/3G Vain/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15sek/1min/5min</item>
+        <item>30sek/2min/5min</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normaali</item>
+        <item>Suuri / Kuolonsäde</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (laajin)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (tiukin)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Liukusäädin</item>
+        <item>Kiertosäädin</item>
+        <item>Rotary revamped</item>
+        <item>Lense</item>
+        <item>Ring</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Pois päältä</item>
+        <item>Langalliset kuulokkeet</item>
+        <item>Bluetooth A2DP kuulokkeet</item>
+        <item>Molemmat</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ei mitään</item>
+        <item>Laitojen hehkuminen</item>
+        <item>Kimpoaminen ja hehku</item>
+        <item>Kimpoaminen</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Erittäin raskas</item>
+        <item>Raskas</item>
+        <item>Keskitaso</item>
+        <item>Kevyt</item>
+        <item>Erittäin kevyt</item>
+    </string-array>
+
+</resources>

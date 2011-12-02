@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>Αυτόματα</item>
+        <item>Εσωτερική μνήμη</item>
+        <item>Εξωτερική μνήμη</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Κανονικό</item>
+        <item>Μικρό</item>
+        <item>Κανένα (Προεπιλογή)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Εικονίδιο (Προεπιλογή)</item>
+        <item>Ποσοστό</item>
+        <item>Κρυφό</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Ρύθμιση συστήματος</item>
+        <item>Ενεργό</item>
+        <item>Ανενεργό</item>
+    </string-array>
+
+   <string-array name="pref_trackball_blink_rate_entries">
+        <item>Χρήση ρύθμισης εφαρμογής</item>
+        <item>2 (Γρήγορα)</item>
+        <item>3</item>
+        <item>4 (Μέτρια)</item>
+        <item>5</item>
+        <item>6 (Αργά)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Άμεσα</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+   <string-array name="pref_compcache_size_entries">
+        <item>Ανενεργό</item>
+        <item>10%</item>
+        <item>18% (προεπιλογή)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Ανενεργό</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (προεπιλογή)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (προεπιλογή)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Μειωμένη ρύθμιση συστήματος</item>
+        <item>Ένταση μουσικής (προεπιλογή)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>
+        <item>2G/3G Μόνο</item>
+        <item>2G/3G Μόνο/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Κανονικό</item>
+        <item>Υψηλό / Death Ray</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (ελαστική)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (αυστηρή)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Γέμισμα με χρώμα</item>
+        <item>Προσαροσμένη εικόνα</item>
+        <item>Προεπιλεγμένη ταπετσαρία</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Ανενεργό</item>
+        <item>Ενσύρματα ακουστικά</item>
+        <item>Bluetooth A2DP ακουστικά</item>
+        <item>Και τα δύο</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Κανένα</item>
+        <item>Edge Glow</item>
+        <item>Bounce and Glow</item>
+        <item>Bounce</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Πολύ βαρύ</item>
+        <item>Βαρύ</item>
+        <item>Μέτριο</item>
+        <item>Ελαφρύ</item>
+        <item>Πολύ ελαφρύ</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Κανένα/Προεπιλογή</item>
+        <item>Home</item>
+        <item>Μενού</item>
+        <item>Πίσω</item>
+        <item>Αναζήτηση</item>
+        <item>Power</item>
+        <item>Κλήση</item>
+        <item>Τερματισμός κλήσης</item>
+        <item>Αναπαρ./Παύση</item>
+        <item>Επόμ. κομμάτι</item>
+        <item>Προηγ. κομμάτι</item>
+        <item>Πατημένο home</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Κανένα</item>
+        <item>Πληκτρολόγιο οθόνης</item>
+        <item>Πλήκτρο Search</item>
+        <item>Εφαρμογή</item>
+        <item>Εναλλαγή μπάρας κατάστασης</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>Automatisk</item>
+        <item>Intern</item>
+        <item>Extern</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normal</item>
+        <item>Liten</item>
+        <item>Ingen (Standard)</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Globala Inställningar</item>
+        <item>På</item>
+        <item>Av</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (Snabb)</item>
+        <item>3</item>
+        <item>4 (Medium)</item>
+        <item>5</item>
+        <item>6 (Långsam)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Omedelbart</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>  
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Inaktiverad</item>
+        <item>10%</item>
+        <item>18% (standard)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Inaktiverad</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (standard)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (standard)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Dämpad systeminställning</item>
+        <item>Musikvolym (standard)</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>  
+        <item>2G/Endast 3G</item>   
+        <item>2G/Endast 3G/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Hög / Death Ray</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (bredast)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (striktast)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Glidskena</item>
+        <item>Roterande</item>
+        <item>Rotary revamped</item>
+        <item>Lense</item>
+        <item>Ring</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>Glidskena</item>
+        <item>Roterande</item>
+        <item>Rotary revamped</item>
+        <item>Ring</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Färgfyll</item>
+        <item>Anpassad bild</item>
+        <item>Standard bakgrundsbild</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Standard</item>
+        <item>Gömd</item>
+        <item>Centrerad</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Inaktiverad</item>
+        <item>Headset med sladd</item>
+        <item>Bluetooth A2DP Headset</item>
+        <item>Båda</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 timmar</item>
+        <item>6 timmar</item>
+        <item>12 timmar</item>
+        <item>1 dag</item>
+        <item>3 dagar</item>
+        <item>1 vecka</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ingen</item>
+        <item>Kantbelysning</item>
+        <item>Studs och kantbelysning</item>
+        <item>Studs</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Extra Stor</item>
+        <item>Stor</item>
+        <item>Medium</item>
+        <item>Lätt</item>
+        <item>Extra Lätt</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Ingen/Standard</item>
+        <item>Hem</item>
+        <item>Meny</item>
+        <item>Tillbaka</item>
+        <item>Sök</item>
+        <item>Ström</item>
+        <item>Ring</item>
+        <item>Avsluta samtal</item>
+        <item>Spela/Paus</item>
+        <item>Nästa låt</item>
+        <item>Föregående låt</item>
+        <item>Långt tryck på hemknappen</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Hem</item>
+        <item>Meny</item>
+        <item>Tillbaka</item>
+        <item>Sök</item>
+        <item>Kamera</item>
+        <item>Volym Upp</item>
+        <item>Volym Ner</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Ingen</item>
+        <item>Skärmtangentbord</item>
+        <item>Sökknapp</item>
+        <item>Anpassad Applikation</item>
+        <item>Växla statusrad</item>
+    </string-array>
+
+</resources>

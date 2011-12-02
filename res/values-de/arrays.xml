@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   * Copyright (C) 2007 The Android Open Source Project
+   *
+   * Licensed under the Apache License, Version 2.0 (the "License");
+   * you may not use this file except in compliance with the License.
+   * You may obtain a copy of the License at
+   *
+   *      http://www.apache.org/licenses/LICENSE-2.0
+   *
+   * Unless required by applicable law or agreed to in writing, software
+   * distributed under the License is distributed on an "AS IS" BASIS,
+   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   * See the License for the specific language governing permissions and
+   * limitations under the License.
+  -->
+
+<resources>
+  <string-array name="entries_install_location">
+    <item>Automatisch</item>
+    <item>Intern</item>
+    <item>Extern</item>
+  </string-array>
+
+  <string-array name="entries_heapsize">
+    <item>12&#x2009;MB</item>
+    <item>16&#x2009;MB</item>
+    <item>24&#x2009;MB</item>
+    <item>32&#x2009;MB</item>
+    <item>48&#x2009;MB</item>
+  </string-array>
+
+  <string-array name="entries_status_bar_am_pm">
+    <item>Normal</item>
+    <item>Klein</item>
+    <item>Nichts (Standard)</item>
+  </string-array>
+
+  <string-array name="entries_status_bar_battery">
+    <item>Symbol (Standard)</item>
+    <item>Prozent</item>
+    <item>Versteckt</item>
+  </string-array>
+
+  <string-array name="pref_overscroll_effect_entries">
+    <item>Kein</item>
+    <item>Glimmende Kante</item>
+    <item>Prallen und glimmen</item>
+    <item>Nur prallen</item>
+  </string-array>
+
+  <string-array name="entries_overscroll_weight">
+    <item>Sehr stark</item>
+    <item>Stark</item>
+    <item>Mittel</item>
+    <item>Schwach</item>
+    <item>Sehr schwach</item>
+  </string-array>
+
+  <string-array name="pref_trackball_blink_rate_entries">
+    <item>Anwendungseinstellung</item>
+    <item>2 (Schnell)</item>
+    <item>3</item>
+    <item>4 (Mittel)</item>
+    <item>5</item>
+    <item>6 (Langsam)</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_delay_entries">
+    <item>Sofort</item>
+    <item>1 Sekunde</item>
+    <item>5 Sekunden</item>
+    <item>10 Sekunden</item>
+    <item>15 Sekunden</item>
+    <item>30 Sekunden</item>
+    <item>1 Minute</item>
+    <item>5 Minuten</item>
+    <item>10 Minuten</item>
+    <item>30 Minuten</item>
+  </string-array>
+
+  <string-array name="pref_compcache_size_entries">
+    <item>Ausgeschaltet</item>
+    <item>10&#x2009;%</item>
+    <item>18&#x2009;% (Standard)</item>
+    <item>26&#x2009;%</item>
+  </string-array>
+
+  <string-array name="entries_light_filter_window">
+    <item>2 Sekunden</item>
+    <item>5 Sekunden</item>
+    <item>10 Sekunden</item>
+    <item>20 Sekunden</item>
+    <item>30 Sekunden</item>
+    <item>60 Sekunden</item>
+  </string-array>
+
+  <string-array name="entries_light_filter_reset">
+    <item>Ausgeschaltet</item>
+    <item>400 Lux</item>
+    <item>500 Lux</item>
+    <item>600 Lux</item>
+    <item>700 Lux</item>
+    <item>800 Lux</item>
+    <item>900 Lux</item>
+    <item>1000 Lux</item>
+    <item>1500 Lux</item>
+    <item>2000 Lux</item>
+    <item>2500 Lux</item>
+  </string-array>
+
+  <string-array name="entries_light_filter_interval">
+    <item>0,5 Sekunden</item>
+    <item>1 Sekunde</item>
+    <item>2 Sekunden</item>
+    <item>5 Sekunden</item>
+    <item>10 Sekunden</item>
+  </string-array>
+
+  <string-array name="entries_light_levels_dim">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>8</item>
+    <item>10</item>
+    <item>12</item>
+    <item>14</item>
+    <item>16</item>
+    <item>18</item>
+    <item>20 (Standard)</item>
+    <item>22</item>
+    <item>24</item>
+    <item>26</item>
+  </string-array>
+
+  <string-array name="entries_light_decrease_hysteresis">
+    <item>0&#x2009;%</item>
+    <item>10&#x2009;%</item>
+    <item>20&#x2009;%</item>
+    <item>30&#x2009;%</item>
+    <item>40&#x2009;%</item>
+    <item>50&#x2009;%</item>
+    <item>60&#x2009;%</item>
+    <item>70&#x2009;%</item>
+    <item>80&#x2009;%</item>
+    <item>90&#x2009;%</item>
+  </string-array>
+
+  <string-array name="entries_sound_attenuation">
+    <item>0&#x2009;dB</item>
+    <item>4&#x2009;dB</item>
+    <item>6&#x2009;dB (Standard)</item>
+    <item>8&#x2009;dB</item>
+    <item>10&#x2009;dB</item>
+  </string-array>
+
+  <string-array name="entries_sound_limitvol">
+    <item>Abgeschwächte Voreinstellung</item>
+    <item>Musik-Lautstärke (Standard)</item>
+  </string-array>
+
+  <string-array name="entries_network_widget">
+    <item>2G&#x2009;/&#x2009;3G+2G</item>
+    <item>Nur 2G&#x2009;/&#x2009;nur 3G</item>
+    <item>Nur 2G&#x2009;/&#x2009;nur 3G&#x2009;/&#x2009;3G+2G</item>
+  </string-array>
+
+  <string-array name="entries_screentimeout_widget">
+    <item>15&#x2009;s&#x2009;/&#x2009;1&#x2009;min&#x2009;/&#x2009;5&#x2009;min</item>
+    <item>30&#x2009;s&#x2009;/&#x2009;2&#x2009;min&#x2009;/&#x2009;5&#x2009;min</item>
+  </string-array>
+
+  <string-array name="entries_flash_widget">
+    <item>Normal</item>
+    <item>Hoch</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+    <item>1 (tolerant)</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12 (genau)</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_style_entries">
+    <item>Schieber</item>
+    <item>Rad</item>
+    <item>Rad umgestaltet</item>
+    <item>Linse</item>
+    <item>Blasen</item>
+  </string-array>
+
+  <string-array name="pref_in_call_style_entries">
+    <item>Schieber</item>
+    <item>Rad</item>
+    <item>Rad umgestaltet</item>
+    <item>Blasen</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_background_entries">
+    <item>Farbfüllung</item>
+    <item>Benutzerd. Hintergrundbild</item>
+    <item>Hintergrundbild</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_widget_layout_entries">
+    <item>Standard</item>
+    <item>Versteckt</item>
+    <item>Zentriert</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_music_headset_entries">
+    <item>Ausgeschaltet</item>
+    <item>Kopfhörer (Kabel)</item>
+    <item>Kopfhörer (Bluetooth)</item>
+    <item>Beide</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_calendar_lookahead_entries">
+    <item>3 Stunden</item>
+    <item>6 Stunden</item>
+    <item>12 Stunden</item>
+    <item>1 Tag</item>
+    <item>3 Tage</item>
+    <item>1 Woche</item>
+  </string-array>
+
+  <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+    <item>Nicht anzeigen</item>
+    <item>Nur die erste Zeile anzeigen</item>
+    <item>Alles anzeigen</item>
+  </string-array>
+
+  <string-array name="entries_vol_actions">
+    <item>Standard</item>
+    <item>Homescreen</item>
+    <item>Menü</item>
+    <item>Zurück</item>
+    <item>Suche</item>
+    <item>Ausschalten</item>
+    <item>Anruf</item>
+    <item>Anruf beenden</item>
+    <item>Wiedergabe/Pause</item>
+    <item>Nächster Titel</item>
+    <item>Letzter Titel</item>
+    <item>Homescreen (lange drücken)</item>
+  </string-array>
+
+  <string-array name="entries_unhide_button">
+    <item>Homescreen</item>
+    <item>Menü</item>
+    <item>Zurück</item>
+    <item>Suche</item>
+    <item>Kamera</item>
+    <item>Lauter</item>
+    <item>Leiser</item>
+  </string-array>
+
+  <string-array name="entries_long_press_menu">
+    <item>Nichts</item>
+    <item>Bildschirmtastatur</item>
+    <item>Suche</item>
+    <item>Eigene Anwendung</item>
+    <item>Statusleiste ein/aus</item>
+  </string-array>
+
+  <string-array name="haptic_feedback_entries">
+    <item>Globale Einstellungen</item>
+    <item>Ein</item>
+    <item>Aus</item>
+  </string-array>
+</resources>

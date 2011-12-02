@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>自動</item>
+        <item>内蔵</item>
+        <item>外部</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>ノーマル</item>
+        <item>スモール</item>
+        <item>なし (デフォルト)</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>グローバル設定</item>
+        <item>オン</item>
+        <item>オフ</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>単色</item>
+        <item>カスタム画像</item>
+        <item>デフォルトの壁紙</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (速い)</item>
+        <item>3</item>
+        <item>4 (普通)</item>
+        <item>5</item>
+        <item>6 (遅い)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>すぐ</item>
+        <item>1秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>30分</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>無効</item>
+        <item>10%</item>
+        <item>18%(デフォルト)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>60秒</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (デフォルト)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>無効にする</item>
+        <item>400ルクス</item>
+        <item>500ルクス</item>
+        <item>600ルクス</item>
+        <item>700ルクス</item>
+        <item>800ルクス</item>
+        <item>900ルクス</item>
+        <item>1000ルクス</item>
+        <item>1500ルクス</item>
+        <item>2000ルクス</item>
+        <item>2500ルクス</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5秒</item>
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB(デフォルト)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>システム設定による減衰</item>
+        <item>音楽の音量(デフォルト)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (最も広い)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (最も狭い)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>スライディングタブ</item>
+        <item>ロータリー</item>
+        <item>ロータリー改</item>
+        <item>レンズ</item>
+        <item>リング</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>スライディングタブ</item>
+        <item>ロータリー</item>
+        <item>ロータリー改</item>
+        <item>リング</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>なし</item>
+        <item>エッジを光らせる</item>
+        <item>跳ね返って光る</item>
+        <item>跳ね返る</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>とても重い</item>
+        <item>重い</item>
+        <item>中ぐらい</item>
+        <item>軽い</item>
+        <item>とても軽い</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>無効</item>
+        <item>有線のヘッドセット</item>
+        <item>Bluetooth A2DPヘッドセット</item>
+        <item>両方</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3Gと2G</item>
+        <item>2G/3Gのみ</item>
+        <item>2G/3Gのみ/3Gと2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15秒/1分/5分</item>
+        <item>30秒/2分/5分</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>ノーマル</item>
+        <item>ハイ / デスレイ</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>なし/デフォルト</item>
+        <item>ホーム</item>
+        <item>メニュー</item>
+        <item>戻る</item>
+        <item>検索</item>
+        <item>電源</item>
+        <item>通話</item>
+        <item>通話終了</item>
+        <item>再生/停止</item>
+        <item>次の曲</item>
+        <item>前の曲</item>
+        <item>長押しでホーム</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>ホーム</item>
+        <item>メニュー</item>
+        <item>戻る</item>
+        <item>検索</item>
+        <item>カメラ</item>
+        <item>ボリュームアップ</item>
+        <item>ボリュームダウン</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>なし</item>
+        <item>ソフトウェアキーボード</item>
+        <item>検索</item>
+        <item>カスタムアプリ</item>
+        <item>ステータスバートグル</item>
+    </string-array>
+
+</resources>

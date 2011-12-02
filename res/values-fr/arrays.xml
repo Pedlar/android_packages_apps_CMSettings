@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+    <string-array name="entries_install_location">
+        <item>Automatique</item>
+        <item>Interne</item>
+        <item>Externe</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2 (Rapide)</item>
+        <item>3</item>
+        <item>4 (Moyen)</item>
+        <item>5</item>
+        <item>6 (Lent)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>Immédiatement</item>
+        <item>1s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>Désactivé</item>
+        <item>10%</item>
+        <item>18% (par défaut)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>Désactivé</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>Réglage atténué du système</item>
+        <item>Volume de la musique (par défaut)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (le plus vague)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (le plus strict)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Curseurs</item>
+        <item>Rotatif</item>
+        <item>Rotatif revamped</item>
+        <item>Lense</item>
+        <item>Anneau</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Couleur ou filtre</item>
+        <item>Image perso.</item>
+        <item>Par défaut</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Par défaut</item>
+        <item>Invisible</item>
+        <item>Centré</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Désactivé</item>
+        <item>Casque / Ecouteurs</item>
+        <item>Sortie Bluetooth A2DP</item>
+        <item>Casque et Bluetooth</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 heures</item>
+        <item>6 heures</item>
+        <item>12 heures</item>
+        <item>1 jour</item>
+        <item>3 jours</item>
+        <item>1 semaine</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Ne pas afficher</item>
+        <item>Première ligne</item>
+        <item>Afficher tout</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Aucun</item>
+        <item>Lueur</item>
+        <item>Ressort et lueur</item>
+        <item>Ressort</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Très lourd</item>
+        <item>Lourd</item>
+        <item>Moyen</item>
+        <item>Léger</item>
+        <item>Très léger</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Aucun/Défaut</item>
+        <item>Accueil</item>
+        <item>Menu</item>
+        <item>Retour</item>
+        <item>Recherche</item>
+        <item>Veille</item>
+        <item>Appel</item>
+        <item>Fin appel</item>
+        <item>Lecture/Pause</item>
+        <item>Piste Suivante</item>
+        <item>Piste Précédente</item>
+        <item>Appui long Accueil</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Accueil</item>
+        <item>Menu</item>
+        <item>Retour</item>
+        <item>Recherche</item>
+        <item>Photo</item>
+        <item>Volume +</item>
+        <item>Volume -</item>
+    </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Aucun</item>
+        <item>Clavier</item>
+        <item>Recherche</item>
+        <item>Application Perso</item>
+        <item>Barre de notification</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Par défaut</item>
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normal</item>
+        <item>Petit</item>
+        <item>Aucun (défaut)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Icône (défaut)</item>
+        <item>Pourcentage</item>
+        <item>Cachée</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Puissant / Death Ray</item>
+    </string-array>
+
+</resources>
