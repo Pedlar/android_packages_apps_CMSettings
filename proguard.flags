@@ -4,3 +4,4 @@
 -keep class com.cyanogenmod.settings.*
 -keep class com.cyanogenmod.settings.utils.*
 -keep class com.cyanogenmod.settings.widget.*
+-keep class com.cyanogenmod.settings.switches.*

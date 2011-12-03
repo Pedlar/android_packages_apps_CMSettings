@@ -29,6 +29,8 @@ import android.widget.TextView;
 
 import com.cyanogenmod.settings.R;
 
+import com.cyanogenmod.settings.switches.PowerWidgetEnabler;
+
 public class Settings extends PreferenceActivity {
 	
     private static final String LOG_TAG = "Settings";
@@ -288,6 +290,7 @@ public class Settings extends PreferenceActivity {
         static final int HEADER_TYPE_SWITCH = 2;
         private static final int HEADER_TYPE_COUNT = HEADER_TYPE_SWITCH + 1;
 
+        private final PowerWidgetEnabler mWidgetEnabler;
 
         private static class HeaderViewHolder {
             ImageView icon;
@@ -301,9 +304,9 @@ public class Settings extends PreferenceActivity {
         static int getHeaderType(Header header) {
             if (header.fragment == null && header.intent == null) {
                 return HEADER_TYPE_CATEGORY;
-            } /*else if (header.id == R.id.power_widget_settings) {
+            } else if (header.id == R.id.power_widget_settings) {
                 return HEADER_TYPE_SWITCH;
-            }*/ else {
+            } else {
                 return HEADER_TYPE_NORMAL;
             }
         }
@@ -344,6 +347,7 @@ public class Settings extends PreferenceActivity {
             mWifiEnabler = new WifiEnabler(context, new Switch(context));
             mBluetoothEnabler = new BluetoothEnabler(context, new Switch(context));
             */
+            mWidgetEnabler = new PowerWidgetEnabler(context, new Switch(context));
         }
 
         @Override
@@ -394,6 +398,9 @@ public class Settings extends PreferenceActivity {
                     break;
 
                 case HEADER_TYPE_SWITCH:
+                    if (header.id == R.id.power_widget_settings) {
+                        mWidgetEnabler.setSwitch(holder.switch_);
+                    }
                     //$FALL-THROUGH$
                 case HEADER_TYPE_NORMAL:
                     holder.icon.setImageResource(header.iconRes);
@@ -412,9 +419,11 @@ public class Settings extends PreferenceActivity {
         }
         
         public void resume() {
+            mWidgetEnabler.resume();
         }
         
         public void pause() {
+            mWidgetEnabler.pause();
         }
         
     }
@@ -440,4 +449,5 @@ public class Settings extends PreferenceActivity {
     public static class PowerWidgetActivity extends Settings { /* */ }
     public static class PowerWidgetChooserActivity extends Settings { /* */ }
     public static class PowerWidgetOrderActivity extends Settings { /* */ }
+    public static class BackLightActivity extends Settings { /* */ }
 }

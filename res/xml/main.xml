@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <preference-headers
         xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application Settings -->
+    <header android:title="@string/application_settings_title_head" />
+
+    <!-- Display Settings -->
+    <header android:title="@string/display_settings_title_head" />
+
+    <!-- Input Settings -->
+    <header android:title="@string/input_settings_title_head" />
+
+    <!-- Interface Settings -->
     <header android:title="@string/interface_settings_title_head" />
-    
     <header
         android:id="@+id/power_widget_settings"
         android:fragment="com.cyanogenmod.settings.activities.PowerWidget"
         android:title="@string/title_widget_buttons"
         />
+    <header
+        android:id="@+id/backlight_settings"
+        android:fragment="com.cyanogenmod.settings.activities.Backlight"
+        android:title="@string/backlight_title"
+        />
+
+    <!-- Performance settings -->
+    <header android:title="@string/performance_settings_title_head" />
+
+    <!-- Sound settings -->
+    <header android:title="@string/sound_settings_title_head" />
+
+    <!-- System Settings -->
+    <header android:title="@string/system_settings_title_head" />
+
+    <!-- Tablet Tweaks -->
+    <header android:title="@string/tablet_tweaks_title_head" />
+
 </preference-headers>

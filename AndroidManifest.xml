@@ -34,6 +34,7 @@
                 android:taskAffinity="com.cyanogenmod.settings">
         </activity>
 
+        <!-- Notification Widget -->
         <activity android:name="Settings$PowerWidgetActivity"
                 android:label="@string/title_widget_buttons"
                 android:configChanges="orientation|keyboardHidden|screenSize"
@@ -63,7 +64,6 @@
                 android:resource="@id/power_widget_settings" />
             <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
                 android:value="@string/title_widget_buttons" />
-
             <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
                 android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
@@ -82,10 +82,33 @@
                 android:resource="@id/power_widget_settings" />
             <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
                 android:value="@string/title_widget_buttons" />
-
             <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
                 android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
+        <!--- End Notification Widget -->
+        <!--- Backlight -->
+        <activity android:name="Settings$BackLightActivity"
+                android:label="@string/backlight_title"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.cyanogenmod.BACKLIGHT_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
+                android:value="com.cyanogenmod.settings.activities.Backlight" />
+            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/backlight_settings" />
+        </activity>
+
+        <activity android:name=".activities.LightLevelsActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+        </activity>
+        <!--- End Backlight -->
     </application>
-    <activity android:name=".activities.PowerWidget$PowerWidgetOrder" android:label="@string/title_widget_order"> </activity>
 </manifest>
