@@ -55,7 +55,7 @@ import com.cyanogenmod.settings.widgets.TouchInterceptor;
 import com.cyanogenmod.settings.activities.ColorPickerDialog;
 import com.cyanogenmod.settings.R;
 
-public class PowerWidget extends PreferenceFragment 
+public class PowerWidget extends PreferenceActivity
 	implements OnPreferenceChangeListener {
     private static final String UI_EXP_WIDGET = "expanded_widget";
 
@@ -90,11 +90,6 @@ public class PowerWidget extends PreferenceFragment
     private PreferenceScreen mPowerOrder;
     
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-    }
-    
-    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -118,15 +113,15 @@ public class PowerWidget extends PreferenceFragment
         mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
         mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);
 
-        mPowerWidget.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+        mPowerWidget.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
-        mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+        mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
-        mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+        mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_SCROLLBAR, 0) == 1));
-        mPowerWidgetIndicatorHide.setChecked((Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+        mPowerWidgetIndicatorHide.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_INDICATOR, 0) == 1));
-        mPowerWidgetHapticFeedback.setValue(Integer.toString(Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+        mPowerWidgetHapticFeedback.setValue(Integer.toString(Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HAPTIC_FEEDBACK, 2)));
 
     }
@@ -134,7 +129,7 @@ public class PowerWidget extends PreferenceFragment
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mPowerWidgetHapticFeedback) {
             int intValue = Integer.parseInt((String)newValue);
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HAPTIC_FEEDBACK, intValue);
+            Settings.System.putInt(getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HAPTIC_FEEDBACK, intValue);
             return true;
         }
         return false;
@@ -143,11 +138,10 @@ public class PowerWidget extends PreferenceFragment
 
     public boolean startFragment(
             Fragment caller, String fragmentClass, int requestCode, Bundle extras) {
-        if (getActivity() instanceof PreferenceActivity) {
-            CharSequence title = "CM Settings";
-            PreferenceActivity preferenceActivity = (PreferenceActivity)getActivity();
-            preferenceActivity.startPreferencePanel(fragmentClass, extras,
-                    0, null, caller, requestCode);
+        if (this instanceof PreferenceActivity) {
+            CharSequence title = "Expanded View Widget";
+            startPreferencePanel(fragmentClass, extras,
+                    0, null, null, requestCode);
             return true;
         } else {
             return false;
@@ -158,35 +152,35 @@ public class PowerWidget extends PreferenceFragment
         boolean value;
 
         if(preference == mPowerPicker) {
-            startFragment(this, mPowerPicker.getFragment(), -1, null);
+            startFragment(null, mPowerPicker.getFragment(), -1, null);
         }
 
         if(preference == mPowerOrder) {
-            startFragment(this, mPowerOrder.getFragment(), -1, null);
+            startFragment(null, mPowerOrder.getFragment(), -1, null);
         }
 
         if (preference == mPowerWidget) {
             value = mPowerWidget.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_VIEW_WIDGET,
+            Settings.System.putInt(getApplicationContext().getContentResolver(), Settings.System.EXPANDED_VIEW_WIDGET,
                     value ? 1 : 0);
         }
         if (preference == mPowerWidgetHideOnChange) {
             value = mPowerWidgetHideOnChange.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_ONCHANGE,
+            Settings.System.putInt(getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_ONCHANGE,
                     value ? 1 : 0);
         }
         if (preference == mPowerWidgetHideScrollBar) {
             value = mPowerWidgetHideScrollBar.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
+            Settings.System.putInt(getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
                     value ? 1 : 0);
         }
         if (preference == mPowerWidgetIndicatorHide) {
             value = mPowerWidgetIndicatorHide.isChecked();
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_INDICATOR,
+            Settings.System.putInt(getApplicationContext().getContentResolver(), Settings.System.EXPANDED_HIDE_INDICATOR,
                     value ? 1 : 0);
         }
         if (preference == mPowerWidgetColor) {
-            ColorPickerDialog cp = new ColorPickerDialog(getActivity().getApplicationContext(), mWidgetColorListener,
+            ColorPickerDialog cp = new ColorPickerDialog(getApplicationContext(), mWidgetColorListener,
                     readWidgetColor());
             cp.show();
         }
@@ -195,7 +189,7 @@ public class PowerWidget extends PreferenceFragment
 
     private int readWidgetColor() {
         try {
-            return Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
+            return Settings.System.getInt(getApplicationContext().getContentResolver(),
                     Settings.System.EXPANDED_VIEW_WIDGET_COLOR);
         } catch (SettingNotFoundException e) {
             return -16777216;
@@ -204,7 +198,7 @@ public class PowerWidget extends PreferenceFragment
 
     ColorPickerDialog.OnColorChangedListener mWidgetColorListener = new ColorPickerDialog.OnColorChangedListener() {
         public void colorChanged(int color) {
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+            Settings.System.putInt(getApplicationContext().getContentResolver(),
                     Settings.System.EXPANDED_VIEW_WIDGET_COLOR, color);
         }
 

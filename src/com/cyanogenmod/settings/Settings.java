@@ -26,12 +26,13 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.util.Log;
 
 import com.cyanogenmod.settings.R;
 
 import com.cyanogenmod.settings.switches.PowerWidgetEnabler;
 
-public class Settings extends PreferenceActivity {
+public class Settings extends PreferenceActivity implements View.OnClickListener {
 	
     private static final String LOG_TAG = "Settings";
     private static final String META_DATA_KEY_HEADER_ID =
@@ -61,7 +62,7 @@ public class Settings extends PreferenceActivity {
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
-            if (getIntent().getBooleanExtra(EXTRA_CLEAR_UI_OPTIONS, false)) {
+        if (getIntent().getBooleanExtra(EXTRA_CLEAR_UI_OPTIONS, false)) {
             getWindow().setUiOptions(0);
         }
 
@@ -160,8 +161,12 @@ public class Settings extends PreferenceActivity {
             int id = (int) header.id;
             
             if (target.get(i) == header) {
-                if (mFirstHeader == null &&
+                /*if (mFirstHeader == null &&
                         HeaderAdapter.getHeaderType(header) != HeaderAdapter.HEADER_TYPE_CATEGORY) {
+                    mFirstHeader = header;
+                }*/
+                if (mFirstHeader == null &&
+                        (header.fragment == null && header.intent == null)) {
                     mFirstHeader = header;
                 }
                 mHeaderIndexMap.put(id, i);
@@ -284,7 +289,46 @@ public class Settings extends PreferenceActivity {
         return superIntent;
     }
 
-    private static class HeaderAdapter extends ArrayAdapter<Header> {
+    /*public static OnClickListener mTestListen = new OnClickListener() {
+                         public void onClick(View v) {
+                             ListAdapter listAdapter = Settings.getListAdapter();
+                             if (listAdapter instanceof HeaderAdapter) {
+                                  HeaderAdapter adapter = (HeaderAdapter)listAdapter;
+                                  for(int i  = 0; i < adapter.getCount(); i++) {
+                                      if(adapter.getViewType(i) != 0) {
+                                          View xV = adapter.getView(i, null, null);
+                                          xV.setVisibility(View.GONE);
+                                      }
+                                  }
+                             }
+                         }
+                    };
+    */
+
+
+    public static String showList = "all";
+    public void updateList() {
+        ListAdapter adapter = getListAdapter();
+        setListAdapter(adapter);
+    }
+
+    @Override
+    public void onClick (View v) {
+        ListAdapter listAdapter = getListAdapter();
+        if (listAdapter instanceof HeaderAdapter) {
+            HeaderAdapter adapter = (HeaderAdapter)listAdapter;
+            for(int i  = 0; i < adapter.getCount(); i++) {
+                if(adapter.getItemViewType(i) != 0) {
+                    adapter.remove(adapter.getItem(i));
+                }
+            }
+            showList = "none";
+            updateList();
+        }
+        Log.d("Click", "We gots teh click");
+    }
+
+    private class HeaderAdapter extends ArrayAdapter<Header> {
         static final int HEADER_TYPE_CATEGORY = 0;
         static final int HEADER_TYPE_NORMAL = 1;
         static final int HEADER_TYPE_SWITCH = 2;
@@ -292,7 +336,7 @@ public class Settings extends PreferenceActivity {
 
         private final PowerWidgetEnabler mWidgetEnabler;
 
-        private static class HeaderViewHolder {
+        private class HeaderViewHolder {
             ImageView icon;
             TextView title;
             TextView summary;
@@ -301,7 +345,7 @@ public class Settings extends PreferenceActivity {
 
         private LayoutInflater mInflater;
 
-        static int getHeaderType(Header header) {
+        int getHeaderType(Header header) {
             if (header.fragment == null && header.intent == null) {
                 return HEADER_TYPE_CATEGORY;
             } else if (header.id == R.id.power_widget_settings) {
@@ -395,6 +439,7 @@ public class Settings extends PreferenceActivity {
             switch (headerType) {
                 case HEADER_TYPE_CATEGORY:
                     holder.title.setText(header.getTitle(getContext().getResources()));
+                    view.setOnClickListener(Settings.this);
                     break;
 
                 case HEADER_TYPE_SWITCH:
@@ -414,7 +459,10 @@ public class Settings extends PreferenceActivity {
                     }
                     break;
             }
-
+            if(showList.equals("none") && headerType != HEADER_TYPE_CATEGORY)  {
+                view.setVisibility(View.GONE);
+                holder = null;
+            }
             return view;
         }
         

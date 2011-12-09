@@ -19,7 +19,7 @@
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
-            android:name=".Settings"
+            android:name=".SlideSettings"
             android:taskAffinity="com.cyanogenmod.settings"
             android:launchMode="singleTask">
             <intent-filter >
@@ -30,12 +30,23 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".Settings"
+            android:taskAffinity="com.cyanogenmod.settings"
+            android:launchMode="singleTask">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.cyanogenmod.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".SubSettings"
                 android:taskAffinity="com.cyanogenmod.settings">
         </activity>
 
         <!-- Notification Widget -->
-        <activity android:name="Settings$PowerWidgetActivity"
+        <activity android:name=".activities.PowerWidget"
                 android:label="@string/title_widget_buttons"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:clearTaskOnLaunch="true">
@@ -106,7 +117,6 @@
                   android:configChanges="keyboard|keyboardHidden|orientation">
            <intent-filter>
               <action android:name="android.intent.action.MAIN" />
-              <category android:name="android.intent.category.LAUNCHER" />
            </intent-filter>
         </activity>
         <!--- End Backlight -->
