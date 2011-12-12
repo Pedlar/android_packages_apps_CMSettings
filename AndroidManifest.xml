@@ -29,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+<!--
         <activity
             android:name=".Settings"
             android:taskAffinity="com.cyanogenmod.settings"
@@ -44,7 +44,7 @@
         <activity android:name=".SubSettings"
                 android:taskAffinity="com.cyanogenmod.settings">
         </activity>
-
+-->
         <!-- Notification Widget -->
         <activity android:name=".activities.PowerWidget"
                 android:label="@string/title_widget_buttons"
@@ -55,13 +55,9 @@
                 <action android:name="android.cyanogenmod.WIDGET_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.activities.PowerWidget" />
-            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/power_widget_settings" />
         </activity>
 
-        <activity android:name="Settings$PowerWidgetChooserActivity"
+        <activity android:name=".activities.PowerWidget$PowerWidgetChooser"
                 android:label="@string/title_widget_picker"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:clearTaskOnLaunch="true">
@@ -69,17 +65,9 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetChooser" />
-            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/power_widget_settings" />
-            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
-                android:value="@string/title_widget_buttons" />
-            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
 
-        <activity android:name="Settings$PowerWidgetOrderActivity"
+        <activity android:name=".activities.PowerWidget$PowerWidgetOrder"
                 android:label="@string/title_widget_order"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:clearTaskOnLaunch="true">
@@ -87,18 +75,10 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.activities.PowerWidget$PowerWidgetOrder" />
-            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/power_widget_settings" />
-            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_TITLE"
-                android:value="@string/title_widget_buttons" />
-            <meta-data android:name="com.cyanogenmod.settings.PARENT_FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.Settings$PowerWidgetActivity" />
         </activity>
         <!--- End Notification Widget -->
         <!--- Backlight -->
-        <activity android:name="Settings$BackLightActivity"
+        <activity android:name=".activities.Backlight"
                 android:label="@string/backlight_title"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:clearTaskOnLaunch="true">
@@ -107,10 +87,6 @@
                 <action android:name="android.cyanogenmod.BACKLIGHT_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data android:name="com.cyanogenmod.settings.FRAGMENT_CLASS"
-                android:value="com.cyanogenmod.settings.activities.Backlight" />
-            <meta-data android:name="com.cyanogenmod.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/backlight_settings" />
         </activity>
 
         <activity android:name=".activities.LightLevelsActivity"

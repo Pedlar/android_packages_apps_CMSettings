@@ -14,6 +14,7 @@
 * limitations under the License.
 */
 
+
 package com.cyanogenmod.settings.activities;
 
 import java.util.ArrayList;
@@ -49,6 +50,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 
 import com.cyanogenmod.settings.utils.PowerWidgetUtil;
 import com.cyanogenmod.settings.widgets.TouchInterceptor;
@@ -87,43 +89,44 @@ public class PowerWidget extends PreferenceActivity
 
     private PreferenceScreen mPowerPicker;
 
-    private PreferenceScreen mPowerOrder;
-    
+    private PreferenceScreen mPowerOrder;    
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.ui_power_widget_settings);
+        if(getPreferenceManager() != null) {
+            addPreferencesFromResource(R.xml.ui_power_widget_settings);
 
-        PreferenceScreen prefSet = getPreferenceScreen();
+            PreferenceScreen prefSet = getPreferenceScreen();
 
         /* Expanded View Power Widget */
-        mPowerWidget = (CheckBoxPreference) prefSet.findPreference(UI_EXP_WIDGET);
-        mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet
+            mPowerWidget = (CheckBoxPreference) prefSet.findPreference(UI_EXP_WIDGET);
+            mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HIDE_ONCHANGE);
-        mPowerWidgetHideScrollBar = (CheckBoxPreference) prefSet
+            mPowerWidgetHideScrollBar = (CheckBoxPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HIDE_SCROLLBAR);
-        mPowerWidgetIndicatorHide = (CheckBoxPreference) prefSet
+            mPowerWidgetIndicatorHide = (CheckBoxPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HIDE_INDICATOR);
-        mPowerWidgetHapticFeedback = (ListPreference) prefSet
+            mPowerWidgetHapticFeedback = (ListPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HAPTIC_FEEDBACK);
-        mPowerWidgetHapticFeedback.setOnPreferenceChangeListener(this);
+            mPowerWidgetHapticFeedback.setOnPreferenceChangeListener(this);
 
-        mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
-        mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
-        mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);
+            mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
+            mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
+            mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);
 
-        mPowerWidget.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
+            mPowerWidget.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
-        mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
+            mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
-        mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
+            mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_SCROLLBAR, 0) == 1));
-        mPowerWidgetIndicatorHide.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
+            mPowerWidgetIndicatorHide.setChecked((Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HIDE_INDICATOR, 0) == 1));
-        mPowerWidgetHapticFeedback.setValue(Integer.toString(Settings.System.getInt(getApplicationContext().getContentResolver(),
+            mPowerWidgetHapticFeedback.setValue(Integer.toString(Settings.System.getInt(getApplicationContext().getContentResolver(),
                 Settings.System.EXPANDED_HAPTIC_FEEDBACK, 2)));
-
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -138,14 +141,10 @@ public class PowerWidget extends PreferenceActivity
 
     public boolean startFragment(
             Fragment caller, String fragmentClass, int requestCode, Bundle extras) {
-        if (this instanceof PreferenceActivity) {
             CharSequence title = "Expanded View Widget";
-            startPreferencePanel(fragmentClass, extras,
+            startPreferencePanel (fragmentClass, extras,
                     0, null, null, requestCode);
             return true;
-        } else {
-            return false;
-        }
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -230,12 +229,13 @@ public class PowerWidget extends PreferenceActivity
         ListPreferenceMultiSelect mRingMode;
         ListPreference mFlashMode;
         @Override
-        public void onActivityCreated(Bundle savedInstanceState) {
-            super.onActivityCreated(savedInstanceState);
-        }
-        @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+        }
+
+        @Override
+        public void onActivityCreated(Bundle savedInstanceState) {
+            super.onActivityCreated(savedInstanceState);
             addPreferencesFromResource(R.xml.power_widget);
 
             PreferenceScreen prefSet = getPreferenceScreen();

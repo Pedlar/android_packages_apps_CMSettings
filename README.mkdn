@@ -1,0 +1,20 @@
+CMSettings is a central location for CyanogenMod specific settings, instead of cluttering the AOSP Settings app.
+
+To add a item to a category you need to modify the src/com/cyanogenmod/settings/lists/<category>.java file.
+This file contains a list of items that should be in the list, along with the Activity it launches.
+Formart shoud look like:
+
+{ "[title string name]", "[summary string name]", "com.cyanogenmod.settings.activities.<CLASS>", "", "[0,1,2]" }
+
+For Title, and Summary you want to use the Resource Identifier name, as it is replaced in the Adapter with the correct localized string.
+
+0 = Header
+1 = Normal
+2 = Switch
+
+If you choose switch you will need to make a switch class inside of the "switches" folder, and then modify SlideSettings.java
+to add the class in the appropriate places, please look at "mWidgetSwitch" and "PowerWidgetSwitch" for examples of how to create this.
+
+For your Preference activities this should be made the same way as normal, preferbally use fragments where preferencescreens use to be used.
+You can see PowerWidget.java for a good way to keep everything contained in a single file for cleanliness.
+

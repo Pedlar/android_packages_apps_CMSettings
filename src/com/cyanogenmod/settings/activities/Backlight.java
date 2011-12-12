@@ -15,7 +15,7 @@ import android.provider.Settings;
 
 import com.cyanogenmod.settings.SettingsFragment;
 
-public class Backlight extends SettingsFragment implements
+public class Backlight extends PreferenceActivity implements
         OnPreferenceChangeListener {
 
     private static final String FILTER_ENABLED = "light_filter_enabled";    
