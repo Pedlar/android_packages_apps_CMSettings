@@ -1,3 +1,18 @@
+/*
+* Copyright (C) 2011 The CyanogenMod Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 package com.cyanogenmod.settings;
 
 import com.cyanogenmod.settings.R;
@@ -9,11 +24,7 @@ import java.util.List;
 import java.util.LinkedList;
 
 import android.os.Bundle;
-//import android.support.v4.app.Fragment;
-//import android.support.v4.app.FragmentActivity;
-//import android.support.v4.app.FragmentManager;
 import android.support.v13.app.FragmentPagerAdapter;
-//import android.support.v4.app.ListFragment;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 
@@ -62,7 +73,6 @@ public class SlideSettings extends Activity {
     ViewPager mPager;
     ActionBar mActionBar;
     static final int VIEWS = 2;
-//    public static LinkedList listHead;
 
     private static final HashMap<Integer, Class<? extends zList>> LIST = new HashMap<Integer, Class<? extends zList>>();
     static {
@@ -182,11 +192,6 @@ public class SlideSettings extends Activity {
             return v;
         }
 
-//        private static final String[][] mHeaders = {
-//            { "Expanded Widget", "Notification Bar Widget", "com.cyanogenmod.settings.activities.PowerWidget", "", "2" },
-//            { "Backlight",                              "", "com.cyanogenmod.settings.activities.Backlight",   "", "1" }
-//        };
-
         @Override
         public void onActivityCreated(Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
@@ -250,14 +255,7 @@ public class SlideSettings extends Activity {
 
             private LayoutInflater mInflater;
 
-            static int getHeaderType(Headers header) {/*
-                if (header.fragment == null && header.intent == null) {
-                    return HEADER_TYPE_CATEGORY;
-                } else if (header.id == R.id.power_widget_settings) {
-                    return HEADER_TYPE_SWITCH;
-                } else {
-                    return HEADER_TYPE_NORMAL;
-                }*/
+            static int getHeaderType(Headers header) {
                 return header.mType;
             }
 
@@ -291,12 +289,6 @@ public class SlideSettings extends Activity {
                 super(context, 0, objects);
                 mInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             
-                // Temp Switches provided as placeholder until the adapter replaces these with actual
-                // Switches inflated from their layouts. Must be done before adapter is set in super
-                /*
-                mWifiEnabler = new WifiEnabler(context, new Switch(context));
-                mBluetoothEnabler = new BluetoothEnabler(context, new Switch(context));
-                */
                 mWidgetEnabler = new PowerWidgetEnabler(context, new Switch(context));
             }
 
@@ -378,5 +370,4 @@ public class SlideSettings extends Activity {
         }
 
     }
-
 }
