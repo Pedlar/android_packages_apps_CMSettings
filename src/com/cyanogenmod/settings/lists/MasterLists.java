@@ -3,21 +3,11 @@ package com.cyanogenmod.settings.lists;
 import java.util.ArrayList;
 
 public abstract class MasterLists {
-    private ArrayList mApplicationList;
-    private ArrayList mDisplayList;  
-    private ArrayList mInputList;  
-    private ArrayList mInterfaceList;  
-    private ArrayList mLockscreenList;  
-    private ArrayList mPerformanceList;  
-    private ArrayList mSoundList;  
-    private ArrayList mSystemList;  
-    private ArrayList mTabletList;
-    
     public static final int TYPE_CATEGORY = 0;
-    public static final int TYPE_NORMAL = 1; 
+    public static final int TYPE_NORMAL = 1;
     public static final int TYPE_SWITCH = 2;
 
-    public class List {
+    public static class List {
         public int titleResId;
         public int summaryResId;
         public String intent;
@@ -32,6 +22,4 @@ public abstract class MasterLists {
     }
 
     public abstract ArrayList<List> getList();    
-
 }
-

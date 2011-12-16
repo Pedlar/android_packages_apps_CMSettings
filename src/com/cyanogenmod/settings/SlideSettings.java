@@ -77,18 +77,15 @@ public class SlideSettings extends Activity {
 
     private static final HashMap<Integer, MasterLists> listHead = new HashMap<Integer, MasterLists>();
     static {
-	try {
-            listHead.put(0, ApplicationList.class.newInstance());
-            listHead.put(1, DisplayList.class.newInstance());
-            listHead.put(2, InputList.class.newInstance());
-            listHead.put(3, InterfaceList.class.newInstance());
-            listHead.put(4, LockscreenList.class.newInstance());
-            listHead.put(5, PerformanceList.class.newInstance());
-            listHead.put(6, SoundList.class.newInstance());
-            listHead.put(7, SystemList.class.newInstance());
-            listHead.put(8, TabletList.class.newInstance());
-        } catch (Exception e) {
-        }
+        listHead.put(0, new ApplicationList());
+        listHead.put(1, new DisplayList());
+        listHead.put(2, new InputList());
+        listHead.put(3, new InterfaceList());
+        listHead.put(4, new LockscreenList());
+        listHead.put(5, new PerformanceList());
+        listHead.put(6, new SoundList());
+        listHead.put(7, new SystemList());
+        listHead.put(8, new TabletList());
     }
 
     @Override
