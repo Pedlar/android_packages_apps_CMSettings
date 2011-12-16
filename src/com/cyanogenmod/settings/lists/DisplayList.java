@@ -14,12 +14,21 @@
 * limitations under the License.
 */
 package com.cyanogenmod.settings.lists;
-public class DisplayList extends zList {
-    public static final String[][] mList = {
-        { "Backlight",                              "", "com.cyanogenmod.settings.activities.Backlight",   "", "1" }
-    };
-    public String[][] getList() {
+import com.cyanogenmod.settings.R;
+
+import java.util.ArrayList;
+public class DisplayList extends MasterLists {
+    public static ArrayList<MasterLists.List> mList = null;
+
+    public DisplayList() {
+        //mList.put(new MasterLists.List(ResID, ResID, Intent, Type));
+        mList = new ArrayList<MasterLists.List>();
+        mList.add(new MasterLists.List(R.string.backlight_title, R.string.backlight_summary, "com.cyanogenmod.settings.activities.Backlight", TYPE_NORMAL));
+    }
+
+    public ArrayList<MasterLists.List> getList() {
         return mList;
     }
+
 }
 

@@ -65,7 +65,7 @@ import com.cyanogenmod.settings.lists.PerformanceList;
 import com.cyanogenmod.settings.lists.SoundList;
 import com.cyanogenmod.settings.lists.SystemList;
 import com.cyanogenmod.settings.lists.TabletList;
-import com.cyanogenmod.settings.lists.zList;
+import com.cyanogenmod.settings.lists.MasterLists;
 
 public class SlideSettings extends Activity {
 
@@ -73,26 +73,29 @@ public class SlideSettings extends Activity {
     ViewPager mPager;
     ActionBar mActionBar;
     static final int VIEWS = 2;
+    public static Context mContext;
 
-    private static final HashMap<Integer, Class<? extends zList>> LIST = new HashMap<Integer, Class<? extends zList>>();
+    private static final HashMap<Integer, MasterLists> listHead = new HashMap<Integer, MasterLists>();
     static {
-        LIST.put(0, ApplicationList.class);
-        LIST.put(1, DisplayList.class);
-        LIST.put(2, InputList.class);
-        LIST.put(3, InterfaceList.class);
-        LIST.put(4, LockscreenList.class);
-        LIST.put(5, PerformanceList.class);
-        LIST.put(6, SoundList.class);
-        LIST.put(7, SystemList.class);
-        LIST.put(8, TabletList.class);
+	try {
+            listHead.put(0, ApplicationList.class.newInstance());
+            listHead.put(1, DisplayList.class.newInstance());
+            listHead.put(2, InputList.class.newInstance());
+            listHead.put(3, InterfaceList.class.newInstance());
+            listHead.put(4, LockscreenList.class.newInstance());
+            listHead.put(5, PerformanceList.class.newInstance());
+            listHead.put(6, SoundList.class.newInstance());
+            listHead.put(7, SystemList.class.newInstance());
+            listHead.put(8, TabletList.class.newInstance());
+        } catch (Exception e) {
+        }
     }
-    private static final HashMap<Integer, zList> listHead = new HashMap<Integer, zList>();
 
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.settings_view);
-        createLists();
+        mContext = getApplicationContext();
         mAdapter = new SettingsAdapter(getFragmentManager());
         mActionBar = getActionBar();
         mPager = (ViewPager) findViewById(R.id.settings_pager);
@@ -131,18 +134,7 @@ public class SlideSettings extends Activity {
             }
         });
     }
-
-    public void createLists() {
-        for (HashMap.Entry<Integer, Class<? extends zList>> entry : LIST.entrySet()) {
-            try {
-                Integer key = entry.getKey();
-                zList value = entry.getValue().newInstance();
-                listHead.put(key, value);
-            } catch (Exception e) {
-            }
-        }
-    }
-
+    
     public static class SettingsAdapter extends FragmentPagerAdapter {
         private final String[] tabs = {"Application", "Display", "Input", "Interface", "Lockscreen", 
                                   "Performace", "Sound", "System", "Tablet" };
@@ -196,16 +188,20 @@ public class SlideSettings extends Activity {
         public void onActivityCreated(Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
             List<Headers> aHeaders = new ArrayList<Headers>();
-            String[][] mHeaders = listHead.get(mNum).getList();
-            for(int i = 0; i < mHeaders.length; i++) {
-                Headers header = new Headers(mHeaders[i][0], 
-                                             mHeaders[i][1],
-                                             mHeaders[i][2],
-                                             mHeaders[i][3],
-                                             mHeaders[i][4]);
-                aHeaders.add(header);
+            ArrayList<MasterLists.List> mHeaders = listHead.get(mNum).getList();
+            
+            if(!mHeaders.isEmpty()) {
+                for(MasterLists.List mObj : mHeaders) {
+                    Headers header = new Headers(mObj.titleResId,
+                                                 mObj.summaryResId,
+                                                 mObj.intent,
+                                                 mObj.type);
+                    aHeaders.add(header);
+                }
+                if(aHeaders != null) {
+                    setListAdapter(new HeaderAdapter(getActivity().getApplicationContext(), aHeaders));
+                }
             }
-            setListAdapter(new HeaderAdapter(getActivity().getApplicationContext(), aHeaders));
         }
         
         @Override
@@ -220,21 +216,15 @@ public class SlideSettings extends Activity {
         }
 
         private class Headers {
-            public String mTitle;
-            public String mSummary;
+            public int mTitle;
+            public int mSummary;
             public String mFragment;
-            public String mIntent;
             public int mType;
-            public Headers(String title, String summary, String fragment, String intent, String type) {
+            public Headers(int title, int summary, String fragment, int type) {
                 mTitle = title;
                 mSummary = summary;
                 mFragment = fragment;
-                mIntent = intent;
-                if(!type.isEmpty()) {
-                    mType = Integer.parseInt(type);
-                } else {
-                    mType = 1;
-                }
+                mType = type;
             }
         }
 
@@ -336,21 +326,20 @@ public class SlideSettings extends Activity {
 
                 switch (headerType) {
                     case HEADER_TYPE_CATEGORY:
-                        holder.title.setText(header.mTitle);
+                        holder.title.setText(mContext.getResources().getString(header.mTitle));
                         break;
 
                     case HEADER_TYPE_SWITCH:
-                        if (header.mTitle.equals("Expanded Widget")) {
+                        if (header.mTitle == R.string.title_expanded_widget) {
                              mWidgetEnabler.setSwitch(holder.switch_);
                         }
                         //$FALL-THROUGH$
                     case HEADER_TYPE_NORMAL:
                         //holder.icon.setImageResource(header.iconRes);
-                        holder.title.setText(header.mTitle);
-                        CharSequence summary = header.mSummary;
-                        if (!TextUtils.isEmpty(summary)) {
+                        holder.title.setText(mContext.getResources().getString(header.mTitle));
+                        if (header.mSummary != 0) {
                             holder.summary.setVisibility(View.VISIBLE);
-                            holder.summary.setText(summary);
+                            holder.summary.setText(mContext.getResources().getString(header.mSummary));
                         } else {
                             holder.summary.setVisibility(View.GONE);
                         }

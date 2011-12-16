@@ -14,14 +14,21 @@
 * limitations under the License.
 */
 package com.cyanogenmod.settings.lists;
-public class InterfaceList extends zList {
-    public static final String[][] mList = {
-        { "Expanded Widget", "Notification Bar Widget", "com.cyanogenmod.settings.activities.PowerWidget", "", "2" },
-    };
 
-    @Override
-    public String[][] getList() {
+import com.cyanogenmod.settings.R;
+import java.util.ArrayList;
 
+public class InterfaceList extends MasterLists {
+    public static ArrayList<MasterLists.List> mList = null;
+
+    public InterfaceList() {
+        //mList.put(new MasterLists.List(ResID, ResID, Intent, Type));
+        mList = new ArrayList<MasterLists.List>();
+        mList.add(new MasterLists.List(R.string.title_expanded_widget, 0, "com.cyanogenmod.settings.activities.PowerWidget", TYPE_SWITCH));
+    }
+
+    public ArrayList<MasterLists.List> getList() {
         return mList;
     }
+
 }

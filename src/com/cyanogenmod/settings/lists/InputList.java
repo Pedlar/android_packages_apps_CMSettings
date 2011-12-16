@@ -14,12 +14,18 @@
 * limitations under the License.
 */
 package com.cyanogenmod.settings.lists;
-public class InputList extends zList {
-    public static final String[][] mList = {
-        { "", "", "", "", "" }
-    };
-    public String[][] getList() {
-        return mList;
+
+import java.util.ArrayList;
+public class InputList extends MasterLists {
+    public static ArrayList<MasterLists.List> mList = null;
+
+    public InputList() {
+        mList = new ArrayList<MasterLists.List>();
+        //mList.put(new MasterLists.List(ResID, ResID, Intent, Type));
     }
+
+    public ArrayList<MasterLists.List> getList() {
+        return mList;
+    }  
 }
 
