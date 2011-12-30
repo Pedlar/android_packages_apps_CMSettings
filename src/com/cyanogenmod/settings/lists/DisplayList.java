@@ -24,6 +24,7 @@ public class DisplayList extends MasterLists {
         //mList.put(new MasterLists.List(ResID, ResID, Intent, Type));
         mList = new ArrayList<MasterLists.List>();
         mList.add(new MasterLists.List(R.string.backlight_title, R.string.backlight_summary, "com.cyanogenmod.settings.activities.Backlight", TYPE_NORMAL));
+        mList.add(new MasterLists.List(R.string.rotation_category_title, R.string.rotation_summary, "com.cyanogenmod.settings.activities.Rotation", TYPE_NORMAL));
     }
 
     public ArrayList<MasterLists.List> getList() {
