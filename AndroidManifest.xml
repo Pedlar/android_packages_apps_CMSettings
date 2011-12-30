@@ -96,5 +96,19 @@
            </intent-filter>
         </activity>
         <!--- End Backlight -->
+
+        <!--- Rotation -->
+        <activity android:name=".activities.Rotation"
+                android:label="@string/rotation_category_title"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.cyanogenmod.ROTATION_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--- End Rotation -->
+
     </application>
 </manifest>
